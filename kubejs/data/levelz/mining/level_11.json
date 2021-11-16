@@ -1,0 +1,19 @@
+{
+	"replace": false,
+	"level": 11,
+	"block": [
+		"techreborn:sapphire_ore",
+        "techreborn:sapphire_storage_block",
+        "techreborn:sapphire_storage_block_slab",
+        "techreborn:sapphire_storage_block_stairs",
+        "techreborn:sapphire_storage_block_wall",
+		"minecraft:small_amethyst_bud",
+		"minecraft:medium_amethyst_bud",
+		"minecraft:large_amethyst_bud",
+		"minecraft:amethyst_cluster",
+		"minecraft:budding_amethyst",
+		"minecraft:amethyst_block",
+		"minecraft:tuff",
+		"minecraft:calcite"
+	]
+}

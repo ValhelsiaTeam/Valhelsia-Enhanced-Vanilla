@@ -1,0 +1,24 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "c:tin_ores"
+    }
+  ],
+  "output": {
+    "id": "techreborn:tin_ingot",
+    "count": 1
+  },
+  "overrides": {
+    "2": {
+      "id": "techreborn:tin_ingot",
+      "count": 2
+    },
+    "3+": {
+      "id": "techreborn:tin_ingot",
+      "count": 3
+    }
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 20
+}

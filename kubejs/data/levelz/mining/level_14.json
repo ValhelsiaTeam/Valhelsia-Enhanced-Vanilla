@@ -1,0 +1,29 @@
+{
+    "replace": false,
+    "level": 14,
+    "block": [
+        "minecraft:diamond_ore",
+		"minecraft:diamond_block",
+		"minecraft:deepslate_diamond_ore",
+        "architects_palette:diamond_ore_bricks",
+        "architects_palette:diamond_ore_brick_slab",
+        "architects_palette:diamond_ore_brick_stairs",
+        "architects_palette:diamond_ore_brick_wall",
+        "architects_palette:cracked_diamond_ore_bricks",
+        "architects_palette:chiseled_diamond_ore_bricks",
+		"minecraft:obsidian",
+		"minecraft:crying_obsidian",
+        "assembly:crying_obsidian_tiles",
+        "blockus:obsidian_bricks",
+        "blockus:obsidian_bricks_slab",
+        "blockus:obsidian_bricks_stairs",
+        "blockus:obsidian_bricks_wall",
+        "blockus:small_obsidian_bricks",
+        "blockus:small_obsidian_bricks_slab",
+        "blockus:small_obsidian_bricks_stairs",
+        "blockus:small_obsidian_bricks_wall",
+        "blockus:cracked_obsidian_bricks",
+        "blockus:obsidian_pillar",
+        "blockus:obsidian_circle_pavement"
+    ]
+}

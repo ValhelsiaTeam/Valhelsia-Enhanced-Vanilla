@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "level": 15,
+    "block": [
+        "techreborn:lead_ore",
+        "techreborn:raw_lead_storage_block",
+        "techreborn:raw_lead_storage_block_slab",
+        "techreborn:raw_lead_storage_block_stairs",
+        "techreborn:raw_lead_storage_block_wall",
+        "techreborn:lead_storage_block",
+        "techreborn:lead_storage_block_slab",
+        "techreborn:lead_storage_block_stairs",
+        "techreborn:lead_storage_block_wall"
+    ]
+}

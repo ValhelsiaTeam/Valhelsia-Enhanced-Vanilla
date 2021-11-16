@@ -1,0 +1,23 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "betterend:thallasium_raw"
+    },
+	{
+      "item": "betterend:thallasium_raw"
+    }
+  ],
+  "output": {
+    "id": "betterend:thallasium_ingot",
+    "count": 3
+  },
+  "overrides": {
+    "2+": {
+      "id": "betterend:thallasium_ingot",
+      "count": 4
+    }
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 10
+}

@@ -1,0 +1,23 @@
+{
+	"replace": true,
+	"level": 17,
+	"block": [
+		"techreborn:iridium_ore",
+		"techreborn:raw_iridium_storage_block",
+		"techreborn:raw_iridium_storage_block_slab",
+		"techreborn:raw_iridium_storage_block_stairs",
+		"techreborn:raw_iridium_storage_block_wall",
+		"techreborn:iridium_storage_block",
+		"techreborn:iridium_storage_block_slab",
+		"techreborn:iridium_storage_block_stairs",
+		"techreborn:iridium_storage_block_wall",
+		"techreborn:iridium_reinforced_stone_storage_block",
+		"techreborn:iridium_reinforced_stone_storage_block_slab",
+		"techreborn:iridium_reinforced_stone_storage_block_stairs",
+		"techreborn:iridium_reinforced_stone_storage_block_wall",
+		"techreborn:iridium_reinforced_tungstensteel_storage_block",
+		"techreborn:iridium_reinforced_tungstensteel_storage_block_slab",
+		"techreborn:iridium_reinforced_tungstensteel_storage_block_stairs",
+		"techreborn:iridium_reinforced_tungstensteel_storage_block_wall"
+	]
+}

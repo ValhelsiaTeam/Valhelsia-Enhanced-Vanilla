@@ -1,0 +1,32 @@
+{
+	"replace": true,
+	"level": 22,
+	"block": [
+		"betterend:ender_ore",
+		"betterend:ender_block",
+		"blockus:ender_block",
+		"betterend:thallasium_ore",
+		"betterend:thallasium_block",
+		"betterend:thallasium_tile",
+		"betterend:thallasium_slab",
+		"betterend:thallasium_stairs",
+		"minecraft:end_stone_bricks",
+		"minecraft:end_stone_brick_slab",
+		"minecraft:end_stone_brick_stairs",
+		"minecraft:end_stone_brick_wall",
+		"minecraft:purpur_block",
+		"minecraft:purpur_pillar",
+		"minecraft:purpur_slab",
+		"minecraft:purpur_stairs",
+		"betterend:flavolite",
+		"betterend:flavolite_slab",
+		"betterend:flavolite_stairs",
+		"betterend:flavolite_wall",
+		"betterend:flavolite_bricks",
+		"betterend:flavolite_bricks_slab",
+		"betterend:flavolite_bricks",
+		"betterend:flavolite_bricks_wall",
+		"betterend:flavolite_polished",
+		"betterend:flavolite_tiles"
+	]
+}

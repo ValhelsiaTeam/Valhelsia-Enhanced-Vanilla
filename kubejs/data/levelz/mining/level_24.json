@@ -1,0 +1,11 @@
+{
+	"replace": true,
+	"level": 24,
+	"block": [
+		"techreborn:sheldonite_ore",
+		"techreborn:platinum_storage_block",
+		"techreborn:platinum_storage_block_slab",
+		"techreborn:platinum_storage_block_stairs",
+		"techreborn:platinum_storage_block_wall"
+	]
+}

@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "skill": "alchemy",
+    "level": 5,
+    "block": "minecraft:enchanting",
+    "enchanting": [
+        5,
+        10,
+        18
+    ]
+}

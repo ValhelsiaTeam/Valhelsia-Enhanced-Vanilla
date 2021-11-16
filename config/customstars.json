@@ -1,0 +1,18 @@
+{
+  "baseSize": 0.01,
+  "maxSizeMultiplier": 0.2,
+  "starCount": 3000,
+  "starNoise": false,
+  "starNoiseSeed": 10842,
+  "starNoiseThreshold": 0.5,
+  "starNoisePercentage": 50,
+  "red": 255,
+  "green": 255,
+  "blue": 255,
+  "alpha": 3.0,
+  "endSize": 1.0,
+  "endRed": 40,
+  "endGreen": 40,
+  "endBlue": 40,
+  "endAlpha": 1.0
+}

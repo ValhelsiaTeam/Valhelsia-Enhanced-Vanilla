@@ -1,0 +1,26 @@
+{
+	"replace": true,
+	"level": 30,
+	"block": [
+		"appliedenergistics2:fluix_block",
+		"appliedenergistics2:fluix_slab",
+		"appliedenergistics2:fluix_stairs",
+		"appliedenergistics2:fluix_wall",
+		"appliedenergistics2:sky_stone_block",
+		"appliedenergistics2:sky_stone_slab",
+		"appliedenergistics2:sky_stone_stairs",
+		"appliedenergistics2:sky_stone_wall",
+		"appliedenergistics2:sky_stone_brick",
+		"appliedenergistics2:sky_stone_brick_stairs",
+		"appliedenergistics2:sky_stone_brick_slab",
+		"appliedenergistics2:sky_stone_brick_wall",
+		"appliedenergistics2:smooth_sky_stone_block",
+		"appliedenergistics2:smooth_sky_stone_block",
+		"appliedenergistics2:smooth_sky_stone_stairs",
+		"appliedenergistics2:smooth_sky_stone_wall",
+		"appliedenergistics2:sky_stone_small_brick",
+		"appliedenergistics2:sky_stone_small_brick_slab",
+		"appliedenergistics2:sky_stone_small_brick_stairs",
+		"appliedenergistics2:sky_stone_small_brick_wall"
+	]
+}

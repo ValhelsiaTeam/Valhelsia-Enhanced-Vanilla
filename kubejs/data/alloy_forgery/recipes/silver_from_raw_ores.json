@@ -1,0 +1,23 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "techreborn:raw_silver"
+    },
+	{
+      "item": "techreborn:raw_silver"
+    }
+  ],
+  "output": {
+    "id": "techreborn:silver_ingot",
+    "count": 3
+  },
+  "overrides": {
+    "2+": {
+      "id": "techreborn:silver_ingot",
+      "count": 4
+    }
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 10
+}

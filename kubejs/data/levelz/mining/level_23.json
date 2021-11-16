@@ -1,0 +1,11 @@
+{
+	"replace": true,
+	"level": 23,
+	"block": [
+		"techreborn:peridot_ore",
+		"techreborn:peridot_storage_block",
+		"techreborn:peridot_storage_block_slab",
+		"techreborn:peridot_storage_block_stairs",
+		"techreborn:peridot_storage_block_wall"
+	]
+}
