@@ -1,7 +1,7 @@
 {
     "replace": false,
     "skill": "strength",
-    "level": 6,
+    "level": 32,
     "item": "minecraft:sword",
-    "material": "gold"
+    "material": "dragon"
 }

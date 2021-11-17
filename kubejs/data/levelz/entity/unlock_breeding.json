@@ -1,6 +1,6 @@
 {
-    "replace": false,
+    "replace": true,
     "skill": "farming",
-    "level": 3,
+    "level": 5,
     "entity": "minecraft:breeding"
 }

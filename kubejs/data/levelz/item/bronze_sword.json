@@ -1,7 +1,7 @@
 {
-    "replace": false,
+    "replace": true,
     "skill": "strength",
     "level": 8,
     "item": "minecraft:sword",
-    "material": "iron"
+    "material": "bronze"
 }

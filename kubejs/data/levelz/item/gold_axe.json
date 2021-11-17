@@ -1,7 +1,7 @@
 {
-    "replace": false,
+    "replace": true,
     "skill": "farming",
-    "level": 6,
+    "level": 3,
     "item": "minecraft:axe",
     "material": "gold"
 }
