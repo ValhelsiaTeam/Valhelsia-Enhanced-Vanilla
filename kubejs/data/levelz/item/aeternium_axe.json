@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 4,
+    "level": 25,
     "item": "minecraft:axe",
-    "material": "stone"
+    "material": "aeternium"
 }

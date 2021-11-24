@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 4,
+    "level": 10,
     "item": "minecraft:hoe",
-    "material": "stone"
+    "material": "peridot"
 }

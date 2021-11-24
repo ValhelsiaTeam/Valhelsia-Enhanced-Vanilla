@@ -2,5 +2,6 @@
     "replace": true,
     "skill": "farming",
     "level": 5,
-    "entity": "minecraft:cat"
+    "item": "minecraft:axe",
+    "material": "thallasium"
 }

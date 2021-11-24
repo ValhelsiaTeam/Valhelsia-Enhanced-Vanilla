@@ -1,6 +1,6 @@
 {
-    "replace": false,
+    "replace": true,
     "skill": "farming",
-    "level": 5,
+    "level": 0,
     "block": "minecraft:pumpkin"
 }

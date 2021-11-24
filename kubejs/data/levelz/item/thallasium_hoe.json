@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 4,
+    "level": 5,
     "item": "minecraft:hoe",
-    "material": "stone"
+    "material": "thallasium"
 }

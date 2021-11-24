@@ -1,6 +1,6 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 3,
+    "level": 2,
     "entity": "minecraft:wolf"
 }
