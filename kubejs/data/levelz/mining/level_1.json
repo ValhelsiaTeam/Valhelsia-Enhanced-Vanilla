@@ -6,6 +6,7 @@
         "minecraft:sand",
         "minecraft:red_sand",
         "betterend:endstone_dust",
-        "minecraft:snow_block"
+        "minecraft:snow_block",
+        "betterend:dense_snow"
     ]
 }

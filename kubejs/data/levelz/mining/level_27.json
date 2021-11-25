@@ -1,0 +1,26 @@
+{
+	"replace": true,
+	"level": 27,
+	"block": [
+		"techreborn:sheldonite_ore",
+		"techreborn:platinum_storage_block",
+		"techreborn:platinum_storage_block_slab",
+		"techreborn:platinum_storage_block_stairs",
+		"techreborn:platinum_storage_block_wall",
+		"betterend:pallidium_full",
+		"betterend:pallidium_heavy",
+		"betterend:pallidium_thin",
+		"betterend:pallidium_tiny",
+		"betterend:umbralith",
+		"betterend:umbralith_slab",
+		"betterend:umbralith_stairs",
+		"betterend:umbralith_wall",
+		"betterend:umbralith_bricks",
+		"betterend:umbralith_bricks_slab",
+		"betterend:umbralith_bricks_stairs",
+		"betterend:umbralith_bricks_wall",
+		"betterend:umbralith_polished",
+		"betterend:umbralith_tiles",
+		"betterend:umbralith_pillar"
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"replace": true,
+	"level": 31,
+	"block": [
+		"techreborn:tungsten_ore",
+		"techreborn:raw_tungsten_storage_block",
+		"techreborn:raw_tungsten_storage_block_slab",
+		"techreborn:raw_tungsten_storage_block_stairs",
+		"techreborn:raw_tungsten_storage_block_wall",
+		"techreborn:tungsten_storage_block",
+		"techreborn:tungsten_storage_block_slab",
+		"techreborn:tungsten_storage_block_stairs",
+		"techreborn:tungsten_storage_block_wall",
+		"techreborn:iridium_reinforced_tungstensteel_storage_block",
+		"techreborn:iridium_reinforced_tungstensteel_storage_block_slab",
+		"techreborn:iridium_reinforced_tungstensteel_storage_block_stairs",
+		"techreborn:iridium_reinforced_tungstensteel_storage_block_wall"
+	]
+}

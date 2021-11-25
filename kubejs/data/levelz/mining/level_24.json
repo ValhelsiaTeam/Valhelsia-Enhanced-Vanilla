@@ -2,10 +2,21 @@
 	"replace": true,
 	"level": 24,
 	"block": [
-		"techreborn:sheldonite_ore",
-		"techreborn:platinum_storage_block",
-		"techreborn:platinum_storage_block_slab",
-		"techreborn:platinum_storage_block_stairs",
-		"techreborn:platinum_storage_block_wall"
+		"techreborn:peridot_ore",
+		"techreborn:peridot_storage_block",
+		"techreborn:peridot_storage_block_slab",
+		"techreborn:peridot_storage_block_stairs",
+		"techreborn:peridot_storage_block_wall",
+		"betterend:violecite",
+		"betterend:violecite_slab",
+		"betterend:violecite_stairs",
+		"betterend:violecite_wall",
+		"betterend:violecite_bricks",
+		"betterend:violecite_bricks_slab",
+		"betterend:violecite_bricks_stairs",
+		"betterend:violecite_bricks_wall",
+		"betterend:violecite_polished",
+		"betterend:violecite_tiles",
+		"betterend:violecite_pillar"
 	]
 }

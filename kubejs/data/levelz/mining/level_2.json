@@ -40,6 +40,11 @@
 		"minecraft:smooth_red_sandstone_stairs",
 		"minecraft:chiseled_red_sandstone",
 		"minecraft:bone_block",
+		"architects_palette:osseous_bricks",
+		"architects_palette:osseous_brick_slab",
+		"architects_palette:osseous_brick_stairs",
+		"architects_palette:osseous_brick_wall",
+		"architects_palette:osseous_pillar",
 		"minecraft:clay"
 	]
 }

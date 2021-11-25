@@ -32,6 +32,18 @@
 		"techreborn:silver_storage_block_wall",
 		"minecraft:blue_ice",
 		"minecraft:ice",
-		"minecraft:packed_ice"
+		"minecraft:packed_ice",
+		"blockus:ice_bricks",
+		"blockus:ice_bricks_wall",
+		"architects_palette:polished_packed_ice",
+		"architects_palette:polished_packed_ice_slab",
+		"architects_palette:polished_packed_ice_stairs",
+		"architects_palette:polished_packed_ice_wall",
+		"architects_palette:chiseled_packed_ice",
+		"architects_palette:packed_ice_pillar",
+		"blockus:ice_pillar",
+		"betterend:emerald_ice",
+		"betterend:dense_emerald_ice",
+		"betterend:ancient_emerald_ice"
 	]
 }
