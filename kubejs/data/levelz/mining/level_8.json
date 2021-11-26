@@ -2,27 +2,12 @@
 	"replace": true,
 	"level": 8,
 	"block": [
-		"techreborn:bauxite_ore",
 		"minecraft:redstone_ore",
-		"minecraft:redstone_block",
-		"architects_palette:redstone_ore_bricks",
-		"architects_palette:redstone_ore_brick_slab",
-		"architects_palette:redstone_ore_brick_stairs",
-		"architects_palette:redstone_ore_brick_stairs",
-		"architects_palette:cracked_redstone_ore_bricks",
-		"architects_palette:chiseled_redstone_ore_bricks",
-		"blockus:redstone_sand",
-		"twigs:schist",
-		"twigs:schist_slab",
-		"twigs:schist_stairs",
-		"twigs:schist_wall",
-		"twigs:polished_schist",
-		"twigs:polished_schist_slab",
-		"twigs:polished_schist_stairs",
-		"twigs:polished_schist_bricks",
-		"twigs:polished_schist_brick_slab",
-		"twigs:polished_schist_brick_stairs",
-		"twigs:polished_schist_brick_wall",
-		"twigs:cracked_polished_schist_bricks"
+		"techreborn:silver_ore",
+		"artifality:budding_lunar_crystal",
+		"artifality:small_lunar_crystal_cluster",
+		"artifality:medium_lunar_crystal_cluster",
+		"artifality:lunar_crystal_cluster",
+		"twigs:schist"
 	]
 }

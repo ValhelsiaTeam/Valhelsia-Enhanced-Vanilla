@@ -4,16 +4,6 @@
 	"block": [
 		"techreborn:sodalite_ore",
 		"betterend:brimstone",
-		"betterend:sulphuric_rock",
-		"betterend:sulphuric_rock_slab",
-		"betterend:sulphuric_rock_stairs",
-		"betterend:sulphuric_rock_wall",
-		"betterend:sulphuric_rock_bricks",
-		"betterend:sulphuric_rock_bricks_slab",
-		"betterend:sulphuric_rock_bricks_stairs",
-		"betterend:sulphuric_rock_bricks_wall",
-		"betterend:sulphuric_rock_polished",
-		"betterend:sulphuric_rock_tiles",
-		"betterend:sulphuric_rock_pillar"
+		"betterend:sulphuric_rock"
 	]
 }
