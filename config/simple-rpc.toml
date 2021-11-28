@@ -11,10 +11,8 @@
 	configScreen = false
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
 	launcherIntegration = false
-	#Enable/Disabled in-game notifications about new releases
-	updater = false
 	#Internal Version Number. NO TOUCHY!
-	version = 9
+	version = 12
 
 #The Game Loading event
 [init]
@@ -27,7 +25,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "logo"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Valhelsia Fabric"
+	largeImageText = "Valhelsia: Enhanced Vanilla"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "loading"
 	#The text that gets displayed when the small image is hovered
@@ -46,7 +44,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "logo"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Valhelsia Fabric"
+	largeImageText = "Valhelsia: Enhanced Vanilla"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ""
 	#The text that gets displayed when the small image is hovered
@@ -65,7 +63,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "logo"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Valhelsia Fabric"
+	largeImageText = "Valhelsia: Enhanced Vanilla"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ""
 	#The text that gets displayed when the small image is hovered
@@ -84,7 +82,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "logo"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Valhelsia Fabric"
+	largeImageText = "Valhelsia: Enhanced Vanilla"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "loading"
 	#The text that gets displayed when the small image is hovered
@@ -103,7 +101,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "logo"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Valhelsia Fabric"
+	largeImageText = "Valhelsia: Enhanced Vanilla"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ""
 	#The text that gets displayed when the small image is hovered
@@ -122,7 +120,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "logo"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Valhelsia Fabric"
+	largeImageText = "Valhelsia: Enhanced Vanilla"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ""
 	#The text that gets displayed when the small image is hovered
@@ -139,7 +137,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "logo"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Valhelsia Fabric"
+	largeImageText = "Valhelsia: Enhanced Vanilla"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ""
 	#The text that gets displayed when the small image is hovered
@@ -147,30 +145,36 @@
 	#The buttons to display on Discord
 	buttons = []
 
-#World/Dimension Image Overrides
-[world_images]
-	#Enabled/Disable custom images for Worlds/Biomes
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
 	enabled = false
 
-	#The Worlds/Biomes to override
-	[[world_images.worlds]]
-		worldname = "overworld"
+	#The Dimensions to override
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "In The Overworld"
+		state = ""
 		largeImageKey = ""
-		largeImageText = "Valhelsia Fabric"
-		smallImageKey = "the_overworld"
+		largeImageText = "Valhelsia: Enhanced Vanilla"
+		smallImageKey = "mclogo"
 		smallImageText = "%mods% mods installed"
 
-	[[world_images.worlds]]
-		worldname = "the_nether"
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "In The Nether"
+		state = ""
 		largeImageKey = ""
-		largeImageText = "Valhelsia Fabric"
+		largeImageText = "Valhelsia: Enhanced Vanilla"
 		smallImageKey = "the_nether"
 		smallImageText = "%mods% mods installed"
 
-	[[world_images.worlds]]
-		worldname = "the_end"
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "In The End"
+		state = ""
 		largeImageKey = ""
-		largeImageText = "Valhelsia Fabric"
+		largeImageText = "Valhelsia: Enhanced Vanilla"
 		smallImageKey = "the_end"
 		smallImageText = "%mods% mods installed"
 
