@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "archery",
+    "level": 22,
+    "item": "minecraft:custom_item",
+    "object": "dragonloot:dragon_bow"
+}

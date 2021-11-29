@@ -1,7 +1,7 @@
 {
     "replace": true,
-    "skill": "farming",
+    "skill": "mining",
     "level": 9,
     "item": "minecraft:custom_item",
-    "object": "oxidized:rose_gold_hoe"
+    "object": "oxidized:rose_gold_shovel"
 }

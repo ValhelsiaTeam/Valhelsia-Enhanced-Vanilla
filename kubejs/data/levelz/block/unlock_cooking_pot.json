@@ -2,5 +2,6 @@
     "replace": true,
     "skill": "farming",
     "level": 15,
-    "block": "farmersdelight:cooking_pot"
+    "block": "minecraft:custom_block",
+    "object": "farmersdelight:cooking_pot"
 }

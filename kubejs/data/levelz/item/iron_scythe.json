@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 4,
+    "level": 6,
     "item": "minecraft:custom_item",
-    "object": "appliedenergistics2:certus_quartz_hoe"
+    "object": "harvest_scythes:iron_scythe"
 }

@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "mining",
+    "level": 5,
+    "item": "minecraft:custom_item",
+    "object": "appliedenergistics2:nether_quartz_shovel"
+}

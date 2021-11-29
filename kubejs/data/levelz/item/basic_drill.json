@@ -1,7 +1,7 @@
 {
     "replace": true,
-    "skill": "agility",
+    "skill": "mining",
     "level": 16,
     "item": "minecraft:custom_item",
-    "object": "betterend:elytra_crystalite"
+    "object": "techreborn:basic_drill"
 }

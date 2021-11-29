@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "archery",
+    "level": 32,
+    "item": "minecraft:custom_item",
+    "object": "dragonloot:dragon_trident"
+}

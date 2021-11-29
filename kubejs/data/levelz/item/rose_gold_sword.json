@@ -2,6 +2,6 @@
     "replace": true,
     "skill": "strength",
     "level": 5,
-    "item": "minecraft:sword",
-    "material": "rose_gold"
+    "item": "minecraft:custom_item",
+    "object": "oxidized:rose_gold_sword"
 }

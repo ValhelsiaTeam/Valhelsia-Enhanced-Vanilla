@@ -2,6 +2,6 @@
     "replace": false,
     "skill": "agility",
     "level": 14,
-    "item": "minecraft:armor",
-    "material": "armored"
+    "item": "minecraft:custom_item",
+    "object": "betterend:elytra_armored"
 }

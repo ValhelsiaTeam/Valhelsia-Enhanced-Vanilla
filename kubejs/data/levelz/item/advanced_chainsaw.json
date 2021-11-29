@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 4,
+    "level": 24,
     "item": "minecraft:custom_item",
-    "object": "appliedenergistics2:certus_quartz_hoe"
+    "object": "techreborn:advanced_chainsaw"
 }
