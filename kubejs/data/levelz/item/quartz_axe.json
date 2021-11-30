@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 5,
+    "level": 4,
     "item": "minecraft:custom_item",
     "object": "appliedenergistics2:nether_quartz_axe"
 }

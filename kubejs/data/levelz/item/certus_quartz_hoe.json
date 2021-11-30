@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 4,
+    "level": 5,
     "item": "minecraft:custom_item",
     "object": "appliedenergistics2:certus_quartz_hoe"
 }
