@@ -2,7 +2,7 @@
 	"replace": true,
 	"level": 30,
 	"block": [
-		"appliedenergistics2:fluix_block",
-		"appliedenergistics2:sky_stone_block"
+		"ae2:fluix_block",
+		"ae2:sky_stone_block"
 	]
 }

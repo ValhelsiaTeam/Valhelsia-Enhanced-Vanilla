@@ -4,6 +4,6 @@
   "block": [
     "minecraft:lapis_ore",
     "minecraft:deepslate_lapis_ore",
-    "twigs:rhyolite"
+    "blockus:bluestone"
   ]
 }

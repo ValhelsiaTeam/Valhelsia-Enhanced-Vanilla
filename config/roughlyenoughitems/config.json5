@@ -55,10 +55,49 @@
 	},
 	"advanced": {
 		"filtering": {
+			"shouldFilterDisplays": true,
 			"filteringRules": [
 				"{id:\"roughlyenoughitems:manual\",rule:{}}"
 			],
-			"filteredStacks": []
+			"filteredStacks": [
+				"{Count:1b,id:\"quarryplus:dummy\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:jigsaw\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"quarryplus:adv_pump\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"harvest_scythes:creative_scythe\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_planks\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_bricks\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_diamond_block\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"quarryplus:adv_pump\",tag:{Enchantments:[{id:\"minecraft:efficiency\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:fortune\",lvl:3s}]},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"quarryplus:adv_quarry\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:structure_block\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"harvest_scythes:creative_machete\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_gravel\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:barrier\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_lapis_block\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"quarryplus:adv_quarry\",tag:{Enchantments:[{id:\"minecraft:efficiency\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:fortune\",lvl:3s}]},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_leaves\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_glowing_obsidian\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"quarryplus:adv_quarry\",tag:{Enchantments:[{id:\"minecraft:efficiency\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:silk_touch\",lvl:1s}]},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:light\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_coal_block\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_cobblestone\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_first_cobblestone\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_explosion_proof_gold_block\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_first_grass_block\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_stonecutter\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_gold_block\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_crying_obsidian\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_glowstone\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"oxidized:copper_nugget\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_sponge\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"quarryplus:remove_bedrock_module\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_mossy_cobblestone\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_grass_block\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_nether_reactor_core\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"quarryplus:creative_generator\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"blockus:legacy_iron_block\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"quarryplus:frame\",type:\"minecraft:item\"}"
+			]
 		},
 		"enableJeiCompatibilityLayer": true,
 		"tooltips": {
@@ -72,8 +111,12 @@
 			"entryPanelOrdering": "REGISTRY_ASCENDING",
 			// Declares the maximum amount of recipes displayed in a page if possible.
 			"maxRecipesPerPage": 15,
+			// Declares the maximum amount of recipes displayed in a page if possible.
+			"maxRecipesPageHeight": 300,
 			// Declares whether entry rendering time should be debugged.
-			"debugRenderTimeRequired": false
+			"debugRenderTimeRequired": false,
+			// Merges displays with equal contents under 1 display.
+			"mergeDisplayUnderOne": true
 		},
 		"accessibility": {
 			"entrySize": 1.0,
@@ -132,6 +175,10 @@
 		"scrollingEntryListWidget": false,
 		"horizontalEntriesBoundaries": 1.0,
 		"verticalEntriesBoundaries": 1.0,
+		"horizontalEntriesBoundariesColumns": 50,
+		"verticalEntriesBoundariesRows": 1000,
+		"favoritesHorizontalEntriesBoundaries": 1.0,
+		"favoritesHorizontalEntriesBoundariesColumns": 50,
 		"syntaxHighlightingMode": "COLORFUL"
 	},
 	"functionality": {
