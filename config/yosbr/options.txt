@@ -3,6 +3,8 @@ enableVsync:false
 realmsNotifications:false
 darkMojangStudiosBackground:true
 biomeBlendRadius:5
+maxFps:120
+resourcePacks:["vanilla","Fabric Mods","file/Fantasy_Ores_by_CesarZorak[Retextured][1.17.x][v3.5].zip","file/xali\u0027s Enchanced Biome River and Pond v1.2.zip","file/xali\u0027s Enchanted Books v0.8.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Enhanced Modded x Valhelsia.zip","file/xali\u0027s Enhanced Vanilla v1.7.1.zip","file/xali\u0027s Potions v1.0.zip"]
 guiScale:2
 mipmapLevels:0
 skipMultiplayerWarning:true
