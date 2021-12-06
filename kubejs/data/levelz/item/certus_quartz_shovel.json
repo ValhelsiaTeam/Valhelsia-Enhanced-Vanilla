@@ -1,7 +1,0 @@
-{
-    "replace": true,
-    "skill": "mining",
-    "level": 4,
-    "item": "minecraft:custom_item",
-    "object": "appliedenergistics2:certus_quartz_shovel"
-}

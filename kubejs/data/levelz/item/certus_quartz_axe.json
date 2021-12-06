@@ -2,6 +2,6 @@
     "replace": true,
     "skill": "farming",
     "level": 5,
-    "item": "minecraft:custom_item",
-    "object": "appliedenergistics2:certus_quartz_axe"
+    "item": "minecraft:axe",
+    "material": "certus_quartz"
 }

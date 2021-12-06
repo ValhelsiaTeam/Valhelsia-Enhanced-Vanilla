@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "mining",
-    "level": 4,
+    "level": 36,
     "item": "minecraft:custom_item",
-    "object": "appliedenergistics2:certus_quartz_pickaxe"
+    "object": "techreborn:omni_tool"
 }

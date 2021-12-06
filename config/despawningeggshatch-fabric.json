@@ -1,0 +1,12 @@
+{
+	// When enabled, an egg will only hatch when it is laid on top a hay block. This prevents wild chicken colonies from expanding without your knowledge.
+	"eggOnlyHatchesWhenOnTopOfHayBlock": true,
+	// The chance an egg will hatch just before despawning if the entity limiter is not active.
+	"eggWillHatchChance": 0.5,
+	// Prevents too many entities from hatching. A despawning egg will only hatch if there are less chickens than defined here in a radius of 'radiusEntityLimiterCheck' blocks around.
+	"onlyHatchIfLessChickensAroundThan": 50,
+	// The radius around the despawned egg for 'onlyHatchIfLessChickensAroundThan'.
+	"radiusEntityLimiterCheck": 32,
+	// If enabled, the newly hatched chicken is a small chick.
+	"newHatchlingIsBaby": true
+}

@@ -1,6 +1,6 @@
 // priority: 100
 
-events.listen('recipes', function (event) {
+onEvent('recipes', function (event) {
 
   var idRemove = [
 

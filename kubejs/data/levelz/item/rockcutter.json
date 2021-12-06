@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "mining",
-    "level": 5,
+    "level": 22,
     "item": "minecraft:custom_item",
-    "object": "appliedenergistics2:nether_quartz_shovel"
+    "object": "techreborn:rock_cutter"
 }
