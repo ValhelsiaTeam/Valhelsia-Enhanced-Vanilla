@@ -6,7 +6,7 @@
   "cost_type": "level",
   "cost_item": "minecraft:ender_pearl",
   "waystone_block_hardness": 4,
-  "waystone_block_required_mining_level": 1.0,
+  "waystone_block_required_mining_level": 2.0,
   "recipes": {
     "abyss_watcher": {
       "type": "minecraft:crafting_shaped",

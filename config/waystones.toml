@@ -33,8 +33,8 @@ scrollUseTime = 32
 inventoryButtonCooldown = 1200
 [inventoryButton]
 inventoryButton = "NEAREST"
-warpButtonX = 58
-warpButtonY = 60
+warpButtonX = 27
+warpButtonY = 62
 creativeWarpButtonX = 88
 creativeWarpButtonY = 33
 [worldGen]
