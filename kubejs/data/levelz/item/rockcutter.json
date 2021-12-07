@@ -2,6 +2,6 @@
     "replace": true,
     "skill": "mining",
     "level": 22,
-    "item": "minecraft:custom_item",
-    "object": "techreborn:rock_cutter"
+    "item": "minecraft:tool",
+    "material": "techreborn:rock_cutter"
 }

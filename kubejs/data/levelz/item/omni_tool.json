@@ -2,6 +2,6 @@
     "replace": true,
     "skill": "mining",
     "level": 36,
-    "item": "minecraft:custom_item",
-    "object": "techreborn:omni_tool"
+    "item": "minecraft:tool",
+    "material": "techreborn:omni_tool"
 }

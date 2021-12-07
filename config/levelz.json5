@@ -1,7 +1,7 @@
 {
 	"maxLevel": 40,
 	// Applies if bonus chest world setting is enabled
-	"startPoints": 5,
+	"startPoints": 0,
 	// If true will reset stats on death
 	"hardMode": false,
 	"resetCurrentXP": true,
@@ -10,7 +10,7 @@
 	"disableFurnaceXP": false,
 	"xpBaseCost": 50,
 	// XP equation: lvl^2 * multiplicator + base
-	"xpCostMultiplicator": 0.10000000149011612,
+	"xpCostMultiplicator": 0.1,
 	// Attribute values - Bonus for each lvl
 	"healthBase": 6.0,
 	"healthBonus": 0.5,
@@ -18,7 +18,7 @@
 	"healthAbsorptionBonus": 4.0,
 	// Levelz Screen Multiplies it by 10
 	"movementBase": 0.1,
-	"movementBonus": 0.0005,
+	"movementBonus": 5.0E-4,
 	// Chance of damage misses player at max lvl
 	"movementMissChance": 0.05,
 	// Reduces fall damage

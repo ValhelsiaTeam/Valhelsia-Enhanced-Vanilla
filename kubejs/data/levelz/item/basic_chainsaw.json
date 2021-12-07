@@ -2,6 +2,6 @@
     "replace": true,
     "skill": "farming",
     "level": 16,
-    "item": "minecraft:custom_item",
-    "object": "techreborn:basic_chainsaw"
+    "item": "minecraft:axe",
+    "material": "techreborn:basic_chainsaw"
 }

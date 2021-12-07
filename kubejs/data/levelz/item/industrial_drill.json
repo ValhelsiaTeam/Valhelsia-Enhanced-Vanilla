@@ -2,6 +2,6 @@
     "replace": true,
     "skill": "mining",
     "level": 40,
-    "item": "minecraft:custom_item",
-    "object": "techreborn:industrial_drill"
+    "item": "minecraft:tool",
+    "material": "techreborn:industrial_drill"
 }

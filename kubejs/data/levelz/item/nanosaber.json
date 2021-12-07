@@ -1,7 +1,7 @@
 {
-    "replace": false,
+    "replace": true,
     "skill": "strength",
     "level": 40,
-    "item": "minecraft:custom_item",
-    "object": "techreborn:nanosaber"
+    "item": "minecraft:sword",
+    "material": "techreborn:nanosaber"
 }
