@@ -32,6 +32,7 @@ onEvent('recipes', event => {
     Item.of('harvest_scythes:netherite_machete').ignoreNBT(),
     '#minecraft:wool'
   ]).damageIngredient(0).keepIngredient('harvest_scythes:netherite_machete')
+})
 
   // Unsupported
   //event.shapeless('1x minecraft:string', [ 
@@ -58,4 +59,3 @@ onEvent('recipes', event => {
   //  Item.of('harvest_scythes:dragon_machete').ignoreNBT(),
   //  '#minecraft:wool'
   //]).damageIngredient(0).keepIngredient('harvest_scythes:dragon_machete')
-})
