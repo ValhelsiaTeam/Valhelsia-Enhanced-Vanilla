@@ -2,36 +2,18 @@
 onEvent('tags.items', event => {
   
   // TechReborn compatibility with LevelZ
-  event.get('fabric:pickaxes').remove([
-    'techreborn:industrial_drill',
-    'techreborn:industrial_jackhammer',
-    'techreborn:advanced_drill',
-    'techreborn:advanced_jackhammer',
-    'techreborn:basic_drill',
-    'techreborn:basic_jackhammer',
-    'techreborn:rock_cutter',
-    'techreborn:omni_tool'
-  ])
-
-  event.get('fabric:shovels').remove([
-    'techreborn:industrial_drill',
-    'techreborn:advanced_drill',
-    'techreborn:basic_drill',
-    'techreborn:omni_tool'
-  ])
-
-  event.get('fabric:swords').remove([
-    'techreborn:nanosaber',
-    'techreborn:industrial_chainsaw',
-    'techreborn:advanced_chainsaw',
-    'techreborn:basic_chainsaw',
-    'techreborn:omni_tool'
-  ])
-
-  event.get('fabric:axes').remove([
-    'techreborn:industrial_chainsaw',
-    'techreborn:advanced_chainsaw',
-    'techreborn:basic_chainsaw',
-    'techreborn:omni_tool'
+  event.get('harvest_scythes:machetes').add([
+    'harvest_scythes:wooden_machete',
+    'harvest_scythes:stone_machete',
+    'harvest_scythes:iron_machete',
+    'harvest_scythes:golden_machete', 
+    'harvest_scythes:diamond_machete',
+    'harvest_scythes:netherite_machete',
+    'harvest_scythes:creative_machete',
+    'harvest_scythes:peridot_machete',
+    'harvest_scythes:sapphire_machete',
+    'harvest_scythes:ruby_machete',
+    'harvest_scythes:bronze_machete',
+    'harvest_scythes:dragon_machete'
   ])
 })
