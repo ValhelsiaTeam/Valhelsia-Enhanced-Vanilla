@@ -2,6 +2,6 @@
     "replace": true,
     "skill": "farming",
     "level": 9,
-    "item": "minecraft:custom_item",
-    "object": "oxidized:rose_gold_hoe"
+    "item": "minecraft:hoe",
+    "material": "rose_gold"
 }

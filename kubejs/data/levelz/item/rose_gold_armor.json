@@ -1,7 +1,7 @@
 {
     "replace": true,
-    "skill": "strength",
+    "skill": "defense",
     "level": 5,
-    "item": "minecraft:sword",
+    "item": "minecraft:armor",
     "material": "rose_gold"
 }
