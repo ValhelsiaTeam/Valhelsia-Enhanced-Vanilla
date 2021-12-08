@@ -1,7 +1,7 @@
 // priority: 80
 onEvent('tags.items', event => {
   
-  // TechReborn compatibility with LevelZ
+  //
   event.get('harvest_scythes:machetes').add([
     'harvest_scythes:wooden_machete',
     'harvest_scythes:stone_machete',

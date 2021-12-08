@@ -17,7 +17,7 @@
 	// Absorption Bonus at max lvl
 	"healthAbsorptionBonus": 4.0,
 	// Levelz Screen Multiplies it by 10
-	"movementBase": 0.1,
+	"movementBase": 0.09,
 	"movementBonus": 5.0E-4,
 	// Chance of damage misses player at max lvl
 	"movementMissChance": 0.05,
