@@ -3,10 +3,10 @@
 	"level": 9,
 	"block": [
 		"techreborn:ruby_ore",
-		"artifality:budding_incremental_crystal",
-		"artifality:small_incremental_crystal_cluster",
-		"artifality:medium_incremental_crystal_cluster",
-		"artifality:incremental_crystal_cluster",
+		//"artifality:budding_incremental_crystal",
+		//"artifality:small_incremental_crystal_cluster",
+		//"artifality:medium_incremental_crystal_cluster",
+		//"artifality:incremental_crystal_cluster",
 		"twigs:rhyolite"
 	]
 }

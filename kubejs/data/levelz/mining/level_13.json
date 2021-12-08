@@ -3,10 +3,10 @@
     "level": 13,
     "block": [
         "techreborn:galena_ore",
-        "techreborn:deepslate_galena_ore",
-        "artifality:budding_life_crystal",
-        "artifality:small_life_crystal_cluster",
-        "artifality:medium_life_crystal_cluster",
-        "artifality:life_crystal_cluster"
+        "techreborn:deepslate_galena_ore"
+        //"artifality:budding_life_crystal",
+        //"artifality:small_life_crystal_cluster",
+        //"artifality:medium_life_crystal_cluster",
+        //"artifality:life_crystal_cluster"
     ]
 }
