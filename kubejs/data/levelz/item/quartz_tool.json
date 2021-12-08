@@ -3,5 +3,5 @@
     "skill": "mining",
     "level": 5,
     "item": "minecraft:tool",
-    "material": "quartz"
+    "material": "ae2:nether_quartz"
 }
