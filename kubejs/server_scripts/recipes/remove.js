@@ -6,6 +6,11 @@ onEvent('recipes', function (event) {
 
     // Oxidized
     'oxidized:copper_nugget', // Duplicate recipe.
+    'oxidized:rose_gold_sword', // Duplicate recipe.
+    'oxidized:rose_gold_pickaxe', // Duplicate recipe.
+    'oxidized:rose_gold_axe', // Duplicate recipe.
+    'oxidized:rose_gold_shovel', // Duplicate recipe.
+    'oxidized:rose_gold_hoe', // Duplicate recipe.
 
     // Additional Enchanted Miner
     'quarryplus:adv_quarry', // Duplicate machine.
