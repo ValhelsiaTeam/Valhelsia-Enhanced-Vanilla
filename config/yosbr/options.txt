@@ -3,16 +3,34 @@ enableVsync:false
 realmsNotifications:false
 darkMojangStudiosBackground:true
 biomeBlendRadius:5
+bobView:false
 maxFps:120
-resourcePacks:["vanilla","Fabric Mods","file/EclecticTrove-1.18-1.0.1.zip","file/xali\u0027s Enchanted Books v0.8.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enchanced Biome River and Pond v1.2.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Enhanced Modded x Valhelsia.zip","file/xali\u0027s Enhanced Vanilla v1.8.zip","file/Fantasy_Ores[1.16.x+to+1.18.x][v4].zip"]
-incompatibleResourcePacks:["file/xali\u0027s Enchanted Books v0.8.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip"]
-guiScale:2
+renderDistance:12
+simulationDistance:8
+resourcePacks:["vanilla","Fabric Mods","file/EclecticTrove-1.18-1.0.1.zip","file/Fantasy_Ores[1.16.x to 1.18.x][v4].zip","file/xali\u0027s Enchanted Books v0.8.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Enchanced Biome River and Pond v1.2.zip","file/xali\u0027s Enhanced Modded v0.1.zip","file/xali\u0027s Enhanced Vanilla v1.8.zip"]
+incompatibleResourcePacks:["file/xali\u0027s Enchanted Books v0.8.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Enhanced Modded v0.1.zip"]
+guiScale:3
 mipmapLevels:0
 skipMultiplayerWarning:true
+key_key.craftingtweaks.rotate:key.keyboard.unknown
+key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown
+key_key.craftingtweaks.balance:key.keyboard.unknown
+key_key.craftingtweaks.spread:key.keyboard.unknown
+key_key.craftingtweaks.clear:key.keyboard.unknown
+key_key.craftingtweaks.force_clear:key.keyboard.unknown
+key_key.craftingtweaks.toggleButtons:key.keyboard.unknown
+key_key.craftingtweaks.compressOne:key.keyboard.unknown
+key_key.craftingtweaks.compressStack:key.keyboard.unknown
+key_key.craftingtweaks.compressAll:key.keyboard.unknown
+key_key.craftingtweaks.decompressOne:key.keyboard.unknown
+key_key.craftingtweaks.decompressStack:key.keyboard.unknown
+key_key.craftingtweaks.decompressAll:key.keyboard.unknown
+key_key.craftingtweaks.refill_last:key.keyboard.tab
+key_key.craftingtweaks.refill_last_stack:key.keyboard.tab
 soundCategory_master:0.5
 soundCategory_music:0.5
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.5
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0

@@ -2,7 +2,7 @@
 #General Config Section
 [general]
 	#The Client ID of the Discord App to use
-	clientID = 856833472642154507
+	clientID = 918874626266906644
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!

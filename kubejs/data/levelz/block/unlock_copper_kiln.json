@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "smithing",
+    "level": 6,
+    "block": "minecraft:custom_block",
+    "object": "oxidized:copper_kiln"
+}

@@ -1,5 +1,5 @@
 {
-    "replace": false,
+    "replace": true,
     "skill": "alchemy",
     "level": 17,
     "item": "minecraft:dragon_breath"

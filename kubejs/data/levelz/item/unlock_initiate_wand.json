@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "luck",
+    "level": 6,
+    "item": "minecraft:custom_item",
+    "object": "arcanus:initiate_wand"
+}
