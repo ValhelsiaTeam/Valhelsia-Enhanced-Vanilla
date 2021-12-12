@@ -3,13 +3,14 @@
 onEvent('recipes', function (event) {
 
   // Minecraft
-  event.shaped(Item.of('minecraft:cobweb', 1), [
+  event.shaped('minecraft:cobweb', [
     'AA',
     'AA'
   ], {
     A: 'minecraft:string'
   })
-  event.shaped(Item.of('minecraft:dispenser', 1), [
+
+  event.shaped('minecraft:dispenser', [
     'AAA',
     'ABA',
     'ACA'
@@ -18,35 +19,57 @@ onEvent('recipes', function (event) {
     B: 'minecraft:crossbow',
     C: 'minecraft:redstone'
   })
-  event.shaped(Item.of('minecraft:chainmail_helmet', 1), [
+
+  event.shaped('minecraft:dispenser', [
+    'RS ',
+    'RDS',
+    'RS '
+  ], {
+    R: 'minecraft:stick',
+    S: 'minecraft:string',
+    D: 'minecraft:dropper'
+  })
+
+  event.shaped('minecraft:chainmail_helmet', [
     'AAA',
     'A A'
   ], {
     A: 'minecraft:chain'
   })
-  event.shaped(Item.of('minecraft:chainmail_chestplate', 1), [
+
+  event.shaped('minecraft:chainmail_chestplate', [
     'A A',
     'AAA',
     'AAA'
   ], {
     A: 'minecraft:chain'
   })
-  event.shaped(Item.of('minecraft:chainmail_leggings', 1), [
+
+  event.shaped('minecraft:chainmail_leggings', [
     'AAA',
     'A A',
     'A A'
   ], {
     A: 'minecraft:chain'
   })
-  event.shaped(Item.of('minecraft:chainmail_boots', 1), [
+  event.shaped('minecraft:chainmail_boots', [
     'A A',
     'A A'
   ], {
     A: 'minecraft:chain'
   })
   
+  event.shaped('minecraft:bundle', [
+    'SCS',
+    'C C',
+    'CCC'
+  ], {
+    S: 'minecraft:string',
+    C: 'farmersdelight:canvas'
+  })
+  
   // Additional Enchanted Miner
-  event.shaped(Item.of('quarryplus:quarry', 1), [
+  event.shaped('quarryplus:quarry', [
     'AFA',
     'BEB',
     'CDC'
