@@ -1,6 +1,6 @@
 {
-    "replace": false,
+    "replace": true,
     "skill": "farming",
-    "level": 10,
+    "level": 0,
     "block": "minecraft:loom"
 }

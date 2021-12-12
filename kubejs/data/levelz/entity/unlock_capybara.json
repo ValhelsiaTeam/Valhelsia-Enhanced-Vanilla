@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "farming",
+    "level": 13,
+    "entity": "minecraft:custom_entity",
+    "object": "capybara:capybara"
+}
