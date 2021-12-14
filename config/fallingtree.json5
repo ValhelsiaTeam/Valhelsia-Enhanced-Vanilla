@@ -5,9 +5,10 @@
 	"breakInCreative": false,
 	/* How messages are sent to the player. 
 	   CHAT: Messages are sent in the chat. 
-	   ACTION_BAR: Messages are displayed in the player's action bar.
+	   ACTION_BAR: Messages are displayed in the player's action bar. 
+	   NONE: No notifications will appear.
 	*/
-	"notificationMode": "ACTION_BAR",
+	"notificationMode": "NONE",
 	"trees": {
 		/* Additional list of blocks considered as logs and that will be destroyed by the mod. 
 		   INFO: Blocks marked with the log tag will already be whitelisted.
@@ -39,14 +40,14 @@
 		*/
 		"detectionMode": "WHOLE_TREE",
 		// The maximum number of blocks to scan when trying to detect a tree. If there's more than this value the tree won't be cut.
-		"maxScanSize": 500,
+		"maxScanSize": 50,
 		// The maximum size of a tree. If there's more logs than this value the max size action will be applied.
-		"maxSize": 10,
+		"maxSize": 24,
 		/* What to do when the max size of a tree is reached. 
 		   ABORT: Tree won't be cut. 
 		   CUT: Tree will still be cut leaving some of it untouched.
 		*/
-		"maxSizeAction": "ABORT",
+		"maxSizeAction": "CUT",
 		/* In what order logs are broken. 
 		   This only makes sense if maxSize < maxScanSize. 
 		   FURTHEST_FIRST: The furthest log will be broken first. 
@@ -107,6 +108,8 @@
 			"minecraft:stone_axe",
 			"minecraft:iron_axe",
 			"minecraft:golden_axe",
+			"ae2:nether_quartz_axe",
+			"ae2:certus_quartz_axe",
 			"techreborn:bronze_axe",
 			"techreborn:peridot_axe",
 			"techreborn:ruby_axe",
