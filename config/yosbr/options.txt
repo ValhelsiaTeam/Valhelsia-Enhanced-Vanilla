@@ -7,7 +7,7 @@ bobView:false
 maxFps:120
 renderDistance:12
 simulationDistance:8
-resourcePacks:["vanilla","Fabric Mods","file/EclecticTrove-1.18-1.0.1.zip","file/Fantasy_Ores[1.16.x to 1.18.x][v4].zip","file/xali\u0027s Enchanted Books v0.8.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip","file/xali\u0027s Enchanced Biome River and Pond v1.2.zip","file/xali\u0027s Enhanced Modded v0.2.zip","file/xali\u0027s Enhanced Vanilla v1.9.zip"]
+resourcePacks:["vanilla","Fabric Mods","file/EclecticTrove-1.18-1.0.1.zip","file/Fantasy_Ores[1.16.x to 1.18.x][v4].zip","file/xali\u0027s Enchanted Books v0.8.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enchanced Biome River and Pond v1.3.zip","file/xali\u0027s Enhanced Modded v0.2.zip","file/xali\u0027s Enhanced Vanilla v1.9.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip"]
 incompatibleResourcePacks:["file/xali\u0027s Enchanted Books v0.8.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enhanced Jungle Wood v1.2.zip"]
 guiScale:3
 mipmapLevels:0
