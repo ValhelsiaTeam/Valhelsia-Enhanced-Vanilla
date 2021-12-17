@@ -79,6 +79,16 @@ onEvent('recipes', function (event) {
     C: 'techreborn:steel_plate',
     D: 'techreborn:advanced_drill',
     E: 'techreborn:iridium_ingot',
-    F: 'techreborn:advanced_machine_frame',
+    F: 'techreborn:advanced_machine_frame'
+  })
+
+  // Quartz Elevator
+  event.shaped('quartzelv:quartz_elevator', [
+    'BBB',
+    'BAB',
+    'BBB'
+  ], {
+    A: 'architects_palette:ender_pearl_block',
+    B: 'minecraft:quartz'
   })
 })

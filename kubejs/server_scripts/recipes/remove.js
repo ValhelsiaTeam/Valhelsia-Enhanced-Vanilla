@@ -21,6 +21,7 @@ onEvent('recipes', function (event) {
     'quarryplus:remove_bedrock_module',
 
     // Blockus
+    'blockus:ender_block',
     'blockus:legacy_stonecutter',
     'blockus:legacy_glowing_obsidian',
     'blockus:legacy_crying_obsidian',
@@ -45,6 +46,11 @@ onEvent('recipes', function (event) {
     'blockus:legacy_grass_block',
     'blockus:legacy_first_grass_block',
     'blockus:legacy_first_grass_block_stonecutting',
+
+    // Quartz Elevator
+    'quartzelv:quartz_elevator',
+    'quartzelv:quartz_elevator_from_quartz_block',
+    'quartzelv:smooth_quartz_elevator_from_smooth_quartz',
   ]
 
   idRemove.forEach(function (remove) {
