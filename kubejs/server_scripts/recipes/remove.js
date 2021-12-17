@@ -22,6 +22,7 @@ onEvent('recipes', function (event) {
 
     // Blockus
     'blockus:ender_block',
+    'blockus:paper_lamp',
     'blockus:legacy_stonecutter',
     'blockus:legacy_glowing_obsidian',
     'blockus:legacy_crying_obsidian',

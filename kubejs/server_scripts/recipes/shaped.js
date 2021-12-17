@@ -91,4 +91,15 @@ onEvent('recipes', function (event) {
     A: 'architects_palette:ender_pearl_block',
     B: 'minecraft:quartz'
   })
+
+  // Blockus
+  event.shaped('blockus:paper_lamp', [
+    'BCB',
+    'BAB',
+    'BCB'
+  ], {
+    A: 'minecraft:torch',
+    B: 'minecraft:paper',
+    C: 'minecraft:jungle_slab'
+  })
 })
