@@ -4,8 +4,9 @@ onEvent('recipes', function (event) {
 
   // Minecraft
   event.shaped('minecraft:cobweb', [
-    'AA',
-    'AA'
+    'AAA',
+    'AAA',
+    'AAA'
   ], {
     A: 'minecraft:string'
   })
