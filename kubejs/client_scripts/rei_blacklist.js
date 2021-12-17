@@ -11,6 +11,7 @@ onEvent('rei.hide.items', event => {
     'additionaladditions:gilded_netherite_pickaxe',
     'additionaladditions:gilded_netherite_shovel',
     'additionaladditions:gilded_netherite_sword',
+    'additionaladditions:gold_ring',
     'blockus:ender_block',
     'blockus:legacy_bricks',
     'blockus:legacy_coal_block',
