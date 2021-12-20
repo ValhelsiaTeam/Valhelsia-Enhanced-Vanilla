@@ -4,6 +4,9 @@ onEvent('recipes', function (event) {
 
   var idRemove = [
 
+    // Minecraft
+    'minecraft:bread', // Duplicate recipe.
+
     // Oxidized
     'oxidized:copper_nugget', // Duplicate recipe.
     'oxidized:rose_gold_sword', // Duplicate recipe.
