@@ -32,6 +32,12 @@ onEvent('recipes', event => {
     Item.of('harvest_scythes:netherite_machete').ignoreNBT(),
     '#minecraft:wool'
   ]).damageIngredient(0).keepIngredient('harvest_scythes:netherite_machete')
+
+  // Oxidized
+  event.shapeless('oxidized:copper_button', [
+    '#minecraft:planks',
+    'minecraft:copper_ingot'
+  ])
 })
 
   // Unsupported

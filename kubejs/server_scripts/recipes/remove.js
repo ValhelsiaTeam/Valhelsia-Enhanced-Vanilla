@@ -11,6 +11,7 @@ onEvent('recipes', function (event) {
     'oxidized:rose_gold_axe', // Duplicate recipe.
     'oxidized:rose_gold_shovel', // Duplicate recipe.
     'oxidized:rose_gold_hoe', // Duplicate recipe.
+    'oxidized:copper_button', // Conflicts with vanilla.
 
     // Additional Enchanted Miner
     'quarryplus:adv_quarry', // Duplicate machine.
