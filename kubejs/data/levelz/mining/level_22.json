@@ -2,20 +2,20 @@
 	"replace": true,
 	"level": 22,
 	"block": [
-		//"betterend:ender_ore",
-		//"betterend:thallasium_ore",
-		"minecraft:end_stone"
-		//"betterend:end_mycelium",
-		//"betterend:end_moss",
-		//"betterend:chorus_nylium",
-		//"betterend:cave_moss",
-		//"betterend:crystal_moss",
-		//"betterend:shadow_grass",
-		//"betterend:pink_moss",
-		//"betterend:amber_moss",
-		//"betterend:jungle_moss",
-		//"betterend:sangnum",
-		//"betterend:rutiscus",
-		//"betterend:flavolite"
+		"betterend:ender_ore",
+		"betterend:thallasium_ore",
+		"minecraft:end_stone",
+		"betterend:end_mycelium",
+		"betterend:end_moss",
+		"betterend:chorus_nylium",
+		"betterend:cave_moss",
+		"betterend:crystal_moss",
+		"betterend:shadow_grass",
+		"betterend:pink_moss",
+		"betterend:amber_moss",
+		"betterend:jungle_moss",
+		"betterend:sangnum",
+		"betterend:rutiscus",
+		"betterend:flavolite"
 	]
 }

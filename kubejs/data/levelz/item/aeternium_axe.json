@@ -3,5 +3,5 @@
     "skill": "farming",
     "level": 25,
     "item": "minecraft:axe",
-    //"material": "aeternium"
+    "material": "aeternium"
 }

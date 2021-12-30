@@ -3,5 +3,5 @@
     "skill": "farming",
     "level": 25,
     "item": "minecraft:hoe",
-    //"material": "aeternium"
+    "material": "aeternium"
 }

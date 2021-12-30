@@ -3,5 +3,5 @@
     "skill": "defense",
     "level": 4,
     "item": "minecraft:armor",
-    //"material": "thallasium"
+    "material": "thallasium"
 }

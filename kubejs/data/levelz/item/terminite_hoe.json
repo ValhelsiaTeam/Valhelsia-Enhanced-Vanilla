@@ -3,5 +3,5 @@
     "skill": "farming",
     "level": 18,
     "item": "minecraft:hoe",
-    //"material": "terminite"
+    "material": "terminite"
 }

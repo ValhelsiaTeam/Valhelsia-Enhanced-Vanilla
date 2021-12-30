@@ -3,5 +3,5 @@
     "skill": "mining",
     "level": 7,
     "item": "minecraft:tool",
-    //"material": "thallasium"
+    "material": "thallasium"
 }

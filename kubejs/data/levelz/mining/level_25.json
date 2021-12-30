@@ -2,8 +2,8 @@
 	"replace": true,
 	"level": 25,
 	"block": [
-		"techreborn:sodalite_ore"
-		//"betterend:brimstone",
-		//"betterend:sulphuric_rock"
+		"techreborn:sodalite_ore",
+		"betterend:brimstone",
+		"betterend:sulphuric_rock"
 	]
 }

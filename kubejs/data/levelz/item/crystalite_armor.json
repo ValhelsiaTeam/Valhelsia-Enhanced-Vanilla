@@ -3,5 +3,5 @@
     "skill": "defense",
     "level": 16,
     "item": "minecraft:armor",
-    //"material": "crystalite"
+    "material": "crystalite"
 }
