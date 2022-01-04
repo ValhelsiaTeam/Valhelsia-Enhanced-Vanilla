@@ -103,4 +103,30 @@ onEvent('recipes', function (event) {
     B: 'minecraft:paper',
     C: 'minecraft:jungle_slab'
   })
+
+  // Decorative Blocks
+  event.shaped('decorative_blocks:chain', [
+    'A',
+    'B',
+    'A'
+  ], {
+    A: 'minecraft:iron_ingot',
+    B: 'minecraft:iron_nugget'
+  })
+
+  // Better End
+  event.shaped('betterend:ender_block', [
+    'AAA',
+    'AAA',
+    'AAA'
+  ], {
+    A: 'betterend:ender_shard'
+  })
+
+  event.shaped('minecraft:ender_pearl', [
+    'AA',
+    'AA'
+  ], {
+    A: 'betterend:ender_shard'
+  })
 })

@@ -38,6 +38,9 @@ onEvent('recipes', event => {
     '#minecraft:planks',
     'minecraft:copper_ingot'
   ])
+
+  // Blockus
+  event.shapeless(Item.of('minecraft:ender_pearl', 4), ['architects_palette:ender_pearl_block'])
 })
 
   // Unsupported

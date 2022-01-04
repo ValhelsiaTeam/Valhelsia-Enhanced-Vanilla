@@ -23,6 +23,7 @@ onEvent('recipes', function (event) {
 
     // Blockus
     'blockus:ender_block',
+    'blockus:ender_pearl_from_ender_block',
     'blockus:paper_lamp',
     'blockus:legacy_stonecutter',
     'blockus:legacy_glowing_obsidian',
@@ -53,6 +54,9 @@ onEvent('recipes', function (event) {
     'quartzelv:quartz_elevator',
     'quartzelv:quartz_elevator_from_quartz_block',
     'quartzelv:smooth_quartz_elevator_from_smooth_quartz',
+
+    // Decorative Blocks
+    'decorative_blocks:chain',
   ]
 
   idRemove.forEach(function (remove) {
