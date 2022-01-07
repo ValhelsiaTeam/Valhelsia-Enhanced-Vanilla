@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "luck",
-    "level": 24,
+    "level": 28,
     "item": "minecraft:custom_item",
     "object": "arcanus:master_wand"
 }

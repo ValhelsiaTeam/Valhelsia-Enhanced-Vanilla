@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "skill": "luck",
+    "level": 4,
+    "item": "minecraft:custom_item",
+    "object": "artifality:forest_staff"
+}

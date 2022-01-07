@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "skill": "luck",
+    "level": 12,
+    "item": "minecraft:custom_item",
+    "object": "artifality:harvest_staff"
+}
