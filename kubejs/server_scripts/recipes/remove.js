@@ -65,6 +65,9 @@ onEvent('recipes', function (event) {
   })
 
   var outputRemove = [
+
+    // Additional Additions
+    'additionaladditions:fried_egg'
   ]
 
   outputRemove.forEach(function (remove) {
