@@ -34,6 +34,7 @@ onEvent('rei.hide.items', event => {
     'blockus:legacy_planks',
     'blockus:legacy_sponge',
     'blockus:legacy_stonecutter',
+    'decorative_blocks:rocky_dirt',
     'harvest_scythes:creative_machete',
     'harvest_scythes:creative_scythe',
     'minecraft:barrier',

@@ -57,6 +57,7 @@ onEvent('recipes', function (event) {
 
     // Decorative Blocks
     'decorative_blocks:chain',
+    'decorative_blocks:rocky_dirt'
   ]
 
   idRemove.forEach(function (remove) {
