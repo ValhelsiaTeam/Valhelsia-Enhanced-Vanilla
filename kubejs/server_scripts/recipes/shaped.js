@@ -104,6 +104,96 @@ onEvent('recipes', function (event) {
     C: 'minecraft:jungle_slab'
   })
 
+  event.shaped('blockus:oak_barrel', [
+    'ABA',
+    'A A',
+    'ABA'
+  ], {
+    A: 'minecraft:oak_planks',
+    B: 'minecraft:oak_slab'
+  })
+
+  event.shaped('blockus:birch_barrel', [
+    'ABA',
+    'A A',
+    'ABA'
+  ], {
+    A: 'minecraft:birch_planks',
+    B: 'minecraft:birch_slab'
+  })
+
+  event.shaped('blockus:jungle_barrel', [
+    'ABA',
+    'A A',
+    'ABA'
+  ], {
+    A: 'minecraft:jungle_planks',
+    B: 'minecraft:jungle_slab'
+  })
+
+  event.shaped('blockus:acacia_barrel', [
+    'ABA',
+    'A A',
+    'ABA'
+  ], {
+    A: 'minecraft:acacia_planks',
+    B: 'minecraft:acacia_slab'
+  })
+
+  event.shaped('blockus:dark_oak_barrel', [
+    'ABA',
+    'A A',
+    'ABA'
+  ], {
+    A: 'minecraft:dark_oak_planks',
+    B: 'minecraft:dark_oak_slab'
+  })
+
+  event.shaped('blockus:warped_barrel', [
+    'ABA',
+    'A A',
+    'ABA'
+  ], {
+    A: 'minecraft:warped_planks',
+    B: 'minecraft:warped_slab'
+  })
+
+  event.shaped('blockus:crimson_barrel', [
+    'ABA',
+    'A A',
+    'ABA'
+  ], {
+    A: 'minecraft:crimson_planks',
+    B: 'minecraft:crimson_slab'
+  })
+
+  event.shaped('blockus:white_oak_barrel', [
+    'ABA',
+    'A A',
+    'ABA'
+  ], {
+    A: 'blockus:white_oak_planks',
+    B: 'blockus:white_oak_slab'
+  })
+
+  event.shaped('blockus:charred_barrel', [
+    'ABA',
+    'A A',
+    'ABA'
+  ], {
+    A: 'blockus:charred_planks',
+    B: 'blockus:charred_slab'
+  })
+
+  event.shaped('blockus:bamboo_barrel', [
+    'ABA',
+    'A A',
+    'ABA'
+  ], {
+    A: 'blockus:bamboo_planks',
+    B: 'blockus:bamboo_slab'
+  })
+
   // Decorative Blocks
   event.shaped('decorative_blocks:chain', [
     'A',

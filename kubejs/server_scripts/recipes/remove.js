@@ -22,6 +22,7 @@ onEvent('recipes', function (event) {
     'quarryplus:remove_bedrock_module',
 
     // Blockus
+    'blockus:blockus_barrels_into_vanilla_barrel',
     'blockus:ender_block',
     'blockus:ender_pearl_from_ender_block',
     'blockus:paper_lamp',
