@@ -7,7 +7,24 @@
   "valhelsia.comment.entities": "-----Entities with missing or incorrect language entries-----",
   "entity.immersive_portals.nether_portal_new": "Nether Portal",
 
-  "valhelsia.comment.misc":"-----Misc missing or incorrect language entries-----",
+  "valhelsia.comment.misc": "-----Misc missing or incorrect language entries-----",
   "carrier.key": "Carry",
-  "category.carrier": "Carrier"
+  "category.carrier": "Carrier",
+
+  "valhelsia.comment.levelz": "----- Additional Materials for LevelZ -----",
+  "text.levelz.object_prefix.rose_gold": "Rose Gold",
+  "text.levelz.object_prefix.ae2:nether_quartz": "Nether Quartz",
+  "text.levelz.object_prefix.ae2:certus_quartz": "Certus Quartz",
+  "text.levelz.object_prefix.techreborn:advanced_chainsaw": "Advanced Chainsaw -",
+  "text.levelz.object_prefix.techreborn:advanced_drill": "Advanced Drill -",
+  "text.levelz.object_prefix.techreborn:advanced_jackhammer": "Advanced Jackhammer -",
+  "text.levelz.object_prefix.techreborn:basic_chainsaw": "Basic Chainsaw -",
+  "text.levelz.object_prefix.techreborn:basic_drill": "Basic Drill -",
+  "text.levelz.object_prefix.techreborn:basic_jackhammer": "Basic Jackhammer -",
+  "text.levelz.object_prefix.techreborn:industrial_chainsaw": "Industrial Chainsaw -",
+  "text.levelz.object_prefix.techreborn:industrial_drill": "Industrial Drill -",
+  "text.levelz.object_prefix.techreborn:industrial_jackhammer": "Industrial Jackhammer -",
+  "text.levelz.object_prefix.techreborn:nanosaber": "Nanosaber -",
+  "text.levelz.object_prefix.techreborn:omni_tool": "Omni-Tool -",
+  "text.levelz.object_prefix.techreborn:rock_cutter": "Rock Cutter -"
 }
