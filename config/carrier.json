@@ -3,5 +3,5 @@
   "slownessLevel": 2,
   "hungerExhaustion": 0.05,
   "type": "BLACKLIST",
-  "list": ["waystones", "comforts", "infusion_table:infusion_table"]
+  "list": ["waystones", "comforts", "infusion_table:infusion_table", "yigd:grave"]
 }
