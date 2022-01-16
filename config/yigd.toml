@@ -16,9 +16,9 @@ graveInVoid = false
 ignoreDeathTypes = []
 graveSpawnHeight = 2
 lastResort = "DROP_ITEMS"
-defaultXpDrop = false
+defaultXpDrop = true
 xpDropPercent = 50
-tellDeathPos = true
+tellDeathPos = false
 
 [graveSettings.graveRobbing]
 enableRobbing = false
@@ -34,9 +34,9 @@ timeType = "HOURS"
 dropInventory = false
 
 [graveSettings.blockUnderGrave]
-generateBlockUnder = false
-inOverWorld = "minecraft:gravel"
-inNether = "minecraft:soul_soil"
+generateBlockUnder = true
+inOverWorld = "twigs:rocky_dirt"
+inNether = "minecraft:netherrack"
 inTheEnd = "minecraft:end_stone"
 inCustom = "minecraft:dirt"
 
@@ -45,7 +45,7 @@ useRenderFeatures = true
 renderGraveSkull = false
 renderGraveOwner = true
 textShadow = true
-adaptRenderer = false
+adaptRenderer = true
 glowingGrave = false
 glowMinDistance = 10
 [utilitySettings]
