@@ -56,6 +56,10 @@ onEvent('rei.hide.items', event => {
     'quarryplus:creative_generator',
     'quarryplus:dummy',
     'quarryplus:frame',
-    'quarryplus:remove_bedrock_module', 
+    'quarryplus:remove_bedrock_module',
+    'techreborn:deepslate_tungsten_ore',
+    'techreborn:deepslate_sodalite_ore',
+    'techreborn:deepslate_sheldonite_ore',
+    'techreborn:deepslate_peridot_ore',
   ])
 })
