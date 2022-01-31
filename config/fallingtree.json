@@ -40,10 +40,16 @@
     ],
     "preserve": false,
     "ignoreTools": false,
-    "requireEnchant": false,
     "damageMultiplicand": 1.0,
     "damageRounding": "ROUND_DOWN",
     "speedMultiplicand": 0.95
+  },
+  "player": {
+    "allowedTags": []
+  },
+  "enchantment": {
+    "registerEnchant": false,
+    "hideEnchant": true
   },
   "reverseSneaking": false,
   "breakInCreative": false,
