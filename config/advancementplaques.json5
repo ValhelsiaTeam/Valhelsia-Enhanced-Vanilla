@@ -2,7 +2,7 @@
 	// If plaques should show on the top of the screen.
 	"onTop": true,
 	// The distance from the top or bottom of the screen, in pixels.
-	"distance": 48,
+	"distance": 42,
 	// The horizontal offset from the center, in pixels.
 	"horizontalOffset": 0,
 	// Hide waila/hwyla/jade popups while plaques are showing.
