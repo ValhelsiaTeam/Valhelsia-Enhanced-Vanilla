@@ -3,6 +3,19 @@
   "valhelsia.getting_started_guide": "View the Getting Started Guide.",
   "valhelsia.can_fell_tree_tooltip": " Fells trees (when breaking logs). ✓",
   "valhelsia.cannot_fell_tree_tooltip": " Doesn't fell trees (when breaking logs). ✗",
+  "valhelsia.mob_scarecrow_tooltip": "Scares off all the mobs 8 blocks around the scarecrow.",
+  "valhelsia.creeper_scarecrow_plushie_tooltip": "Scares off the creepers 8 blocks around the plushie.",
+  "valhelsia.creeper_scarecrow_statue_tooltip": "Scares off the creepers 8 blocks around the statue.",
+  "valhelsia.skeleton_scarecrow_plushie_tooltip": "Scares off the skeletons 8 blocks around the plushie.",
+  "valhelsia.skeleton_scarecrow_statue_tooltip": "Scares off the skeletons 8 blocks around the statue.",
+  "valhelsia.spider_scarecrow_plushie_tooltip": "Scares off the spiders 8 blocks around the plushie.",
+  "valhelsia.spider_scarecrow_statue_tooltip": "Scares off the spiders 8 blocks around the statue.",
+  "valhelsia.zombie_scarecrow_plushie_tooltip": "Scares off the zombies 8 blocks around the plushie.",
+  "valhelsia.zombie_scarecrow_statue_tooltip": "Scares off the zombies 8 blocks around the statue.",
+  "valhelsia.turtle_scarecrow_plushie_tooltip": "Attracts the zombies 24 blocks around the plushie.",
+  "valhelsia.turtle_scarecrow_statue_tooltip": "Attracts the zombies 24 blocks around the statue.",
+  "valhelsia.endermite_scarecrow_plushie_tooltip": "Attracts the endermans 24 blocks around the plushie.",
+  "valhelsia.endermite_scarecrow_statue_tooltip": "Attracts the endermans 24 blocks around the statue.",
 
   "valhelsia.comment.entities": "-----Entities with missing or incorrect language entries-----",
   "entity.immersive_portals.nether_portal_new": "Nether Portal",
@@ -26,5 +39,8 @@
   "text.levelz.object_prefix.techreborn:industrial_jackhammer": "Industrial Jackhammer -",
   "text.levelz.object_prefix.techreborn:nanosaber": "Nanosaber -",
   "text.levelz.object_prefix.techreborn:omni_tool": "Omni-Tool -",
-  "text.levelz.object_prefix.techreborn:rock_cutter": "Rock Cutter -"
+  "text.levelz.object_prefix.techreborn:rock_cutter": "Rock Cutter -",
+
+  "advancements.arcanus.criteria.has_wand": "Unlimited Power!",
+  "advancementinfo.infopane": "Info"
 }
