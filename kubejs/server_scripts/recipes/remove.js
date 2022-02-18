@@ -58,7 +58,10 @@ onEvent('recipes', function (event) {
 
     // Decorative Blocks
     'decorative_blocks:chain',
-    'decorative_blocks:rocky_dirt'
+    'decorative_blocks:rocky_dirt',
+
+    // Tech Reborn
+    'techreborn:crafting_table/storage_block/raw_lead_storage_block' // Duplicate xp
   ]
 
   idRemove.forEach(function (remove) {
@@ -68,7 +71,13 @@ onEvent('recipes', function (event) {
   var outputRemove = [
 
     // Additional Additions
-    'additionaladditions:fried_egg'
+    'additionaladditions:fried_egg',
+
+    // Blockus
+    'blockus:snow_bricks',
+    'blockus:snow_brick_stairs',
+    'blockus:snow_brick_slab',
+    'blockus:snow_brick_wall'
   ]
 
   outputRemove.forEach(function (remove) {
