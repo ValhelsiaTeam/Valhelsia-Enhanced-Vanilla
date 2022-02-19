@@ -43,10 +43,13 @@ onEvent('tags.items', event => {
     'harvest_scythes:dragon_machete'
   ])
 
-  // Ender Blocks
+  // Inter-mod Compatibility
+
   event.get('valhelsia:storage_blocks/ender').add([
     'architects_palette:ender_pearl_block',
     'betterend:ender_block',
     'blockus:ender_block' // This is disabled, but if a player somehow gets one it should work in recipes anyway.
   ])
+
+  event.add('c:ender_pearl_dusts', 'betterend:ender_dust')
 })
