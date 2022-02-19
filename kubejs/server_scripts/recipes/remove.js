@@ -59,9 +59,6 @@ onEvent('recipes', function (event) {
     // Decorative Blocks
     'decorative_blocks:chain',
     'decorative_blocks:rocky_dirt',
-
-    // Tech Reborn
-    'techreborn:crafting_table/storage_block/raw_lead_storage_block' // Duplicate xp
   ]
 
   idRemove.forEach(function (remove) {
