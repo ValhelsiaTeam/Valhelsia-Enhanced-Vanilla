@@ -3,6 +3,7 @@
 onEvent('recipes', event => {
 
   // Minecraft
+  /* 
   event.shapeless('1x minecraft:string', [ 
     Item.of('harvest_scythes:wooden_machete').ignoreNBT(),
     '#minecraft:wool'
@@ -32,6 +33,7 @@ onEvent('recipes', event => {
     Item.of('harvest_scythes:netherite_machete').ignoreNBT(),
     '#minecraft:wool'
   ]).damageIngredient(0).keepIngredient('harvest_scythes:netherite_machete')
+  */
 
   // Oxidized
   event.shapeless('oxidized:copper_button', [
