@@ -2,14 +2,15 @@
 
 onEvent('recipes', function (event) {
 
+  // Convenience Functions:
+  let shaped2x2 = (output, input) => {event.shaped(output, ['AA', 'AA'], {A: input})}
+  let shaped3x3 = (output, input) => {event.shaped(output, ['AAA', 'AAA', 'AAA'], {A: input})}
+  let donut = (output, input) => {event.shaped(output, ['AAA', 'A A', 'AAA'], {A: input})}
+  let wrapped = (output, core, wrap) => {event.shaped(output, ['AAA', 'ABA', 'AAA'], {A: wrap, B: core})}
+  let barrel = (output, plank, slab) => {event.shaped(output, ['ABA', 'A A', 'ABA'], {A: plank, B: slab})}
+
   // Minecraft
-  event.shaped('minecraft:cobweb', [
-    'AAA',
-    'AAA',
-    'AAA'
-  ], {
-    A: 'minecraft:string'
-  })
+  shaped3x3('minecraft:cobweb', 'minecraft:string')
 
   event.shaped('minecraft:dispenser', [
     'AAA',
@@ -82,16 +83,10 @@ onEvent('recipes', function (event) {
     E: 'techreborn:iridium_ingot',
     F: 'techreborn:advanced_machine_frame'
   })
-
-  // Quartz Elevator
-  event.shaped('quartzelv:quartz_elevator', [
-    'BBB',
-    'BAB',
-    'BBB'
-  ], {
-    A: 'architects_palette:ender_pearl_block',
-    B: 'minecraft:quartz'
-  })
+  
+  // Better End
+  shaped3x3('betterend:ender_block', 'betterend:ender_shard')
+  shaped2x2('minecraft:ender_pearl', 'betterend:ender_shard')
 
   // Blockus
   event.shaped('blockus:paper_lamp', [
@@ -104,95 +99,16 @@ onEvent('recipes', function (event) {
     C: 'minecraft:jungle_slab'
   })
 
-  event.shaped('blockus:oak_barrel', [
-    'ABA',
-    'A A',
-    'ABA'
-  ], {
-    A: 'minecraft:oak_planks',
-    B: 'minecraft:oak_slab'
-  })
-
-  event.shaped('blockus:birch_barrel', [
-    'ABA',
-    'A A',
-    'ABA'
-  ], {
-    A: 'minecraft:birch_planks',
-    B: 'minecraft:birch_slab'
-  })
-
-  event.shaped('blockus:jungle_barrel', [
-    'ABA',
-    'A A',
-    'ABA'
-  ], {
-    A: 'minecraft:jungle_planks',
-    B: 'minecraft:jungle_slab'
-  })
-
-  event.shaped('blockus:acacia_barrel', [
-    'ABA',
-    'A A',
-    'ABA'
-  ], {
-    A: 'minecraft:acacia_planks',
-    B: 'minecraft:acacia_slab'
-  })
-
-  event.shaped('blockus:dark_oak_barrel', [
-    'ABA',
-    'A A',
-    'ABA'
-  ], {
-    A: 'minecraft:dark_oak_planks',
-    B: 'minecraft:dark_oak_slab'
-  })
-
-  event.shaped('blockus:warped_barrel', [
-    'ABA',
-    'A A',
-    'ABA'
-  ], {
-    A: 'minecraft:warped_planks',
-    B: 'minecraft:warped_slab'
-  })
-
-  event.shaped('blockus:crimson_barrel', [
-    'ABA',
-    'A A',
-    'ABA'
-  ], {
-    A: 'minecraft:crimson_planks',
-    B: 'minecraft:crimson_slab'
-  })
-
-  event.shaped('blockus:white_oak_barrel', [
-    'ABA',
-    'A A',
-    'ABA'
-  ], {
-    A: 'blockus:white_oak_planks',
-    B: 'blockus:white_oak_slab'
-  })
-
-  event.shaped('blockus:charred_barrel', [
-    'ABA',
-    'A A',
-    'ABA'
-  ], {
-    A: 'blockus:charred_planks',
-    B: 'blockus:charred_slab'
-  })
-
-  event.shaped('blockus:bamboo_barrel', [
-    'ABA',
-    'A A',
-    'ABA'
-  ], {
-    A: 'blockus:bamboo_planks',
-    B: 'blockus:bamboo_slab'
-  })
+  barrel('blockus:oak_barrel', 'minecraft:oak_planks', 'minecraft:oak_slab')
+  barrel('blockus:birch_barrel', 'minecraft:birch_planks', 'minecraft:birch_slab')
+  barrel('blockus:jungle_barrel', 'minecraft:jungle_planks', 'minecraft:jungle_slab')
+  barrel('blockus:acacia_barrel', 'minecraft:acacia_planks', 'minecraft:acacia_slab')
+  barrel('blockus:dark_oak_barrel', 'minecraft:dark_oak_planks', 'minecraft:dark_oak_slab')
+  barrel('blockus:warped_barrel', 'minecraft:warped_planks', 'minecraft:warped_slab')
+  barrel('blockus:crimson_barrel', 'minecraft:crimson_planks', 'minecraft:crimson_slab')
+  barrel('blockus:white_oak_barrel', 'blockus:white_oak_planks', 'blockus:white_oak_slab')
+  barrel('blockus:charred_barrel', 'blockus:charred_planks', 'blockus:charred_slab')
+  barrel('blockus:bamboo_barrel', 'blockus:bamboo_planks', 'bamboo_slab:oak_slab')
 
   // Decorative Blocks
   event.shaped('decorative_blocks:chain', [
@@ -203,20 +119,8 @@ onEvent('recipes', function (event) {
     A: 'minecraft:iron_ingot',
     B: 'minecraft:iron_nugget'
   })
+  
+  // Quartz Elevator
+  wrapped('quartzelv:quartz_elevator', '#valhelsia:storage_blocks/ender', 'minecraft:quartz')
 
-  // Better End
-  event.shaped('betterend:ender_block', [
-    'AAA',
-    'AAA',
-    'AAA'
-  ], {
-    A: 'betterend:ender_shard'
-  })
-
-  event.shaped('minecraft:ender_pearl', [
-    'AA',
-    'AA'
-  ], {
-    A: 'betterend:ender_shard'
-  })
 })

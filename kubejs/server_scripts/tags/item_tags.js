@@ -1,7 +1,7 @@
 // priority: 80
 onEvent('tags.items', event => {
   
-  //
+  // Tools
   event.get('fabric:swords').add([
     'ae2:certus_quartz_sword',
     'ae2:nether_quartz_sword',
@@ -27,7 +27,7 @@ onEvent('tags.items', event => {
     'ae2:nether_quartz_hoe',
   ])
 
-  //
+  // Machetes
   event.get('harvest_scythes:machetes').add([
     'harvest_scythes:wooden_machete',
     'harvest_scythes:stone_machete',
@@ -41,5 +41,12 @@ onEvent('tags.items', event => {
     'harvest_scythes:ruby_machete',
     'harvest_scythes:bronze_machete',
     'harvest_scythes:dragon_machete'
+  ])
+
+  // Ender Blocks
+  event.get('valhelsia:storage_blocks/ender').add([
+    'architects_palette:ender_pearl_block',
+    'betterend:ender_block',
+    'blockus:ender_block' // This is disabled, but if a player somehow gets one it should work in recipes anyway.
   ])
 })
