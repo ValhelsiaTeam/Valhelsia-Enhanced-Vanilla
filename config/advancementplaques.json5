@@ -6,7 +6,7 @@
 	// The horizontal offset from the center, in pixels.
 	"horizontalOffset": 0,
 	// Hide waila/hwyla/jade popups while plaques are showing.
-	"hideWaila": true,
+	"hideWaila": false,
 	// If plaques should show for task advancements (normal advancements).
 	"tasks": true,
 	// If plaques should show for goal advancements (medium-difficulty advancements).
