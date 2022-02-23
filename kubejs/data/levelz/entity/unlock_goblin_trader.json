@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "skill": "trade",
+    "level": 10,
+    "entity": "minecraft:custom_entity",
+    "object": "goblintraders:goblin_trader"
+}
