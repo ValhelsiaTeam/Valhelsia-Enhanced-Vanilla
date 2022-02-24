@@ -20,22 +20,18 @@ const defaultConfig = {
   starting_points: 3
 };
 
+
+function parseConfigValue(value) {
+  // Quick and dirty parser - converts strings to boolean or number if needed before storing them.
+  if (value == "true") return true;
+  if (value == "false") return false;
+  if (isNumeric(value)) return Number(value);
+  return value;
+}
+
 // Entries are automatically converted into lower case but values are not.
 function setConfig(entry, value) {
-  // Quick and dirty parser - converts strings to boolean or number if needed before storing them.
-  if (typeof value == 'string') {
-    if (value.equalsIgnoreCase('true')) {
-      value = true;
-    } else if (value.equalsIgnoreCase('false')) {
-      value = false;
-    }
-
-    if (isNumeric(value)) {
-      value = Number(value);
-    }
-  }
-
-  global.config[entry.toLowerCase()] = value;
+  global.config[entry.toLowerCase()] = parseConfigValue(value);
   JsonIO.write(configFileName, global.config);
 }
 
