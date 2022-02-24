@@ -78,7 +78,7 @@ onEvent('player.advancement', function (event) {
               } else if (rewardData.skill == 'level') {
                 callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_levels', rewardData.points))
               } else {
-                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_skill_points', rewardData.points, rewardData.skill))
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_skill_points', rewardData.points, Text.translate(`spritetip.levelz.${rewardData.skill}_skill`)))
               }
             });
           }
