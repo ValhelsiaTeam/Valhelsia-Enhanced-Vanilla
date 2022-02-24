@@ -1,10 +1,12 @@
 // priority: 10
-onEvent('player.advancement', function (event) {
-  
-  // Note: This is an early WIP. If anybody is looking at this file before the update has released,
-  // it is very subject to change (and indeed, is intended to change - there's a reason that there's
-  // a new config system + advancement IDs being logged).
 
+// Used when the option to create an empty reward file is enabled.
+const defaultRewardData = {
+  skill: "points",
+  points: 0
+}
+
+onEvent('player.advancement', function (event) {
   if (event.advancement.hasDisplay()) {
     // Mappings used below:
     // method_686 = getDisplay()
@@ -30,7 +32,7 @@ onEvent('player.advancement', function (event) {
             if (global.config.task_points > 0) {
               event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.task_points}`);
               event.server.schedule(1, event.player, function (callback) {
-                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_points', global.config.task_points))
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_unallocated_points', global.config.task_points))
               });
             }
             break;
@@ -38,7 +40,7 @@ onEvent('player.advancement', function (event) {
             if (global.config.goal_points > 0) {
               event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.goal_points}`);
               event.server.schedule(1, event.player, function (callback) {
-                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_points', global.config.goal_points))
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_unallocated_points', global.config.goal_points))
               });
             }
             break;
@@ -46,7 +48,7 @@ onEvent('player.advancement', function (event) {
             if (global.config.challenge_points > 0) {
               event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.challenge_points}`);
               event.server.schedule(1, event.player, function (callback) {
-                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_points', global.config.challenge_points))
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_unallocated_points', global.config.challenge_points))
               });
             }
             break;
@@ -55,7 +57,33 @@ onEvent('player.advancement', function (event) {
         }
       }
 
-
+      // Reward points based on the specific advancement data:
+      if (global.config.individual_advancement_points) {
+        let path = `kubejs/script_data/advancement_rewards/${event.advancement.id().toString().replace(':', '-').replace('/', '-')}.json`;
+        let rewardData = JsonIO.read(path);
+        if (!rewardData) {
+          if (global.config.write_default_reward_data) {
+            rewardData = defaultRewardData;
+            JsonIO.write(path, defaultRewardData);
+          }
+        } else {
+          if (rewardData.points > 0) {
+            event.server.runCommandSilent(`/playerstats ${event.player.name} add ${rewardData.skill} ${rewardData.points}`);
+            event.server.schedule(1, event.player, function (callback) {
+              // Of these reward types, progress and levels probably shouldn't be used, but are there for completeness.
+              if (rewardData.skill == 'points') {
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_unallocated_points', rewardData.points))
+              } else if (rewardData.skill == 'progress') {
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_progress', rewardData.points))
+              } else if (rewardData.skill == 'level') {
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_levels', rewardData.points))
+              } else {
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_skill_points', rewardData.points, rewardData.skill))
+              }
+            });
+          }
+        }
+      }
     }
   }
 })

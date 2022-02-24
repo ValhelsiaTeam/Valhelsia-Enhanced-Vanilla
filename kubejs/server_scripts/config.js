@@ -13,7 +13,7 @@ const configFileName = 'vev_config.json';
 const defaultConfig = {
   debug: false,
   write_default_reward_data: false,
-  simple_advancement_points: true,
+  simple_advancement_points: false,
   individual_advancement_points: true,
   task_points: 1,
   goal_points: 2,
