@@ -43,8 +43,7 @@ onEvent('tags.items', event => {
     'harvest_scythes:dragon_machete'
   ])
 
-  // Inter-mod Compatibility
-
+  // ----- Inter-mod Compatibility -----
   event.get('valhelsia:storage_blocks/ender').add([
     'architects_palette:ender_pearl_block',
     'betterend:ender_block',

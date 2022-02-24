@@ -108,7 +108,7 @@ onEvent('recipes', function (event) {
   barrel('blockus:crimson_barrel', 'minecraft:crimson_planks', 'minecraft:crimson_slab')
   barrel('blockus:white_oak_barrel', 'blockus:white_oak_planks', 'blockus:white_oak_slab')
   barrel('blockus:charred_barrel', 'blockus:charred_planks', 'blockus:charred_slab')
-  barrel('blockus:bamboo_barrel', 'blockus:bamboo_planks', 'bamboo_slab:oak_slab')
+  barrel('blockus:bamboo_barrel', 'blockus:bamboo_planks', 'blockus:bamboo_slab')
 
   // Decorative Blocks
   event.shaped('decorative_blocks:chain', [

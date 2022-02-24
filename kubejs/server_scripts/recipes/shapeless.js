@@ -34,6 +34,9 @@ onEvent('recipes', event => {
     '#minecraft:wool'
   ]).damageIngredient(0).keepIngredient('harvest_scythes:netherite_machete')
   */
+ 
+  // Architect's Palette
+  event.shapeless(Item.of('minecraft:ender_pearl', 4), ['architects_palette:ender_pearl_block'])
 
   // Oxidized
   event.shapeless('oxidized:copper_button', [
@@ -41,8 +44,7 @@ onEvent('recipes', event => {
     'minecraft:copper_ingot'
   ])
 
-  // Blockus
-  event.shapeless(Item.of('minecraft:ender_pearl', 4), ['architects_palette:ender_pearl_block'])
+  
 })
 
   // Unsupported
