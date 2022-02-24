@@ -3,8 +3,8 @@
   "valhelsia.first_start_message": "You have starting points available to spend on skills, open the skill menu to assign them (K by default).",
   "valhelsia.getting_started_guide": "View the Getting Started Guide.",
   "valhelsia.config.no_permission": "You do not have permission to use this command.",
-  "valhelsia.config.current": "Current config entry:",
-  "valhelsia.config.updated": "Updated config entry:",
+  "valhelsia.config.current": "Current config entry: %s",
+  "valhelsia.config.updated": "Updated config entry: %s",
   "valhelsia.config.syntax": "Syntax: Get config entry: !config [option]. Set config entry: !config [option] [entry]",
   "valhelsia.advancement_levels.awarded_points": "Awarded %s skill point(s)!",
 

@@ -29,7 +29,7 @@ onEvent('player.advancement', function (event) {
           case 'task':
             if (global.config.task_points > 0) {
               event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.task_points}`);
-              event.server.schedule(10, event.player, function (callback) {
+              event.server.schedule(1, event.player, function (callback) {
                 callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_points', global.config.task_points))
               });
             }
@@ -37,7 +37,7 @@ onEvent('player.advancement', function (event) {
           case 'goal':
             if (global.config.goal_points > 0) {
               event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.goal_points}`);
-              event.server.schedule(10, event.player, function (callback) {
+              event.server.schedule(1, event.player, function (callback) {
                 callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_points', global.config.goal_points))
               });
             }
@@ -45,7 +45,7 @@ onEvent('player.advancement', function (event) {
           case 'challenge':
             if (global.config.challenge_points > 0) {
               event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.challenge_points}`);
-              event.server.schedule(10, event.player, function (callback) {
+              event.server.schedule(1, event.player, function (callback) {
                 callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_points', global.config.challenge_points))
               });
             }

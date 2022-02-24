@@ -2,7 +2,7 @@
 // Generally useful functions.
 
 function isNumeric(str) {
-  if (typeof str != "string") {
+  if (typeof str != 'string') {
     return false;
   }
 
