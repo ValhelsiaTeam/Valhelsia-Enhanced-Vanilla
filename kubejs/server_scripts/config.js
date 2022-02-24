@@ -12,6 +12,7 @@
 const configFileName = 'vev_config.json';
 const defaultConfig = {
   debug: false,
+  write_default_reward_data: false,
   simple_advancement_points: true,
   individual_advancement_points: true,
   task_points: 1,
@@ -77,7 +78,7 @@ for (const property in defaultConfig) {
 }
 
 if (configDirty) {
-  JsonIO.write(configFileName, defaultConfig);
+  JsonIO.write(configFileName, config);
   configDirty = false;
 }
 
