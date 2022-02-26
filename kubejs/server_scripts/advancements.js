@@ -4,11 +4,24 @@
 const defaultRewardData = {
   skill: "points",
   points: 0
-}
+};
+
+const emptyAdvancement = {criteria:{impossible:{trigger:"minecraft:impossible"}}};
+
+// Advancements to remove from the game:
+const removeAdvancements = [
+  'outvoted:advancements/obtain_wildfire_helmet.json',
+  'outvoted:advancements/obtain_wildfire_piece.json',
+];
 
 // Server Datapack Load
 onEvent('server.datapack.high_priority', (event) => {
-  // TODO: Append additional information to advancement descriptions. Presumably this is the correct event to do it in?
+  // Remove specified advancements.
+  removeAdvancements.forEach(file => {
+    event.addJson(file, emptyAdvancement);
+  });
+
+  // TODO: Append additional information to advancement descriptions.
 });
 
 // Advancement Gain
@@ -68,7 +81,7 @@ onEvent('player.advancement', (event) => {
 
       // Reward points based on the specific advancement data:
       if (global.config.individual_advancement_points) {
-        let path = `kubejs/script_data/advancement_rewards/${event.advancement.id().toString().replace(/:|\//g, '-')}.json`;
+        let path = `kubejs/script_data/advancement_rewards/${event.advancement.id().toString().replace(':', '-').replace('/', '-')}.json`;
         let rewardData = JsonIO.read(path);
         if (!rewardData) {
           if (global.config.write_default_reward_data) {
