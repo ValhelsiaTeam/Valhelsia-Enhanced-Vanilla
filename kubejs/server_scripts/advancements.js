@@ -62,7 +62,7 @@ onEvent('player.advancement', function (event) {
 
       // Reward points based on the specific advancement data:
       if (global.config.individual_advancement_points) {
-        let path = `kubejs/script_data/advancement_rewards/${event.advancement.id().toString().replace(':', '-').replace('/', '-')}.json`;
+        let path = `kubejs/script_data/advancement_rewards/${event.advancement.id().toString().replace(/:|\//g, '-')}.json`;
         let rewardData = JsonIO.read(path);
         if (!rewardData) {
           if (global.config.write_default_reward_data) {
