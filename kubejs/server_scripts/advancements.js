@@ -6,7 +6,13 @@ const defaultRewardData = {
   points: 0
 }
 
-onEvent('player.advancement', function (event) {
+// Server Datapack Load
+onEvent('server.datapack.high_priority', (event) => {
+  // TODO: Append additional information to advancement descriptions. Presumably this is the correct event to do it in?
+});
+
+// Advancement Gain
+onEvent('player.advancement', (event) => {
   if (event.advancement.hasDisplay()) {
     // Mappings used below:
     // method_686 = getDisplay()
@@ -35,7 +41,7 @@ onEvent('player.advancement', function (event) {
             if (global.config.task_points > 0) {
               event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.task_points}`);
               event.server.schedule(1, event.player, function (callback) {
-                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_unallocated_points', global.config.task_points))
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.points.awarded', global.config.task_points));
               });
             }
             break;
@@ -43,7 +49,7 @@ onEvent('player.advancement', function (event) {
             if (global.config.goal_points > 0) {
               event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.goal_points}`);
               event.server.schedule(1, event.player, function (callback) {
-                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_unallocated_points', global.config.goal_points))
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.points.awarded', global.config.goal_points));
               });
             }
             break;
@@ -51,7 +57,7 @@ onEvent('player.advancement', function (event) {
             if (global.config.challenge_points > 0) {
               event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.challenge_points}`);
               event.server.schedule(1, event.player, function (callback) {
-                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_unallocated_points', global.config.challenge_points))
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.points.awarded', global.config.challenge_points));
               });
             }
             break;
@@ -75,13 +81,13 @@ onEvent('player.advancement', function (event) {
             event.server.schedule(1, event.player, function (callback) {
               // Of these reward types, progress and levels probably shouldn't be used, but are there for completeness.
               if (rewardData.skill == 'points') {
-                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_unallocated_points', rewardData.points))
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.points.awarded', rewardData.points));
               } else if (rewardData.skill == 'progress') {
-                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_progress', rewardData.points))
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.progress.awarded', rewardData.points));
               } else if (rewardData.skill == 'level') {
-                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_levels', rewardData.points))
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.levels.awarded', rewardData.points));
               } else {
-                callback.data.tell(Text.translate('valhelsia.advancement_levels.awarded_skill_points', rewardData.points, Text.translate(`spritetip.levelz.${rewardData.skill}_skill`)))
+                callback.data.tell(Text.translate('valhelsia.advancement_levels.skills.awarded', rewardData.points, Text.translate(`spritetip.levelz.${rewardData.skill}_skill`)));
               }
             });
           }
@@ -89,4 +95,4 @@ onEvent('player.advancement', function (event) {
       }
     }
   }
-})
+});

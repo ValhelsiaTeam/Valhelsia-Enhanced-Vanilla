@@ -37,7 +37,7 @@ function setConfig(entry, value) {
 }
 
 // Command Parser for Config Adjustment via Chat.
-onEvent('player.chat', function (event) {
+onEvent('player.chat', (event) => {
   
   // Command Syntax: 
   // Get Config: !config [option]
