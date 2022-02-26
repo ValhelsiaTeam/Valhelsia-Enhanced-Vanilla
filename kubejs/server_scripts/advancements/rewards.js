@@ -1,30 +1,38 @@
 // priority: 10
+// Valhelsia: Enhanced Vanilla
+// Advancement Rewards Script
 
-// Used when the option to create an empty reward file is enabled.
-const defaultRewardData = {
+/**
+ * @file Advancement reward handling for Valhelsia: Enhanced Vanilla. Includes events to adjust advancement data and
+ * give rewards to players for obtaining advancements (typically skills or points in the LevelZ mod).
+ */
+
+/**
+ * Default reward data, used when writing a new blank advancement reward to disk.
+ * @const {string, number}
+ * @default 
+ */
+const DEFAULT_REWARD_DATA = {
   skill: "points",
   points: 0
 };
 
-const emptyAdvancement = {criteria:{impossible:{trigger:"minecraft:impossible"}}};
-
-// Advancements to remove from the game:
-const removeAdvancements = [
-  'outvoted:advancements/obtain_wildfire_helmet.json',
-  'outvoted:advancements/obtain_wildfire_piece.json',
-];
-
-// Server Datapack Load
+/**
+ * Event handler for KubeJS's virtual datapack. Adds additional data to advancement descriptions
+ * for any advancements that have rewards.
+ */
 onEvent('server.datapack.high_priority', (event) => {
-  // Remove specified advancements.
-  removeAdvancements.forEach(file => {
-    event.addJson(file, emptyAdvancement);
-  });
-
   // TODO: Append additional information to advancement descriptions.
+
+  // method_3851 = getAdvancementLoader()
+  // method_12893 = getAdvancements() (as Collection, not sure how that will appear to KubeJS?)
+  //let allAdvancements = event.server.minecraftServer.method_3851().method_12893();
+  //console.log(allAdvancements);
 });
 
-// Advancement Gain
+/**
+ * Event handler for rewarding the player when gaining advancements.
+ */
 onEvent('player.advancement', (event) => {
   if (event.advancement.hasDisplay()) {
     // Mappings used below:
@@ -34,8 +42,8 @@ onEvent('player.advancement', (event) => {
     // method_815 = getFrame()
     // method_831 = getId() or getTitle()
 
-    // Disabled isHidden check - we want to give rewards for hidden advancements now as long as they're announced:
-    // !event.advancement.advancement.method_686().method_824() && 
+    // 2022-02-26 (VZ): Disabled isHidden check - we want to give rewards for hidden advancements now as long as they're announced:
+    //                  !event.advancement.advancement.method_686().method_824() && 
 
     // Award points only for advancements that are announced to chat:
     if (event.advancement.advancement.method_686().method_808()) {
@@ -85,8 +93,7 @@ onEvent('player.advancement', (event) => {
         let rewardData = JsonIO.read(path);
         if (!rewardData) {
           if (global.config.write_default_reward_data) {
-            rewardData = defaultRewardData;
-            JsonIO.write(path, defaultRewardData);
+            JsonIO.write(path, DEFAULT_REWARD_DATA);
           }
         } else {
           if (rewardData.points > 0) {
