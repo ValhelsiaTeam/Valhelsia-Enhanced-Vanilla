@@ -9,16 +9,20 @@
 // setConfig('debug', true)
 // setConfig('starting_points', 3)
 
-const configFileName = 'vev_config.json';
-const defaultConfig = {
+const CONFIG_FILENAME = 'vev_config.json';
+const DEFAULT_CONFIG = {
   debug: false,
   write_default_reward_data: false,
+  log_added_recipes: false,
+  log_removed_recipes: false,
+  log_skipped_recipes: false,
+  log_erroring_recipes: true,
   simple_advancement_points: false,
   individual_advancement_points: true,
   task_points: 1,
   goal_points: 2,
   challenge_points: 3,
-  starting_points: 3
+  starting_points: 3,
 };
 
 
@@ -33,7 +37,7 @@ function parseConfigValue(value) {
 // Entries are automatically converted into lower case but values are not.
 function setConfig(entry, value) {
   global.config[entry.toLowerCase()] = parseConfigValue(value);
-  JsonIO.write(configFileName, global.config);
+  JsonIO.write(CONFIG_FILENAME, global.config);
 }
 
 // Command Parser for Config Adjustment via Chat.
@@ -62,24 +66,30 @@ onEvent('player.chat', (event) => {
 });
 
 // Read in current config + set any missing properties to defaults:
-let config = JsonIO.read(configFileName);
+let config = JsonIO.read(CONFIG_FILENAME);
 let configDirty = false;
 
 if (!config) {
   configDirty = true;
-  config = defaultConfig;
+  config = DEFAULT_CONFIG;
 }
 
-for (const property in defaultConfig) {
+for (const property in DEFAULT_CONFIG) {
   if (!config.hasOwnProperty(property)) {
-    config[property] = defaultConfig[property];
+    config[property] = DEFAULT_CONFIG[property];
     configDirty = true;
   }
 }
 
 if (configDirty) {
-  JsonIO.write(configFileName, config);
+  JsonIO.write(CONFIG_FILENAME, config);
   configDirty = false;
 }
 
 global.config = config;
+
+// KubeJS Settings
+settings.logAddedRecipes = config.log_added_recipes;
+settings.logRemovedRecipes = config.log_removed_recipes;
+settings.logSkippedRecipes = config.log_skipped_recipes;
+settings.logErroringRecipes = config.log_erroring_recipes;
