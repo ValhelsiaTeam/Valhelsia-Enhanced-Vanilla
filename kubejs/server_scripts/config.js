@@ -1,4 +1,7 @@
 // priority: 9001
+// Valhelsia: Enhanced Vanilla
+// Config Script
+
 /**
  * @file A global config file for Valhelsia: Enhanced Vanilla.
  * When the pack is loaded, the config file will be automatically loaded and stored.
@@ -122,9 +125,9 @@ if (!config) {
   config = DEFAULT_CONFIG;
 }
 
-for (const property in DEFAULT_CONFIG) {
-  if (!config.hasOwnProperty(property)) {
-    config[property] = DEFAULT_CONFIG[property];
+for (const index in DEFAULT_CONFIG) {
+  if (!config.hasOwnProperty(index)) {
+    config[index] = DEFAULT_CONFIG[index];
     configDirty = true;
   }
 }
@@ -137,7 +140,7 @@ if (configDirty) {
 global.config = config;
 
 // KubeJS Settings
-settings.logAddedRecipes = config.log_added_recipes;
-settings.logRemovedRecipes = config.log_removed_recipes;
-settings.logSkippedRecipes = config.log_skipped_recipes;
-settings.logErroringRecipes = config.log_erroring_recipes;
+settings.logAddedRecipes = config.log_added_recipes ? true : false;
+settings.logRemovedRecipes = config.log_removed_recipess ? true : false;
+settings.logSkippedRecipes = config.log_skipped_recipess ? true : false;
+settings.logErroringRecipes = config.log_erroring_recipess ? true : false;
