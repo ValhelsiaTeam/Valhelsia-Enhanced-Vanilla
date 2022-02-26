@@ -3,8 +3,8 @@
 // Advancement Rewards Script
 
 /**
- * @file Advancement reward handling for Valhelsia: Enhanced Vanilla. Includes events to adjust advancement data and
- * give rewards to players for obtaining advancements (typically skills or points in the LevelZ mod).
+ * @file Advancement reward handling for Valhelsia: Enhanced Vanilla. Gives rewards to players for
+ * obtaining advancements (typically skills or points in the LevelZ mod).
  */
 
 /**
@@ -16,20 +16,6 @@ const DEFAULT_REWARD_DATA = {
   skill: "points",
   points: 0
 };
-
-/**
- * Event handler for KubeJS's virtual datapack. Adds additional data to advancement descriptions
- * for any advancements that have rewards.
- */
-onEvent('server.datapack.high_priority', (event) => {
-  // TODO: Append additional information to advancement descriptions.
-
-  // method_3851 = getAdvancementLoader()
-  // method_12893 = getAdvancements() (as Collection, not sure how that will appear to KubeJS?)
-  //let allAdvancements = event.server.minecraftServer.method_3851().method_12893();
-  //console.log(allAdvancements);
-});
-
 /**
  * Event handler for rewarding the player when gaining advancements.
  */
@@ -52,7 +38,7 @@ onEvent('player.advancement', (event) => {
 
       // Debug output of advancement information to log.
       if (global.config.debug) {
-	      console.info(`Advancement Obtained: ${event.advancement.getTitle()} ("${event.advancement.id()}"), type: "${advancementType}"`);
+	      console.log(`Advancement Obtained: ${event.advancement.getTitle()} ("${event.advancement.id()}"), type: "${advancementType}"`);
       }
 
       // Jangro's Suggestion - award points based on the type of advancement:
