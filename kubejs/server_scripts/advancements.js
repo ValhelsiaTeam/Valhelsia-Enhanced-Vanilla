@@ -15,15 +15,18 @@ onEvent('player.advancement', function (event) {
     // method_815 = getFrame()
     // method_831 = getId() or getTitle()
 
-    // Don't award points for invisible or root tasks:
-    if (!event.advancement.advancement.method_686().method_824() && event.advancement.advancement.method_686().method_808()) {
+    // Disabled isHidden check - we want to give rewards for hidden advancements now as long as they're announced:
+    // !event.advancement.advancement.method_686().method_824() && 
+
+    // Award points only for advancements that are announced to chat:
+    if (event.advancement.advancement.method_686().method_808()) {
+
+      let advancementType = event.advancement.advancement.method_686().method_815().method_831();
 
       // Debug output of advancement information to log.
       if (global.config.debug) {
-	      console.info(`Advancement Obtained: ${event.advancement.getTitle()} ("${event.advancement.id()}"), type: "${event.advancement.advancement.method_686().method_815().method_831()}"`);
+	      console.info(`Advancement Obtained: ${event.advancement.getTitle()} ("${event.advancement.id()}"), type: "${advancementType}"`);
       }
-
-      let advancementType = event.advancement.advancement.method_686().method_815().method_831();
 
       // Jangro's Suggestion - award points based on the type of advancement:
       if (global.config.simple_advancement_points) {
