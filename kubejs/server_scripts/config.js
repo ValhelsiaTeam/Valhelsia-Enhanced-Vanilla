@@ -1,15 +1,43 @@
 // priority: 9001
-// A global config file for Valhelsia: Enhanced Vanilla.
+/**
+ * @file A global config file for Valhelsia: Enhanced Vanilla.
+ * When the pack is loaded, the config file will be automatically loaded and stored.
+ * If the config file does not exist (or there are any missing entries), the file
+ * will be created or updated. See the examples for how to use the config in
+ * KubeJS scripts.
+ * 
+ * It is possible to adjust the config in-game using chat 
+ * (via the !vconfig command by default).
+ * 
+ * @example Accessing Config Entries:
+ * let debug = global.config.debug;
+ * let starting_points = global.config.starting_points
+ * 
+ * @example Setting Config Entries:
+ * setConfig('debug', true)
+ * setConfig('starting_points', 3)
+ * 
+ */
 
-// Accessing Config Entries in scripts:
-// let debug = global.config.debug;
-// let starting_points = global.config.starting_points
 
-// Setting Config Entries in scripts:
-// setConfig('debug', true)
-// setConfig('starting_points', 3)
-
+/**
+ * The filename of the config file.
+ * @const {string}
+ * @default 
+ */
 const CONFIG_FILENAME = 'vev_config.json';
+
+/**
+ * The chat command to modify the config.
+ * @const {string}
+ * @default
+ */
+const CONFIG_COMMAND = '!vconfig';
+
+/**
+ * The default values for config options in the pack.
+ * @const {Object}
+ */
 const DEFAULT_CONFIG = {
   debug: false,
   write_default_reward_data: false,
@@ -25,29 +53,49 @@ const DEFAULT_CONFIG = {
   starting_points: 3,
 };
 
-
+/**
+ * Converts a given value into a boolean or number, if appropriate.
+ * @param {*} value The input to parse. Often a string, but not required to be.
+ * @returns {boolean|Number|string} The converted value.
+ */
 function parseConfigValue(value) {
   // Quick and dirty parser - converts strings to boolean or number if needed before storing them.
-  if (value == "true") return true;
-  if (value == "false") return false;
-  if (isNumeric(value)) return Number(value);
+  if (value == "true") {
+    return true;
+  }
+  if (value == "false") {
+    return false;
+  }
+  if (isNumeric(value)) {
+    return Number(value);
+  }
   return value;
 }
 
-// Entries are automatically converted into lower case but values are not.
-function setConfig(entry, value) {
-  global.config[entry.toLowerCase()] = parseConfigValue(value);
+/**
+ * Sets a config entry and then saves the config file.
+ * @param {string} key The config key to set. Automatically converted to lower case.
+ * @param {*} value The value to set. Will be automatically parsed into the appropriate type.
+ */
+function setConfig(key, value) {
+  global.config[key.toLowerCase()] = parseConfigValue(value);
   JsonIO.write(CONFIG_FILENAME, global.config);
 }
 
-// Command Parser for Config Adjustment via Chat.
+/**
+ * Chat event handler that parses config commands.
+ * 
+ * Command Syntax (in-game chat, assuming default command): 
+ * Get Config: !vconfig [option]
+ * Set Config: !vconfig [option] [setting]
+ * 
+ * @example Using the config command:
+ * Note: This example uses the default value for the command.
+ * Announce the current value of the debug entry to chat: !config debug
+ * Set the value of the debug entry to true: !config debug true
+ */
 onEvent('player.chat', (event) => {
-  
-  // Command Syntax: 
-  // Get Config: !config [option]
-  // Set Config: !config [option] [setting]
-
-  if (event.message.startsWith('!config')) {
+  if (event.message.startsWith(CONFIG_COMMAND)) {
     if (event.player.isOp()) {
       const params = event.message.trim().split(' ')
       if (params.length < 2) {
