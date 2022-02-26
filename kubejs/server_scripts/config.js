@@ -45,7 +45,7 @@ onEvent('player.chat', function (event) {
 
   if (event.message.startsWith('!config')) {
     if (event.player.isOp()) {
-      const params = event.message.split(' ')
+      const params = event.message.trim().split(' ')
       if (params.length < 2) {
         event.player.tell(Text.translate('valhelsia.config.syntax'));
       } else if (params.length == 2) {
