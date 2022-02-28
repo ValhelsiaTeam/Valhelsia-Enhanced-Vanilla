@@ -1,6 +1,6 @@
 {
   "valhelsia.comment.chat": "-----Chat Messages-----",
-  "valhelsia.first_start_message": "You have starting points available to spend on skills, open the skill menu to assign them (K by default).",
+  "valhelsia.first_start_message": "Je hebt start punten beschikbaar om uit te geven aan skills, open het skill menu om ze te selecteren (K by default).",
   "valhelsia.getting_started_guide": "View the Getting Started Guide.",
   "valhelsia.config.no_permission": "You do not have permission to use this command.",
   "valhelsia.config.current": "Current config entry: %s",
