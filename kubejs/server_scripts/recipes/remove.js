@@ -69,12 +69,6 @@ onEvent('recipes', function (event) {
 
     // Additional Additions
     'additionaladditions:fried_egg',
-
-    // Blockus
-    'blockus:snow_bricks',
-    'blockus:snow_brick_stairs',
-    'blockus:snow_brick_slab',
-    'blockus:snow_brick_wall'
   ]
 
   outputRemove.forEach(function (remove) {
