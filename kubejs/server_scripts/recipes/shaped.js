@@ -1,6 +1,8 @@
 // priority: 10
+// Valhelsia: Enhanced Vanilla
+// Shaped Recipe Additions
 
-onEvent('recipes', function (event) {
+onEvent('recipes', (event) => {
 
   // Convenience Functions:
   let shaped2x2 = (output, input) => {event.shaped(output, ['AA', 'AA'], {A: input})}
@@ -123,4 +125,4 @@ onEvent('recipes', function (event) {
   // Quartz Elevator
   wrapped('quartzelv:quartz_elevator', '#valhelsia:storage_blocks/ender', 'minecraft:quartz')
 
-})
+});

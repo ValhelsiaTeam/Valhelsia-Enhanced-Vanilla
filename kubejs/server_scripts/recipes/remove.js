@@ -1,6 +1,12 @@
 // priority: 100
+// Valhelsia: Enhanced Vanilla
+// Remove unused & duplicate recipes.
 
-onEvent('recipes', function (event) {
+/**
+ * @file Removes unused / undesired recipes from the pack.
+ */
+
+onEvent('recipes', (event) => {
 
   var idRemove = [
 
@@ -66,7 +72,6 @@ onEvent('recipes', function (event) {
   })
 
   var outputRemove = [
-
     // Additional Additions
     'additionaladditions:fried_egg',
   ]
@@ -74,4 +79,4 @@ onEvent('recipes', function (event) {
   outputRemove.forEach(function (remove) {
     event.remove({output: remove})
   })
-})
+});

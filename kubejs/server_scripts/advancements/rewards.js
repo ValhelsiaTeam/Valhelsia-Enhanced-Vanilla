@@ -16,6 +16,7 @@ const DEFAULT_REWARD_DATA = {
   skill: "points",
   points: 0
 };
+
 /**
  * Event handler for rewarding the player when gaining advancements.
  */

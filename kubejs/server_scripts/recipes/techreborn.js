@@ -1,8 +1,10 @@
 // priority: 10
+// Valhelsia: Enhanced Vanilla
+// Tech Reborn Additions & Compatibility
 
-onEvent('recipes', function (event) {
+onEvent('recipes', (event) => {
   
-  // Grinder
+  // Grinder Recipe Template
   const grind = (output, input, power, time) => {
     event.custom({
       type: "techreborn:grinder",
@@ -19,4 +21,4 @@ onEvent('recipes', function (event) {
 
   // ----- Grinder Recipes -----
   grind('techreborn:marble_dust', 'blockus:marble', 2, 1440)
-})
+});

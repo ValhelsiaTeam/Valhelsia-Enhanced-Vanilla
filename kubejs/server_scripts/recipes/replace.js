@@ -1,6 +1,8 @@
 // priority: 10
+// Valhelsia: Enhanced Vanilla
+// Recipe Input & Output Replacements
 
-onEvent('recipes', function (event) {
+onEvent('recipes', (event) => {
   // ----- Bug Fixes -----
   event.replaceOutput({id: 'techreborn:crafting_table/storage_block/raw_iridium_storage_block'}, 'techreborn:iridium_storage_block', 'techreborn:raw_iridium_storage_block')
   event.replaceOutput({id: 'techreborn:crafting_table/storage_block/raw_lead_storage_block'}, 'techreborn:lead_storage_block', 'techreborn:raw_lead_storage_block')
@@ -22,4 +24,4 @@ onEvent('recipes', function (event) {
   // ----- Unification -----
   event.replaceOutput({}, 'betterend:ender_dust', 'techreborn:ender_pearl_dust')
   event.replaceOutput({}, 'ae2:ender_dust', 'techreborn:ender_pearl_dust')
-})
+});
