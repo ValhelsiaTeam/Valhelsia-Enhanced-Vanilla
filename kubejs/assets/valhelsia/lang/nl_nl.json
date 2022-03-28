@@ -5,7 +5,7 @@
   "valhelsia.config.no_permission": "You do not have permission to use this command.",
   "valhelsia.config.current": "Current config entry: %s",
   "valhelsia.config.updated": "Updated config entry: %s",
-  "valhelsia.config.syntax": "Syntax: Get config entry: !config [option]. Set config entry: !config [option] [entry]",
+  "valhelsia.config.syntax": "Syntax: Get config entry: !vconfig [option]. Set config entry: !vconfig [option] [entry]",
   "valhelsia.comment.advancement_levels": "-----Advancement Levels System-----",
   "valhelsia.advancement_levels.points.awarded": "You have earned %d skill point(s)!",
   "valhelsia.advancement_levels.skills.awarded": "You have earned %d points(s) in %s.",
