@@ -20,8 +20,8 @@ onEvent('recipes', (event) => {
         {item: "farmersdelight:tree_bark"}
       ],
       sound: "minecraft:item.axe.strip"
-    })
-  }
+    });
+  };
 
   // Cutting Board Axe Chopping Recipe Template
   const chop = (output, input) => {
@@ -37,8 +37,8 @@ onEvent('recipes', (event) => {
       result: [
         Item.of(output).toResultJson()
       ]
-    })
-  }
+    });
+  };
 
   // Cutting Board Knife Cutting Recipe Template
   // Note: When using this, ensure that output is an array.
@@ -52,8 +52,8 @@ onEvent('recipes', (event) => {
         tag: "fabric:tools/knives"
       },
       result: output
-    })
-  }
+    });
+  };
 
   // Cooking Pot Recipe Template
   const pot = (output, input, container) => {
@@ -64,19 +64,19 @@ onEvent('recipes', (event) => {
       container: Item.of(container).toJson(),
       experience: 0.2,
       cookingtime: 200
-    })
-  }
+    });
+  };
 
   // ----- Axe Recipes -----
-  strip('architects_palette:stripped_twisted_log', 'architects_palette:twisted_log')
-  strip('architects_palette:stripped_twisted_wood', 'architects_palette:twisted_wood')
-  strip('blockus:stripped_white_oak_log', 'blockus:white_oak_log')
-  strip('blockus:stripped_white_oak_wood', 'blockus:white_oak_wood')
-  strip('techreborn:stripped_rubber_log', 'techreborn:rubber_log')
-  strip('techreborn:stripped_rubber_wood', 'techreborn:rubber_wood')
+  strip('architects_palette:stripped_twisted_log', 'architects_palette:twisted_log');
+  strip('architects_palette:stripped_twisted_wood', 'architects_palette:twisted_wood');
+  strip('blockus:stripped_white_oak_log', 'blockus:white_oak_log');
+  strip('blockus:stripped_white_oak_wood', 'blockus:white_oak_wood');
+  strip('techreborn:stripped_rubber_log', 'techreborn:rubber_log');
+  strip('techreborn:stripped_rubber_wood', 'techreborn:rubber_wood');
 
   // ----- Knife Recipes -----
-  cut([Item.of('minecraft:string', 2)], '#minecraft:wool')
+  cut([Item.of('minecraft:string', 2)], '#minecraft:wool');
 
   // ----- Cooking Pot Recipes -----
 

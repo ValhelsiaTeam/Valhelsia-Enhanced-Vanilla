@@ -17,7 +17,7 @@ onEvent('recipes', (event) => {
         Item.of(output).toJson()
       ]
     });
-  }
+  };
 
   // Implosion Compressor Recipe Template
   const implosion = (outputs, inputs, power, time) => {
@@ -28,7 +28,7 @@ onEvent('recipes', (event) => {
       ingredients: inputs,
       results: outputs
     });
-  }
+  };
 
   // ----- Grinder Recipes -----
   grind('techreborn:marble_dust', 'blockus:marble', 2, 1440);

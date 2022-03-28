@@ -65,18 +65,18 @@ onEvent('recipes', (event) => {
     // Decorative Blocks
     'decorative_blocks:chain',
     'decorative_blocks:rocky_dirt',
-  ]
+  ];
 
   idRemove.forEach(function (remove) {
-    event.remove({id: remove})
-  })
+    event.remove({id: remove});
+  });
 
   var outputRemove = [
     // Additional Additions
     'additionaladditions:fried_egg',
-  ]
+  ];
 
   outputRemove.forEach(function (remove) {
-    event.remove({output: remove})
-  })
+    event.remove({output: remove});
+  });
 });
