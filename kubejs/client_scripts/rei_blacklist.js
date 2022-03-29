@@ -122,6 +122,15 @@ onEvent('rei.hide.items', event => {
     Item.of('immersive_portals:command_stick', '{command:"/portal set_portal_nbt {teleportChangesGravity:true}",descriptionTranslationKeys:["imm_ptl.command_desc.enable_gravity_change"],nameTranslationKey:"imm_ptl.command.enable_gravity_change"}'),
     Item.of('immersive_portals:command_stick', '{command:"/portal goback",descriptionTranslationKeys:["imm_ptl.command_desc.goback"],nameTranslationKey:"imm_ptl.command.goback"}'),
     Item.of('immersive_portals:command_stick', '{command:"/portal wiki",descriptionTranslationKeys:["imm_ptl.command_desc.show_wiki"],nameTranslationKey:"imm_ptl.command.show_wiki"}'),
-    'minecraft:debug_stick'
+    'minecraft:debug_stick',
+    'additionaladditions:rose_gold_helmet',
+    'additionaladditions:rose_gold_chestplate',
+    'additionaladditions:rose_gold_leggings',
+    'additionaladditions:rose_gold_boots',
+    'additionaladditions:rose_gold_sword',
+    'additionaladditions:rose_gold_pickaxe',
+    'additionaladditions:rose_gold_axe',
+    'additionaladditions:rose_gold_shovel',
+    'additionaladditions:rose_gold_hoe'
   ])
 })
