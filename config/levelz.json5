@@ -10,7 +10,7 @@
 	// Amount of allowed mob kills in a chunk
 	"mobKillCount": 5,
 	// Highlight locked blocks in red.
-	"highlightLocked": true,
+	"highlightLocked": false,
 	// Attribute values - Bonus for each lvl
 	"healthBase": 6.0,
 	"healthBonus": 0.5,
