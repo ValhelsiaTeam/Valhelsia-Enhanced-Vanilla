@@ -46,9 +46,9 @@ onEvent('tags.items', event => {
   // ----- Inter-mod Compatibility -----
   event.get('valhelsia:storage_blocks/ender').add([
     'architects_palette:ender_pearl_block',
-    'betterend:ender_block',
+    //'betterend:ender_block',
     'blockus:ender_block' // This is disabled, but if a player somehow gets one it should work in recipes anyway.
   ])
 
-  event.add('c:ender_pearl_dusts', 'betterend:ender_dust')
+  //event.add('c:ender_pearl_dusts', 'betterend:ender_dust')
 })
