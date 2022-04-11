@@ -22,29 +22,19 @@ const DEFAULT_REWARD_DATA = {
  */
 onEvent('player.advancement', (event) => {
   if (event.advancement.hasDisplay()) {
-    // Mappings used below:
-    // method_686 = getDisplay()
-    // method_824 = isHidden()
-    // method_808 = announceToChat()
-    // method_815 = getFrame()
-    // method_831 = getId() or getTitle()
-
-    // 2022-02-26 (VZ): Disabled isHidden check - we want to give rewards for hidden advancements now as long as they're announced:
-    //                  !event.advancement.advancement.method_686().method_824() && 
-
     // Award points only for advancements that are announced to chat:
-    if (event.advancement.advancement.method_686().method_808()) {
+	if (event.advancement.advancement.getDisplay().shouldAnnounceChat()) {
 
-      let advancementType = event.advancement.advancement.method_686().method_815().method_831();
+	  let frameType = event.advancement.advancement.getDisplay().getFrame().getName();
 
       // Debug output of advancement information to log.
       if (global.config.debug) {
-	      console.log(`Advancement Obtained: ${event.advancement.getTitle()} ("${event.advancement.id()}"), type: "${advancementType}"`);
+	      console.log(`Advancement Obtained: ${event.advancement.getTitle()} ("${event.advancement.id()}"), type: "${frameType}"`);
       }
 
-      // Jangro's Suggestion - award points based on the type of advancement:
+      // Simple Advancement Reward System
       if (global.config.simple_advancement_points) {
-        switch(advancementType) {
+        switch(frameType) {
           case 'task':
             if (global.config.task_points > 0) {
               event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.task_points}`);
@@ -70,11 +60,11 @@ onEvent('player.advancement', (event) => {
             }
             break;
           default:
-            console.warn(`Unknown advancement type: ${advancementType}`);
+            console.warn(`Unknown advancement type: ${frameType}`);
         }
       }
 
-      // Reward points based on the specific advancement data:
+      // Advanced Advancement Reward System
       if (global.config.individual_advancement_points) {
         let path = `kubejs/script_data/advancement_rewards/${event.advancement.id().toString().replace(':', '-').replace('/', '-')}.json`;
         let rewardData = JsonIO.read(path);
