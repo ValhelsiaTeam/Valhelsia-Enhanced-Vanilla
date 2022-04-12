@@ -23,9 +23,7 @@ B:showcustomizationbuttons = 'false';
 
 ##[mainmenu]
 
-S:copyrightposition = 'bottom-right';
 B:hidebranding = 'false';
-S:copyrightcolor = '#ffffff';
 B:hidelogo = 'true';
 B:hiderealmsnotifications = 'true';
 
@@ -77,3 +75,13 @@ B:showvanillamovewarning = 'true';
 ##[ui]
 
 F:uiscale = '1.0';
+
+
+##[multiplayer_screen]
+
+B:show_server_icons = 'true';
+
+
+##[singleplayer_screen]
+
+B:show_world_icons = 'true';
