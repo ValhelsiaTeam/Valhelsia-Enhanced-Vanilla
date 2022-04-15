@@ -123,6 +123,10 @@ onEvent('rei.hide.items', event => {
     Item.of('immersive_portals:command_stick', '{command:"/portal goback",descriptionTranslationKeys:["imm_ptl.command_desc.goback"],nameTranslationKey:"imm_ptl.command.goback"}'),
     Item.of('immersive_portals:command_stick', '{command:"/portal wiki",descriptionTranslationKeys:["imm_ptl.command_desc.show_wiki"],nameTranslationKey:"imm_ptl.command.show_wiki"}'),
     'minecraft:debug_stick',
+    'decorative_blocks:blockstate_copy_item',
+    'bedspreads:decorated_bed',
+
+    // Additional Additions
     'additionaladditions:rose_gold_helmet',
     'additionaladditions:rose_gold_chestplate',
     'additionaladditions:rose_gold_leggings',
@@ -131,6 +135,26 @@ onEvent('rei.hide.items', event => {
     'additionaladditions:rose_gold_pickaxe',
     'additionaladditions:rose_gold_axe',
     'additionaladditions:rose_gold_shovel',
-    'additionaladditions:rose_gold_hoe'
+    'additionaladditions:rose_gold_hoe',
+
+    // Blockus
+    'blockus:snow_bricks',
+    'blockus:snow_brick_stairs',
+    'blockus:snow_brick_slab',
+    'blockus:snow_brick_wall',
+    'blockus:amethyst_bricks',
+    'blockus:amethyst_brick_stairs',
+    'blockus:amethyst_brick_slab',
+    'blockus:amethyst_brick_wall',
+    'blockus:polished_amethyst',
+    'blockus:polished_amethyst_stairs',
+    'blockus:polished_amethyst_slab',
+    'blockus:chiseled_amethyst',
+
+    // Twigs
+    'twigs:mossy_bricks',
+    'twigs:mossy_brick_stairs',
+    'twigs:mossy_brick_slab',
+    'twigs:mossy_brick_wall',
   ])
 })
