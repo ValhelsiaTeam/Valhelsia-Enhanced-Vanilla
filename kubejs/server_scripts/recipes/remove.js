@@ -56,6 +56,7 @@ onEvent('recipes', (event) => {
     'blockus:legacy_grass_block',
     'blockus:legacy_first_grass_block',
     'blockus:legacy_first_grass_block_stonecutting',
+    'blockus:rainbow_glowstone',
 
     // Quartz Elevator
     'quartzelv:quartz_elevator',

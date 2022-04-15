@@ -102,6 +102,15 @@ onEvent('recipes', (event) => {
     C: 'minecraft:jungle_slab'
   });
 
+  event.shaped('blockus:rainbow_glowstone', [
+    ' B ',
+    'BAB',
+    ' B '
+  ], {
+    A: 'minecraft:glowstone',
+    B: 'blockus:rainbow_petal'
+  });
+
   barrel('blockus:oak_barrel', 'minecraft:oak_planks', 'minecraft:oak_slab');
   barrel('blockus:birch_barrel', 'minecraft:birch_planks', 'minecraft:birch_slab');
   barrel('blockus:jungle_barrel', 'minecraft:jungle_planks', 'minecraft:jungle_slab');
