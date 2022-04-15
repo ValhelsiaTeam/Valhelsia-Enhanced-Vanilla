@@ -1,0 +1,83 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_433
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=398306%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=398306%
+  action = setbuttonlabel
+  value = Wiki
+}
+
+customization {
+  identifier = %id=398306%
+  action = sethoverlabel
+  label = Wiki
+}
+
+customization {
+  identifier = %id=504306%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504306%
+  action = setbuttonlabel
+  value = Support Us
+}
+
+customization {
+  identifier = %id=504306%
+  action = sethoverlabel
+  label = Support Us
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Support Us
+  loopbackgroundanimations = true
+  hoverlabel = Support Us
+  orientation_element = vanillabtn:504282
+  x = 0
+  width = 98
+  actionid = 8856281b-e254-46d5-8d18-98b78d01c9211639158461021
+  action = addbutton
+  y = 24
+  value = https://wiki.valhelsia.net/support-us
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Wiki
+  loopbackgroundanimations = true
+  hoverlabel = Wiki
+  orientation_element = vanillabtn:398282
+  x = 0
+  width = 98
+  actionid = 6020561b-e75b-4705-a1b7-20a5a5a0ed571639158532837
+  action = addbutton
+  y = 24
+  value = https://wiki.valhelsia.net/
+  height = 20
+}
+

@@ -14,7 +14,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=400310%
   orientation = mid-centered
   x = 2
   action = movebutton
@@ -22,20 +22,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=400310%
   width = 160
   action = resizebutton
   height = 35
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=400310%
   action = setbuttonlabel
   value =      Multiplayer
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=400310%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -44,7 +44,49 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=400310%
+  action = sethoverlabel
+  label =      Multiplayer
+}
+
+customization {
+  identifier = %id=400358%
+  orientation = mid-centered
+  x = -161
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=400358%
+  width = 160
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=400358%
+  action = setbuttonlabel
+  value =      Mods
+}
+
+customization {
+  identifier = %id=400358%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\mods-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\mods-button.png
+}
+
+customization {
+  identifier = %id=400358%
+  action = sethoverlabel
+  label =      Mods
+}
+
+customization {
+  identifier = %id=604394%
   orientation = mid-centered
   x = 165
   action = movebutton
@@ -52,20 +94,20 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=604394%
   width = 35
   action = resizebutton
   height = 35
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=604394%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=604394%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -74,97 +116,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
-  orientation = mid-centered
-  x = -161
-  action = movebutton
-  y = 37
-}
-
-customization {
-  identifier = %id=400382%
-  width = 160
-  action = resizebutton
-  height = 35
-}
-
-customization {
-  identifier = %id=400382%
-  action = setbuttonlabel
-  value =    Options...
-}
-
-customization {
-  identifier = %id=400382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs\assets\custom-menu\textures\gui\options-hover-button.png
-  backgroundnormal = kubejs\assets\custom-menu\textures\gui\options-button.png
-}
-
-customization {
-  identifier = %id=502382%
-  orientation = mid-centered
-  x = 2
-  action = movebutton
-  y = 37
-}
-
-customization {
-  identifier = %id=502382%
-  width = 160
-  action = resizebutton
-  height = 35
-}
-
-customization {
-  identifier = %id=502382%
-  action = setbuttonlabel
-  value =      Quit Game
-}
-
-customization {
-  identifier = %id=502382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs\assets\custom-menu\textures\gui\exit-hover-button.png
-  backgroundnormal = kubejs\assets\custom-menu\textures\gui\exit-button.png
-}
-
-customization {
-  identifier = %id=376382%
-  orientation = mid-centered
-  x = -199
-  action = movebutton
-  y = 37
-}
-
-customization {
-  identifier = %id=376382%
-  width = 35
-  action = resizebutton
-  height = 35
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=376382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs\assets\custom-menu\textures\gui\language-hover-button.png
-  backgroundnormal = kubejs\assets\custom-menu\textures\gui\language-button.png
-}
-
-customization {
-  identifier = %id=400298%
+  identifier = %id=400286%
   orientation = mid-centered
   x = -161
   action = movebutton
@@ -172,20 +124,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=400286%
   width = 160
   action = resizebutton
   height = 35
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=400286%
   action = setbuttonlabel
   value =      Singleplayer
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=400286%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -194,33 +146,116 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
-  orientation = mid-centered
-  x = -161
-  action = movebutton
-  y = -1
+  identifier = %id=400286%
+  action = sethoverlabel
+  label =      Singleplayer
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=400334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-centered
+  x = -161
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=400394%
   width = 160
   action = resizebutton
   height = 35
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=400394%
   action = setbuttonlabel
-  value =      Mods
+  value =      Options...
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=400394%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = kubejs\assets\custom-menu\textures\gui\mods-hover-button.png
-  backgroundnormal = kubejs\assets\custom-menu\textures\gui\mods-button.png
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\options-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\options-button.png
+}
+
+customization {
+  identifier = %id=400394%
+  action = sethoverlabel
+  label =      Options...
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=502394%
+  width = 160
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=502394%
+  action = setbuttonlabel
+  value =      Quit Game
+}
+
+customization {
+  identifier = %id=502394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\exit-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\exit-button.png
+}
+
+customization {
+  identifier = %id=502394%
+  action = sethoverlabel
+  label =      Quit Game
+}
+
+customization {
+  identifier = %id=376394%
+  orientation = mid-centered
+  x = -199
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=376394%
+  width = 35
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=376394%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\language-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\language-button.png
 }
 
 customization {
@@ -230,7 +265,7 @@ customization {
   width = 155
   action = addtexture
   actionid = 06f4d2a6-41be-4fbe-8e61-98ce912fa3461639130597244
-  y = 10
+  y = 5
   height = 66
 }
 
@@ -259,7 +294,7 @@ customization {
   backgroundhovered = kubejs\assets\custom-menu\textures\gui\valhelsia-hover-button.png
   label = 
   loopbackgroundanimations = true
-  x = -68
+  x = -67
   width = 32
   actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
   action = addbutton
@@ -276,7 +311,7 @@ customization {
   backgroundhovered = kubejs\assets\custom-menu\textures\gui\discord-hover-button.png
   label = 
   loopbackgroundanimations = true
-  x = -16
+  x = -15
   width = 32
   actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
   action = addbutton
@@ -293,7 +328,7 @@ customization {
   backgroundhovered = kubejs\assets\custom-menu\textures\gui\twitter-hover-button.png
   label = 
   loopbackgroundanimations = true
-  x = 36
+  x = 37
   width = 32
   actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
   action = addbutton
