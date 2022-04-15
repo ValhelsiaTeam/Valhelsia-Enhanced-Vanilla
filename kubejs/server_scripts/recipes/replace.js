@@ -3,6 +3,7 @@
 // Recipe Input & Output Replacements
 
 onEvent('recipes', (event) => {
+
   // ----- Bug Fixes -----
   event.replaceOutput({id: 'techreborn:crafting_table/storage_block/raw_iridium_storage_block'}, 'techreborn:iridium_storage_block', 'techreborn:raw_iridium_storage_block');
   event.replaceOutput({id: 'techreborn:crafting_table/storage_block/raw_lead_storage_block'}, 'techreborn:lead_storage_block', 'techreborn:raw_lead_storage_block');
@@ -16,12 +17,15 @@ onEvent('recipes', (event) => {
   event.replaceInput({id: 'techreborn:crafting_table/raw/raw_tin_from_block'}, 'techreborn:tin_storage_block', 'techreborn:raw_tin_storage_block');
   event.replaceInput({id: 'techreborn:crafting_table/raw/raw_tungsten_from_block'}, 'techreborn:tungsten_storage_block', 'techreborn:raw_tungsten_storage_block');
 
-
   // ----- Inter-mod Compatibility -----
   event.replaceInput({}, 'betterend:ender_dust', '#c:ender_pearl_dusts');
   event.replaceInput({}, 'techreborn:ender_pearl_dust', '#c:ender_pearl_dusts');
 
   // ----- Unification -----
+  event.replaceInput({}, 'blockus:snow_bricks', 'ecologics:snow_bricks');
+  event.replaceInput({}, 'blockus:amethyst_bricks', 'twigs:polished_amethyst_bricks');
+  event.replaceInput({}, 'blockus:polished_amethyst', 'twigs:polished_amethyst');
+
   event.replaceOutput({}, 'betterend:ender_dust', 'techreborn:ender_pearl_dust');
   event.replaceOutput({}, 'ae2:ender_dust', 'techreborn:ender_pearl_dust');
 });

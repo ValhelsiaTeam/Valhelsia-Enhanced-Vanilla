@@ -10,6 +10,9 @@ onEvent('recipes', (event) => {
 
   var idRemove = [
 
+    // Architect's Palette
+    'architects_palette:ender_pearl_block',
+
     // Oxidized
     'oxidized:copper_nugget', // Duplicate recipe.
     'oxidized:rose_gold_sword', // Duplicate recipe.
@@ -58,6 +61,10 @@ onEvent('recipes', (event) => {
     'blockus:legacy_first_grass_block_stonecutting',
     'blockus:rainbow_glowstone',
 
+    // Ecologics
+    'ecologics:moss_block',
+    'ecologics:surface_moss',
+
     // Quartz Elevator
     'quartzelv:quartz_elevator',
     'quartzelv:quartz_elevator_from_quartz_block',
@@ -73,8 +80,29 @@ onEvent('recipes', (event) => {
   });
 
   var outputRemove = [
+
     // Additional Additions
     'additionaladditions:fried_egg',
+
+    // Blockus
+    'blockus:snow_bricks',
+    'blockus:snow_brick_stairs',
+    'blockus:snow_brick_slab',
+    'blockus:snow_brick_wall',
+    'blockus:amethyst_bricks',
+    'blockus:amethyst_brick_stairs',
+    'blockus:amethyst_brick_slab',
+    'blockus:amethyst_brick_wall',
+    'blockus:polished_amethyst',
+    'blockus:polished_amethyst_stairs',
+    'blockus:polished_amethyst_slab',
+    'blockus:chiseled_amethyst',
+
+    // Twigs
+    'twigs:mossy_bricks',
+    'twigs:mossy_brick_stairs',
+    'twigs:mossy_brick_slab',
+    'twigs:mossy_brick_wall',
   ];
 
   outputRemove.forEach(function (remove) {

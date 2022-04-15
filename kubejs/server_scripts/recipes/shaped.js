@@ -72,6 +72,9 @@ onEvent('recipes', (event) => {
     S: 'minecraft:string',
     C: 'farmersdelight:canvas'
   });
+
+  // Architect's Palette
+  shaped3x3('architects_palette:ender_pearl_block', 'minecraft:ender_pearl');
   
   // Additional Enchanted Miner
   event.shaped('quarryplus:quarry', [
@@ -111,6 +114,13 @@ onEvent('recipes', (event) => {
     B: 'blockus:rainbow_petal'
   });
 
+  event.shaped('2x blockus:snow_pillar', [
+    'A',
+    'A'
+  ], {
+    A: 'minecraft:snow_block'
+  });
+
   barrel('blockus:oak_barrel', 'minecraft:oak_planks', 'minecraft:oak_slab');
   barrel('blockus:birch_barrel', 'minecraft:birch_planks', 'minecraft:birch_slab');
   barrel('blockus:jungle_barrel', 'minecraft:jungle_planks', 'minecraft:jungle_slab');
@@ -131,6 +141,9 @@ onEvent('recipes', (event) => {
     A: 'minecraft:iron_ingot',
     B: 'minecraft:iron_nugget'
   });
+
+  // Ecologics
+  shaped2x2('minecraft:moss_block', 'ecologics:surface_moss');
   
   // Quartz Elevator
   wrapped('quartzelv:quartz_elevator', '#valhelsia:storage_blocks/ender', 'minecraft:quartz');
