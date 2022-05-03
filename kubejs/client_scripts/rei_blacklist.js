@@ -2,16 +2,6 @@
 
 onEvent('rei.hide.items', event => {
   event.hide([
-    'additionaladditions:gilded_netherite_axe',
-    'additionaladditions:gilded_netherite_boots',
-    'additionaladditions:gilded_netherite_chestplate',
-    'additionaladditions:gilded_netherite_helmet',
-    'additionaladditions:gilded_netherite_hoe',
-    'additionaladditions:gilded_netherite_leggings',
-    'additionaladditions:gilded_netherite_pickaxe',
-    'additionaladditions:gilded_netherite_shovel',
-    'additionaladditions:gilded_netherite_sword',
-    'additionaladditions:gold_ring',
     'blockus:ender_block',
     'blockus:legacy_bricks',
     'blockus:legacy_coal_block',
@@ -127,15 +117,16 @@ onEvent('rei.hide.items', event => {
     'bedspreads:decorated_bed',
 
     // Additional Additions
-    'additionaladditions:rose_gold_helmet',
-    'additionaladditions:rose_gold_chestplate',
-    'additionaladditions:rose_gold_leggings',
-    'additionaladditions:rose_gold_boots',
-    'additionaladditions:rose_gold_sword',
-    'additionaladditions:rose_gold_pickaxe',
-    'additionaladditions:rose_gold_axe',
-    'additionaladditions:rose_gold_shovel',
-    'additionaladditions:rose_gold_hoe',
+    'additionaladditions:gilded_netherite_axe',
+    'additionaladditions:gilded_netherite_boots',
+    'additionaladditions:gilded_netherite_chestplate',
+    'additionaladditions:gilded_netherite_helmet',
+    'additionaladditions:gilded_netherite_hoe',
+    'additionaladditions:gilded_netherite_leggings',
+    'additionaladditions:gilded_netherite_pickaxe',
+    'additionaladditions:gilded_netherite_shovel',
+    'additionaladditions:gilded_netherite_sword',
+    'additionaladditions:gold_ring',
 
     // Blockus
     'blockus:snow_bricks',
