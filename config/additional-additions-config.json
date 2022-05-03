@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "GildedNetherite": false,
   "Wrench": true,
   "AmethystLamp": true,
@@ -14,14 +14,27 @@
   "GoldRing": false,
   "Crossbows": true,
   "MusicDiscs": true,
-  "RoseGold": false,
-  "FoodItems": true,
+  "RoseGold": true,
   "Potions": true,
   "WateringCan": true,
   "CopperPatina": true,
   "Ropes": true,
   "TridentShard": true,
   "ShipwreckSpyglassLoot": true,
-  "DepthMeter": true,
-  "PocketJukebox": true
+  "PocketJukebox": true,
+  "FoodItems": {
+    "FriedEgg": true,
+    "BerryPie": true,
+    "HoneyedApple": true
+  },
+  "DepthMeter": {
+    "enabled": true,
+    "displayElevationAlways": false
+  },
+  "GlowBerryEatGlow": {
+    "enabled": true,
+    "duration": 5
+  },
+  "HastePotions": true,
+  "BundleRecipe": false
 }
