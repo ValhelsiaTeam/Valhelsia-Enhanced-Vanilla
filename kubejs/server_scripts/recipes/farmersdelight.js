@@ -49,7 +49,7 @@ onEvent('recipes', (event) => {
         Ingredient.of(input).toJson()
       ],
       tool: {
-        tag: "fabric:tools/knives"
+        tag: "farmersdelight:tools/knives"
       },
       result: output
     });
