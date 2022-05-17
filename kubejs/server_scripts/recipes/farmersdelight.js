@@ -7,32 +7,32 @@ onEvent('recipes', (event) => {
   // Cutting Board Axe Stripping Recipe Template
   const strip = (output, input) => {
     event.custom({
-      type: "farmersdelight:cutting",
+      type: 'farmersdelight:cutting',
       ingredients: [
         Ingredient.of(input).toJson()
       ],
       tool: {
-        type: "farmersdelight:tool",
-        tag: "fabric:tools/axes"
+        type: 'farmersdelight:tool',
+        tag: 'fabric:tools/axes'
       },
       result: [
         Item.of(output).toResultJson(),
-        {item: "farmersdelight:tree_bark"}
+        {item: 'farmersdelight:tree_bark'}
       ],
-      sound: "minecraft:item.axe.strip"
+      sound: 'minecraft:item.axe.strip'
     });
   };
 
   // Cutting Board Axe Chopping Recipe Template
   const chop = (output, input) => {
     event.custom({
-      type: "farmersdelight:cutting",
+      type: 'farmersdelight:cutting',
       ingredients: [
         Ingredient.of(input).toJson()
       ],
       tool: {
-        type: "farmersdelight:tool",
-        tag: "fabric:tools/axes"
+        type: 'farmersdelight:tool',
+        tag: 'fabric:tools/axes'
       },
       result: [
         Item.of(output).toResultJson()
@@ -44,12 +44,12 @@ onEvent('recipes', (event) => {
   // Note: When using this, ensure that output is an array.
   const cut = (output, input) => {
     event.custom({
-      type: "farmersdelight:cutting",
+      type: 'farmersdelight:cutting',
       ingredients: [
         Ingredient.of(input).toJson()
       ],
       tool: {
-        tag: "farmersdelight:tools/knives"
+        tag: 'farmersdelight:tools/knives'
       },
       result: output
     });
@@ -58,7 +58,7 @@ onEvent('recipes', (event) => {
   // Cooking Pot Recipe Template
   const pot = (output, input, container) => {
     event.custom({
-      type: "farmersdelight:cooking",
+      type: 'farmersdelight:cooking',
       ingredients: input,
       result: Item.of(output).toResultJson(),
       container: Item.of(container).toJson(),

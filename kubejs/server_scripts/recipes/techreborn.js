@@ -7,7 +7,7 @@ onEvent('recipes', (event) => {
   // Grinder Recipe Template
   const grind = (output, input, power, time) => {
     event.custom({
-      type: "techreborn:grinder",
+      type: 'techreborn:grinder',
       power: power,
       time: time,
       ingredients: [
@@ -22,7 +22,7 @@ onEvent('recipes', (event) => {
   // Implosion Compressor Recipe Template
   const implosion = (outputs, inputs, power, time) => {
     event.custom({
-      type: "techreborn:implosion_compressor",
+      type: 'techreborn:implosion_compressor',
       power: power,
       time: time,
       ingredients: inputs,
