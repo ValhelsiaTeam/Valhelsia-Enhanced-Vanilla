@@ -14,7 +14,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
   x = 2
   action = movebutton
@@ -22,20 +22,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 160
   action = resizebutton
   height = 35
 }
 
 customization {
-  identifier = %id=400310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttonlabel
   value =      Multiplayer
 }
 
 customization {
-  identifier = %id=400310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -44,13 +44,13 @@ customization {
 }
 
 customization {
-  identifier = %id=400310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = sethoverlabel
   label =      Multiplayer
 }
 
 customization {
-  identifier = %id=400358%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   orientation = mid-centered
   x = -161
   action = movebutton
@@ -58,20 +58,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400358%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   width = 160
   action = resizebutton
   height = 35
 }
 
 customization {
-  identifier = %id=400358%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   action = setbuttonlabel
   value =      Mods
 }
 
 customization {
-  identifier = %id=400358%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -80,13 +80,13 @@ customization {
 }
 
 customization {
-  identifier = %id=400358%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   action = sethoverlabel
   label =      Mods
 }
 
 customization {
-  identifier = %id=604394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
   x = 165
   action = movebutton
@@ -94,20 +94,20 @@ customization {
 }
 
 customization {
-  identifier = %id=604394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   width = 35
   action = resizebutton
   height = 35
 }
 
 customization {
-  identifier = %id=604394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=604394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -116,7 +116,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400286%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
   x = -161
   action = movebutton
@@ -124,20 +124,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400286%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   width = 160
   action = resizebutton
   height = 35
 }
 
 customization {
-  identifier = %id=400286%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttonlabel
   value =      Singleplayer
 }
 
 customization {
-  identifier = %id=400286%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -146,18 +146,18 @@ customization {
 }
 
 customization {
-  identifier = %id=400286%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = sethoverlabel
   label =      Singleplayer
 }
 
 customization {
-  identifier = %id=400334%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
   x = -161
   action = movebutton
@@ -165,20 +165,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   width = 160
   action = resizebutton
   height = 35
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttonlabel
   value =      Options...
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -187,34 +187,34 @@ customization {
 }
 
 customization {
-  identifier = %id=400394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = sethoverlabel
   label =      Options...
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 2
   action = movebutton
-  y = 37
+  y = 38
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 160
   action = resizebutton
   height = 35
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttonlabel
   value =      Quit Game
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -223,13 +223,13 @@ customization {
 }
 
 customization {
-  identifier = %id=502394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = sethoverlabel
   label =      Quit Game
 }
 
 customization {
-  identifier = %id=376394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
   x = -199
   action = movebutton
@@ -237,20 +237,20 @@ customization {
 }
 
 customization {
-  identifier = %id=376394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   width = 35
   action = resizebutton
   height = 35
 }
 
 customization {
-  identifier = %id=376394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=376394%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -336,5 +336,18 @@ customization {
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\twitter-button.png
   value = https://twitter.com/Valhelsia
   height = 32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:null%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:null%
+  orientation = top-left
+  x = 68
+  action = movebutton
+  y = 100
 }
 
