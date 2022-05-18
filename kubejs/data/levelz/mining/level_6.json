@@ -3,6 +3,7 @@
 	"level": 6,
 	"block": [
 		"minecraft:iron_ore",
-		"minecraft:dripstone_block"
+		"minecraft:dripstone_block",
+		"twigs:schist"
 	]
 }

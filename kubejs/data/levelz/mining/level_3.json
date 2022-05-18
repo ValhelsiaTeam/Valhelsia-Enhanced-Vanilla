@@ -6,6 +6,10 @@
         "minecraft:granite",
         "minecraft:andesite",
         "minecraft:diorite",
-		"blockus:limestone"
+		"blockus:limestone",
+		"create:scoria",
+		"create:limestone",
+		"create:crimsite",
+		"create:veridium"
 	]
 }
