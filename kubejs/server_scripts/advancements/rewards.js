@@ -22,10 +22,12 @@ const DEFAULT_REWARD_DATA = {
  */
 onEvent('player.advancement', (event) => {
   if (event.advancement.hasDisplay()) {
-    // Award points only for advancements that are announced to chat:
-	if (event.advancement.advancement.getDisplay().shouldAnnounceChat()) {
+    let display = event.advancement.advancement.getDisplay();
 
-	  let frameType = event.advancement.advancement.getDisplay().getFrame().getName();
+    // Award points only for advancements that are announced to chat or that show a toast:
+	  if (display.shouldAnnounceChat() || display.shouldShowToast()) {
+
+	    let frameType = display.getFrame().getName();
 
       // Debug output of advancement information to log.
       if (global.config.debug) {
