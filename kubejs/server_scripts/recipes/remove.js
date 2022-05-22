@@ -1,15 +1,22 @@
 // priority: 100
 // Valhelsia: Enhanced Vanilla
-// Remove unused & duplicate recipes.
 
 /**
- * @file Removes unused / undesired recipes from the pack.
+ * @file Recipe removals for Valhelsia: Enhanced Vanilla.
+ * 
+ * If intending to replace the recipe with a new one (be it differing input or output), 
+ * it is preferable to use replace instead of remove, if practical.
+ * @see replace.js
+ * 
  */
 
+/**
+ * Recipe Removal Event Handler (to be used for recipe removal only).
+ */
 onEvent('recipes', (event) => {
 
-  var idRemove = [
-
+  // Remove recipes by recipe ID.
+  [
     // Architect's Palette
     'architects_palette:ender_pearl_block',
 
@@ -73,14 +80,15 @@ onEvent('recipes', (event) => {
     // Decorative Blocks
     'decorative_blocks:chain',
     'decorative_blocks:rocky_dirt',
-  ];
+  ].forEach((recipeID) => event.remove({id: recipeID}));
 
-  idRemove.forEach(function (remove) {
-    event.remove({id: remove});
-  });
+  // Remove recipes by input.
+  [
+    // None yet.
+  ].forEach((ingredientID) => event.remove({input: ingredientID}));
 
-  var outputRemove = [
-
+  // Remove recipes by output.
+  [ 
     // Additional Additions
     'additionaladditions:fried_egg',
 
@@ -103,9 +111,5 @@ onEvent('recipes', (event) => {
     'twigs:mossy_brick_stairs',
     'twigs:mossy_brick_slab',
     'twigs:mossy_brick_wall',
-  ];
-
-  outputRemove.forEach(function (remove) {
-    event.remove({output: remove});
-  });
+  ].forEach((itemID) => event.remove({output: itemID}));
 });

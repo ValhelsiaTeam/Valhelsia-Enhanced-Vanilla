@@ -1,7 +1,18 @@
 // priority: 10
 // Valhelsia: Enhanced Vanilla
-// Shaped Recipe Additions
 
+/**
+ * @file Shaped recipe additions for Valhelsia: Enhanced Vanilla.
+ * 
+ * Contains several convenience functions for frequently used shapes.
+ * 
+ * @see shapeless.js
+ * 
+ */
+
+/**
+ * Shaped Recipe Event Handler
+ */
 onEvent('recipes', (event) => {
 
   // Convenience Functions:

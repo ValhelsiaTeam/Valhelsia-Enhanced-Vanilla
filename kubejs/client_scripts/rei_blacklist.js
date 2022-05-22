@@ -1,7 +1,24 @@
 // priority: 0
+// Valhelsia: Enhanced Vanilla
 
+/**
+ * @file REI Blacklist for Valhelsia: Enhanced Vanilla.
+ * 
+ * For consistency, Item / Fluid IDs should be in the order of Minecraft entries first, then by mod in alphabetical order.
+ *  
+ */
+
+/**
+ * REI Item Hiding Event Handler
+ */
 onEvent('rei.hide.items', event => {
   event.hide([
+    'minecraft:barrier',
+    'minecraft:jigsaw',
+    'minecraft:light',
+    'minecraft:structure_block',
+    'minecraft:structure_void',
+    'minecraft:debug_stick',
     'blockus:ender_block',
     'blockus:legacy_bricks',
     'blockus:legacy_coal_block',
@@ -27,11 +44,6 @@ onEvent('rei.hide.items', event => {
     'decorative_blocks:rocky_dirt',
     'harvest_scythes:creative_machete',
     'harvest_scythes:creative_scythe',
-    'minecraft:barrier',
-    'minecraft:jigsaw',
-    'minecraft:light',
-    'minecraft:structure_block',
-    'minecraft:structure_void',
     'oxidized:copper_nugget',
     'oxidized:rose_gold_axe',
     'oxidized:rose_gold_hoe',
@@ -112,7 +124,6 @@ onEvent('rei.hide.items', event => {
     Item.of('immersive_portals:command_stick', '{command:"/portal set_portal_nbt {teleportChangesGravity:true}",descriptionTranslationKeys:["imm_ptl.command_desc.enable_gravity_change"],nameTranslationKey:"imm_ptl.command.enable_gravity_change"}'),
     Item.of('immersive_portals:command_stick', '{command:"/portal goback",descriptionTranslationKeys:["imm_ptl.command_desc.goback"],nameTranslationKey:"imm_ptl.command.goback"}'),
     Item.of('immersive_portals:command_stick', '{command:"/portal wiki",descriptionTranslationKeys:["imm_ptl.command_desc.show_wiki"],nameTranslationKey:"imm_ptl.command.show_wiki"}'),
-    'minecraft:debug_stick',
     'decorative_blocks:blockstate_copy_item',
     'bedspreads:decorated_bed',
 
@@ -147,5 +158,15 @@ onEvent('rei.hide.items', event => {
     'twigs:mossy_brick_stairs',
     'twigs:mossy_brick_slab',
     'twigs:mossy_brick_wall',
-  ])
-})
+  ]);
+});
+
+/**
+ * REI Fluid Hiding Event Handler
+ */
+onEvent('rei.hide.fluids', event => {
+  // Hide Fluids.
+  //event.hide([
+  // // Placeholder - none for now.
+  //]);
+});

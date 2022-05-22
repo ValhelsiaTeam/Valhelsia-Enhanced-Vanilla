@@ -1,6 +1,5 @@
 // priority: 15
 // Valhelsia: Enhanced Vanilla
-// Advancement Removal Script
 
 /**
  * @file Removes unused / undesired advancements from the pack.

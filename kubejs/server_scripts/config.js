@@ -22,7 +22,6 @@
  * 
  */
 
-
 /**
  * The filename of the config file.
  * @const {string}

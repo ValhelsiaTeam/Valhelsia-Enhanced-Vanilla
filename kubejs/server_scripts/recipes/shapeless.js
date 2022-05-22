@@ -1,7 +1,14 @@
 // priority: 10
 // Valhelsia: Enhanced Vanilla
-// Shapeless Recipe Additions
 
+/**
+ * @file Shapeless recipe additions for Valhelsia: Enhanced Vanilla.
+ * @see shaped.js
+ */
+
+/**
+ * Shapeless Recipe Event Handler
+ */
 onEvent('recipes', event => {
   
   // Architect's Palette

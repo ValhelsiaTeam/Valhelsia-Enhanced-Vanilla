@@ -1,6 +1,5 @@
 // priority: 10
 // Valhelsia: Enhanced Vanilla
-// Advancement Rewards Script
 
 /**
  * @file Advancement reward handling for Valhelsia: Enhanced Vanilla. Gives rewards to players for

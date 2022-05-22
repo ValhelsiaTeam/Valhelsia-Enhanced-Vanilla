@@ -1,7 +1,13 @@
 // priority: 10
 // Valhelsia: Enhanced Vanilla
-// Tech Reborn Additions & Compatibility
 
+/**
+ * @file Tech Reborn Additions & Compatibility
+ */
+
+/**
+ * Tech Reborn Recipe Event Handler
+ */
 onEvent('recipes', (event) => {
   
   // Grinder Recipe Template
