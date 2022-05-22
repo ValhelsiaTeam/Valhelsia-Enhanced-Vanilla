@@ -1,6 +1,18 @@
 // priority: 0
+// Valhelsia: Enhanced Vanilla
+// Item Tooltip Modifications
 
 onEvent('item.tooltip', tooltip => {
+
+  /**
+   * Adds a translated tooltip to an item (using default colour).
+   * @param {string} itemID The ID of the item to add the tooltip to.
+   * @param {string} textID The language entry for the tooltip.
+   */
+  const addTooltip = (itemID, textID) => {
+    tooltip.add(itemID, Text.translate(textID));
+  };
+
   // Axes that can fell trees (FallingTree mod):
   tooltip.add([
     'additionaladditions:rose_gold_axe', 
@@ -9,7 +21,7 @@ onEvent('item.tooltip', tooltip => {
     'dragonloot:dragon_axe', 
     'betterend:terminite_axe', 
     'betterend:aeternium_axe'
-  ], ["", Text.translate('valhelsia.can_fell_tree_tooltip').green()])
+  ], ['', Text.translate('valhelsia.can_fell_tree_tooltip').green()]);
 
   // Axes that can't fell trees (FallingTree mod):
   tooltip.add([
@@ -24,26 +36,20 @@ onEvent('item.tooltip', tooltip => {
     'techreborn:sapphire_axe', 
     'ae2:nether_quartz_axe', 
     'ae2:certus_quartz_axe'
-  ], ["", Text.translate('valhelsia.cannot_fell_tree_tooltip').red()])
+  ], ['', Text.translate('valhelsia.cannot_fell_tree_tooltip').red()]);
 
-  // Description of the Scarecrows (Mob Scarecrows mod):
-  tooltip.add('mobscarecrow:scarecrow', [Text.translate("valhelsia.mob_scarecrow_tooltip")])
-
-  tooltip.add('mobscarecrow:creeper_scarecrow', [Text.translate("valhelsia.creeper_scarecrow_plushie_tooltip")])
-  tooltip.add('mobscarecrow:creeper_scarecrow_statue', [Text.translate("valhelsia.creeper_scarecrow_statue_tooltip")])
-
-  tooltip.add('mobscarecrow:skeleton_scarecrow', [Text.translate("valhelsia.skeleton_scarecrow_plushie_tooltip")])
-  tooltip.add('mobscarecrow:skeleton_scarecrow_statue', [Text.translate("valhelsia.skeleton_scarecrow_statue_tooltip")])
-
-  tooltip.add('mobscarecrow:spider_scarecrow', [Text.translate("valhelsia.spider_scarecrow_plushie_tooltip")])
-  tooltip.add('mobscarecrow:spider_scarecrow_statue', [Text.translate("valhelsia.spider_scarecrow_statue_tooltip")])
-
-  tooltip.add('mobscarecrow:zombie_scarecrow', [Text.translate("valhelsia.zombie_scarecrow_plushie_tooltip")])
-  tooltip.add('mobscarecrow:zombie_scarecrow_statue', [Text.translate("valhelsia.zombie_scarecrow_statue_tooltip")])
-
-  tooltip.add('mobscarecrow:turtle_scarecrow', [Text.translate("valhelsia.turtle_scarecrow_plushie_tooltip")])
-  tooltip.add('mobscarecrow:turtle_scarecrow_statue', [Text.translate("valhelsia.turtle_scarecrow_statue_tooltip")])
-
-  tooltip.add('mobscarecrow:endermite_scarecrow', [Text.translate("valhelsia.endermite_scarecrow_plushie_tooltip")])
-  tooltip.add('mobscarecrow:endermite_scarecrow_statue', [Text.translate("valhelsia.endermite_scarecrow_statue_tooltip")])
+  // Mob Scarecrows Tooltips
+  addTooltip('mobscarecrow:scarecrow', 'valhelsia.mob_scarecrow_tooltip');
+  addTooltip('mobscarecrow:creeper_scarecrow', 'valhelsia.creeper_scarecrow_plushie_tooltip');
+  addTooltip('mobscarecrow:creeper_scarecrow_statue', 'valhelsia.creeper_scarecrow_statue_tooltip');
+  addTooltip('mobscarecrow:skeleton_scarecrow', 'valhelsia.skeleton_scarecrow_plushie_tooltip');
+  addTooltip('mobscarecrow:skeleton_scarecrow_statue', 'valhelsia.skeleton_scarecrow_statue_tooltip');
+  addTooltip('mobscarecrow:spider_scarecrow', 'valhelsia.spider_scarecrow_plushie_tooltip');
+  addTooltip('mobscarecrow:spider_scarecrow_statue', 'valhelsia.spider_scarecrow_statue_tooltip');
+  addTooltip('mobscarecrow:zombie_scarecrow', 'valhelsia.zombie_scarecrow_plushie_tooltip');
+  addTooltip('mobscarecrow:zombie_scarecrow_statue', 'valhelsia.zombie_scarecrow_statue_tooltip');
+  addTooltip('mobscarecrow:turtle_scarecrow', 'valhelsia.turtle_scarecrow_plushie_tooltip');
+  addTooltip('mobscarecrow:turtle_scarecrow_statue', 'valhelsia.turtle_scarecrow_statue_tooltip');
+  addTooltip('mobscarecrow:endermite_scarecrow', 'valhelsia.endermite_scarecrow_plushie_tooltip');
+  addTooltip('mobscarecrow:endermite_scarecrow_statue', 'valhelsia.endermite_scarecrow_statue_tooltip');
 })
