@@ -45,7 +45,8 @@ onEvent('item.tooltip', tooltip => {
     'techreborn:peridot_axe', 
     'techreborn:sapphire_axe', 
     'ae2:nether_quartz_axe', 
-    'ae2:certus_quartz_axe'
+    'ae2:certus_quartz_axe',
+    'ae2:fluix_axe'
   ], ['', Text.translate('valhelsia.cannot_fell_tree_tooltip').red()]);
 
   // Mob Scarecrows Tooltips
