@@ -62,4 +62,57 @@ onEvent('tags.items', event => {
   ]);
 
   event.add('c:ender_pearl_dusts', 'betterend:ender_dust');
+
+  // Ingot Unification
+  event.add('c:ingots', [
+    'techreborn:brass_ingot', 
+    'techreborn:zinc_ingot',
+  ]);
+
+  event.add('c:ingots/brass', 'techreborn:brass_ingot');
+  event.add('c:ingots/zinc', 'techreborn:zinc_ingot');
+
+  event.add('c:brass_ingots', 'create:brass_ingot');
+  event.add('c:zinc_ingots', 'create:zinc_ingot');
+
+  // Nugget Unification
+  event.add('c:nuggets', [
+    'techreborn:brass_nugget',
+    'techreborn:zinc_nugget',
+  ]);
+
+  event.add('c:nuggets/brass', 'techreborn:brass_nugget');
+  event.add('c:nuggets/zinc', 'techreborn:zinc_nugget');
+
+  event.add('c:brass_nuggets', 'create:brass_nugget');
+  event.add('c:zinc_nuggets', 'create:zinc_nugget');
+
+  // Storage Block Unification
+  event.add('c:storage_blocks', [
+    'techreborn:brass_storage_block',
+    'techreborn:zinc_storage_block',
+  ]);
+
+  event.add('c:storage_blocks/brass', 'techreborn:brass_storage_block');
+  event.add('c:storage_blocks/zinc', 'techreborn:zinc_storage_block');
+
+  // Plate Unification
+  event.add('c:plates', [
+    'techreborn:brass_plate',
+    'techreborn:gold_plate',
+    'techreborn:iron_plate',
+    'techreborn:zinc_plate',
+  ]);
+
+  event.add('c:plates/brass', 'techreborn:brass_plate');
+  event.add('c:plates/gold', 'techreborn:gold_plate');
+  event.add('c:plates/iron', 'techreborn:iron_plate');
+  event.add('c:plates/zinc', 'techreborn:zinc_plate');
+
+  event.add('c:brass_plates', 'create:brass_sheet');
+  event.add('c:copper_plates', 'create:copper_sheet');
+  event.add('c:gold_plates', 'create:golden_sheet');
+  event.add('c:iron_plates', 'create:iron_sheet');
+
+
 });
