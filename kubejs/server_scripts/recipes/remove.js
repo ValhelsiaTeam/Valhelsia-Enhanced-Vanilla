@@ -20,6 +20,9 @@ onEvent('recipes', (event) => {
     // Architect's Palette
     'architects_palette:ender_pearl_block',
 
+    // AdventureZ
+    'adventurez:dragon_saddle',
+
     // Oxidized
     'oxidized:copper_nugget', // Duplicate recipe.
     'oxidized:rose_gold_sword', // Duplicate recipe.
