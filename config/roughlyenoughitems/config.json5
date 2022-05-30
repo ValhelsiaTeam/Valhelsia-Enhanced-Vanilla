@@ -34,7 +34,7 @@
 				"modifier": 0
 			},
 			"favoriteKeybind": {
-				"keyCode": "key.keyboard.a",
+				"keyCode": "key.keyboard.unknown",
 				"modifier": 0
 			},
 			"exportImageKeybind": {
@@ -87,6 +87,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"techreborn:deepslate_peridot_ore\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"techreborn:bronze_storage_block\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"create:cut_veridium\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"immersive_weathering:rotten_log\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"minecraft:brown_concrete_powder\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"farmersdelight:beetroot_crate\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"blockus:light_gray_concrete_pillar\"}'}},type:\"minecraft:item\"}",
@@ -122,7 +123,6 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"blockus:black_glazed_terracotta_pillar\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"minecraft:acacia_planks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"decorative_blocks:acacia_beam\"}'}},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"lit\":\"false\"},\"Name\":\"immersive_weathering:ash_block\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"blockus:red_glazed_terracotta_pillar\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"betterend:end_lotus_bark\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"blockus:dripstone_pillar\"}'}},type:\"minecraft:item\"}",
@@ -168,6 +168,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"techreborn:deepslate_bauxite_ore\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"betterend:mossy_glowshroom_hymenophore\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"techreborn:deepslate_silver_ore\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"smoldering\":\"false\"},\"Name\":\"immersive_weathering:charred_planks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"architects_palette:runic_glowstone\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"odd_z\":\"false\",\"odd_x\":\"false\"},\"Name\":\"architects_palette:birch_boards\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"minecraft:green_stained_glass\"}'}},type:\"minecraft:item\"}",
@@ -315,6 +316,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"create:cut_tuff\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"betterend:lacugrove_bark\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"persistent\":\"false\",\"distance\":\"7\"},\"Name\":\"minecraft:dark_oak_leaves\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"smoldering\":\"false\",\"axis\":\"y\"},\"Name\":\"immersive_weathering:charred_log\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"decorative_blocks:spruce_beam\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"create:horizontal_framed_glass\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:gray_stone_bricks\"}'}},type:\"minecraft:item\"}",
@@ -347,6 +349,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"architects_palette:twisted_log\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"betterend:mossy_obsidian\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"architects_palette:chiseled_algal_bricks\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"dirty\":\"false\"},\"Name\":\"immersive_weathering:permafrost\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"minecraft:light_blue_concrete_powder\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"blockus:legacy_log\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"create:deepslate_zinc_ore\"}'}},type:\"minecraft:item\"}",
@@ -434,6 +437,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"minecraft:stripped_oak_wood\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"facing\":\"up\"},\"Name\":\"farmersdelight:rice_bale\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"minecraft:yellow_wool\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"immersive_weathering:chiseled_prismarine_bricks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"betterend:end_lotus_stripped_bark\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:chiseled_end_stone_bricks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"level\":\"0\"},\"Name\":\"create:honey\"}'}},type:\"minecraft:item\"}",
@@ -473,10 +477,12 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"betterend:helix_tree_planks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:gray_colored_tiles\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"facing\":\"north\"},\"Name\":\"minecraft:green_glazed_terracotta\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"natural\":\"false\"},\"Name\":\"immersive_weathering:frosty_glass\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"create:polished_cut_andesite\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"level\":\"0\"},\"Name\":\"techreborn:methane\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:legacy_iron_block\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"facing\":\"north\"},\"Name\":\"blockus:dark_oak_diagonal_timber_frame\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"snowy\":\"false\",\"fertile\":\"true\"},\"Name\":\"immersive_weathering:rooted_grass_block\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"minecraft:coarse_dirt\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:chiseled_diorite_bricks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:zigzagged_teal_nether_bricks\"}'}},type:\"minecraft:item\"}",
@@ -489,6 +495,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:limestone_squares\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"betterend:hydralux_petal_block_brown\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"architects_palette:chiseled_calcite\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"soaked\":\"false\",\"snowy\":\"false\",\"fertile\":\"true\"},\"Name\":\"immersive_weathering:fluvisol\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:marble_bricks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"techreborn:reinforced_glass\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"minecraft:light_blue_terracotta\"}'}},type:\"minecraft:item\"}",
@@ -521,6 +528,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"blockus:lime_glazed_terracotta_pillar\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:white_concrete_bricks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"facing\":\"north\"},\"Name\":\"minecraft:white_glazed_terracotta\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"snowy\":\"false\",\"fertile\":\"true\"},\"Name\":\"immersive_weathering:cryosol\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"betterend:hydralux_petal_block_black\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"betterend:dragon_tree_stripped_bark\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"level\":\"0\"},\"Name\":\"techreborn:electrolyzed_water\"}'}},type:\"minecraft:item\"}",
@@ -1148,6 +1156,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:red_concrete_bricks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"blockus:phantom_purpur_lines\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:cracked_obsidian_bricks\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"soaked\":\"false\",\"fertile\":\"true\"},\"Name\":\"immersive_weathering:vertisol\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"decorative_blocks:birch_beam\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:herringbone_dark_oak_planks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"west\":\"true\",\"up\":\"true\",\"south\":\"true\",\"north\":\"true\",\"east\":\"true\",\"down\":\"true\"},\"Name\":\"minecraft:brown_mushroom_block\"}'}},type:\"minecraft:item\"}",
@@ -1196,6 +1205,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"facing\":\"north\"},\"Name\":\"minecraft:cyan_glazed_terracotta\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"blockus:ice_pillar\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"ecologics:stripped_walnut_wood\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"soaked\":\"false\",\"fertile\":\"true\"},\"Name\":\"immersive_weathering:silt\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"overlay\":\"false\"},\"Name\":\"techreborn:nuke\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:rainbow_asphalt\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"betterend:virid_jadestone_polished\"}'}},type:\"minecraft:item\"}",
@@ -1408,6 +1418,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:cyan_neon\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:orange_asphalt\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"farmersdelight:rice_bag\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"soaked\":\"false\",\"fertile\":\"true\"},\"Name\":\"immersive_weathering:cracked_mud\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"betterend:charcoal_block\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"techreborn:refined_iron_storage_block\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"betterend:terminite_tile\"}'}},type:\"minecraft:item\"}",
@@ -1430,6 +1441,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"architects_palette:mushy_myonite_bricks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"betterend:dragon_tree_bookshelf\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"betterend:hydralux_petal_block_light_gray\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"immersive_weathering:ash_block\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"minecraft:purpur_block\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"y\"},\"Name\":\"betterend:lucernia_log\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:smooth_soul_sandstone\"}'}},type:\"minecraft:item\"}",
@@ -1477,6 +1489,7 @@
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"create:zinc_block\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"techreborn:aluminum_storage_block\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"blockus:gray_asphalt\"}'}},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"immersive_weathering:rotten_planks\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"betterend:end_mycelium\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Properties\":{\"axis\":\"x\"},\"Name\":\"blockus:pink_magenta_colored_tiles\"}'}},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"chiselsandbits:block_bit\",tag:{block_information:{state:'{\"Name\":\"minecraft:granite\"}'}},type:\"minecraft:item\"}",
@@ -1621,7 +1634,7 @@
 			// The ordering of the items on the entry panel.
 			"entryPanelOrdering": "REGISTRY_ASCENDING",
 			// Declares the maximum amount of recipes displayed in a page if possible.
-			"maxRecipesPerPage": 15,
+			"maxRecipesPerPage": 8,
 			// Declares the maximum amount of recipes displayed in a page if possible.
 			"maxRecipesPageHeight": 300,
 			// Declares whether entry rendering time should be debugged.
@@ -1631,11 +1644,9 @@
 			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
 		},
 		"accessibility": {
-			"entrySize": 1.08,
+			"entrySize": 1.0,
 			// Declares the position of the entry panel.
 			"displayPanelLocation": "RIGHT",
-			// Declares whether scrolled entry panel should snap to rows.
-			"snapToRows": false,
 			// Declares how the scrollbar in composite screen should act.
 			"compositeScrollBarPermanent": false,
 			"toastDisplayedOnCopyIdentifier": true,
@@ -1675,7 +1686,7 @@
 		}
 	},
 	"appearance": {
-		"recipeScreenType": "COMPOSITE",
+		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
 		"theme": "LIGHT",
 		"layout": {
@@ -1684,13 +1695,13 @@
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
-			"enableCraftableOnlyButton": false
+			"showCraftableOnlyButton": true
 		},
 		// Declares the appearance of recipe's border.
 		"recipeBorder": "DEFAULT",
 		// Declares whether entry panel is scrolled.
 		"scrollingEntryListWidget": false,
-		"horizontalEntriesBoundaries": 0.9,
+		"horizontalEntriesBoundaries": 1.0,
 		"verticalEntriesBoundaries": 1.0,
 		"horizontalEntriesBoundariesColumns": 50,
 		"verticalEntriesBoundariesRows": 1000,
