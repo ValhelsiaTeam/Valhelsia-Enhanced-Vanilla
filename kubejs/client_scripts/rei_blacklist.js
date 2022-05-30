@@ -139,9 +139,6 @@ onEvent('rei.hide.items', event => {
     'additionaladditions:gilded_netherite_sword',
     'additionaladditions:gold_ring',
 
-    // AdventureZ
-    'adventurez:dragon_saddle',
-
     // Blockus
     'blockus:snow_bricks',
     'blockus:snow_brick_stairs',
