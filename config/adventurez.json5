@@ -24,7 +24,7 @@
 	"enderwarthog_spawn_weight": 1,
 	"allow_stone_golem_summoning": true,
 	"allow_the_eye_summoning": true,
-	"allow_dragon_hatching": false,
+	"allow_dragon_hatching": true,
 	"allow_guardian_spawner_spawn": false,
 	"allow_source_stone_tp": true,
 	"disable_armor_bonus": false,
