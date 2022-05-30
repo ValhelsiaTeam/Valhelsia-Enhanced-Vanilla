@@ -38,6 +38,7 @@ onEvent('recipes', (event) => {
   replaceInput('betterend:ender_dust', '#c:ender_pearl_dusts');
   replaceInput('techreborn:ender_pearl_dust', '#c:ender_pearl_dusts');
   replaceInput('ae2:ender_dust', '#c:ender_pearl_dusts');
+  replaceInput('farmersdelight:tree_bark', '#immersive_weathering:bark');
 
   // ----- Unification -----
   replaceInput('blockus:snow_bricks', 'ecologics:snow_bricks');

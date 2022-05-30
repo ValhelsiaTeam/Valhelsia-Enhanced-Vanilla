@@ -153,6 +153,9 @@ onEvent('rei.hide.items', event => {
     'blockus:polished_amethyst_slab',
     'blockus:chiseled_amethyst',
 
+    // Farmer's Delight
+    'farmersdelight:tree_bark',
+
     // Twigs
     'twigs:mossy_bricks',
     'twigs:mossy_brick_stairs',
