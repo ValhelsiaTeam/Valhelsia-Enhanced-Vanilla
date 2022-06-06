@@ -161,7 +161,7 @@ customization {
   orientation = mid-centered
   x = -161
   action = movebutton
-  y = 37
+  y = 38
 }
 
 customization {
@@ -339,15 +339,15 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:null%
+  identifier = %id=376334%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=button_compatibility_id:null%
+  identifier = %id=376334%
   orientation = top-left
-  x = 68
+  x = 0
   action = movebutton
-  y = 100
+  y = 0
 }
 
