@@ -4,7 +4,10 @@
 	"block": [
 		"betterend:ender_ore",
 		"betterend:thallasium_ore",
+		"enderscape:shadow_quartz_ore",
 		"minecraft:end_stone",
+		"enderscape:celestial_mycelium_block",
+		"enderscape:celestial_path_block",
 		"betterend:end_mycelium",
 		"betterend:end_moss",
 		"betterend:chorus_nylium",
