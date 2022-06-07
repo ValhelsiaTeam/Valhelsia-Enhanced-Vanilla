@@ -3,6 +3,8 @@
     "level": 5,
     "block": [
         "minecraft:copper_ore",
-        "create:ochrum"
+        "create:ochrum",
+        "ce:jagged_rose_quartz",
+        "ce:rose_quartz_block"
     ]
 }
