@@ -7,6 +7,7 @@
 		//"artifality:small_incremental_crystal_cluster",
 		//"artifality:medium_incremental_crystal_cluster",
 		//"artifality:incremental_crystal_cluster",
-		"twigs:rhyolite"
+		"twigs:rhyolite",
+		"ce:goop_block"
 	]
 }
