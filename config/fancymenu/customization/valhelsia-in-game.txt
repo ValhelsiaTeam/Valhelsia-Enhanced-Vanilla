@@ -72,7 +72,7 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink
@@ -87,7 +87,7 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink
