@@ -1,0 +1,353 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 160
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value =      Multiplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\multiplayer-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\multiplayer-button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = sethoverlabel
+  label =      Multiplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -161
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 160
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  action = setbuttonlabel
+  value =      Mods
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\mods-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\mods-button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  action = sethoverlabel
+  label =      Mods
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 165
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 35
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\accessibility-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\accessibility-button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -161
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 160
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value =      Singleplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\singleplayer-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\singleplayer-button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label =      Singleplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -161
+  action = movebutton
+  y = 38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 160
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value =      Options...
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\options-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\options-button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = sethoverlabel
+  label =      Options...
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 160
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value =      Quit Game
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\exit-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\exit-button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label =      Quit Game
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -199
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 35
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\language-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\language-button.png
+}
+
+customization {
+  path = kubejs/assets/custom-menu/textures/gui/valhelsia.png
+  orientation = top-centered
+  x = -77
+  width = 155
+  action = addtexture
+  actionid = 06f4d2a6-41be-4fbe-8e61-98ce912fa3461639130597244
+  y = 5
+  height = 66
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\bisecthosting-hover-button.png
+  label =      Rent a Server
+  loopbackgroundanimations = true
+  hoverlabel =      Rent a Server
+  x = 2
+  width = 160
+  actionid = e1182d0c-9cca-4b58-8c64-917c5255cbf61639131781664
+  action = addbutton
+  y = -1
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\bisecthosting-button.png
+  value = https://www.bisecthosting.com/Valhelsia
+  height = 35
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\valhelsia-hover-button.png
+  label = 
+  loopbackgroundanimations = true
+  x = -67
+  width = 32
+  actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
+  action = addbutton
+  y = -45
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\valhelsia-button.png
+  value = https://valhelsia.net/
+  height = 32
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\discord-hover-button.png
+  label = 
+  loopbackgroundanimations = true
+  x = -15
+  width = 32
+  actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
+  action = addbutton
+  y = -45
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\discord-button.png
+  value = https://discord.gg/valhelsia
+  height = 32
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\twitter-hover-button.png
+  label = 
+  loopbackgroundanimations = true
+  x = 37
+  width = 32
+  actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
+  action = addbutton
+  y = -45
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\twitter-button.png
+  value = https://twitter.com/Valhelsia
+  height = 32
+}
+
+customization {
+  identifier = %id=376334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376334%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+}
+
