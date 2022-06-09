@@ -8,6 +8,10 @@ guiScale:3
 maxFps:120
 resourcePacks:["Fabric Mods"]
 incompatibleResourcePacks:[]
+key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
+key_key.inventoryhud.toggle:key.keyboard.unknown
+key_key.inventoryhud.openconfig:key.keyboard.unknown
 soundCategory_master:0.50
 soundCategory_music:0.25
 soundCategory_record:1.0
