@@ -86,7 +86,7 @@
 	"bottleXPMultiplier": 1.0,
 	"dragonXPMultiplier": 0.5,
 	"fishingXPMultiplier": 0.8,
-	"furnaceXPMultiplier": 0.2,
+	"furnaceXPMultiplier": 0.5,
 	"oreXPMultiplier": 1.0,
 	"tradingXPMultiplier": 0.5,
 	"mobXPMultiplier": 1.0
