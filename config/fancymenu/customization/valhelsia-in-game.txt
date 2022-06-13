@@ -76,11 +76,11 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink
-  x = 218
+  x = -102
   width = 98
   actionid = ad1c13b0-da9e-497d-b02e-68d6e92017091654770214793
   action = addbutton
-  y = 140
+  y = -28
   label = Wiki
   value = https://wiki.valhelsia.net/
   height = 20
@@ -91,11 +91,11 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink
-  x = 324
+  x = 4
   width = 98
   actionid = f8d6d1cb-5a41-4cb3-a6ec-aefb001cd9cb1654770252181
   action = addbutton
-  y = 140
+  y = -28
   label = Support Us
   value = https://wiki.valhelsia.net/support-us
   height = 20
