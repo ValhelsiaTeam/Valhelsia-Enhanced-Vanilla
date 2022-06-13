@@ -23,8 +23,13 @@ onEvent('entity_type.tags', event => {
     // TODO: Add spooky mobs from V:EV here.
   ]);
 
-  // Missing Entity Type tag from Ecologics.
+  // Entities that should be immune to freezing:
   event.add('minecraft:freeze_immune_entity_types', [
+    'ecologics:penguin',
+  ]);
+  
+  // Entities that should be able to walk on powder snow:
+  event.add('minecraft:powder_snow_walkable_mobs', [
     'ecologics:penguin',
   ]);
 
