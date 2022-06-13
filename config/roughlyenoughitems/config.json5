@@ -1,6 +1,13 @@
 {
 	"basics": {
 		"favorites": [],
+		"hiddenFavorites": [
+			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"ADVENTURE\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}"
+		],
 		// Declares whether cheating mode is on.
 		"cheating": false,
 		"favoritesEnabled": true,
