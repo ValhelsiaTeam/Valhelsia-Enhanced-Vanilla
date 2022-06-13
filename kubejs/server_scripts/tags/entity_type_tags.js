@@ -31,6 +31,7 @@ onEvent('entity_type.tags', event => {
   // Entities that should be able to walk on powder snow:
   event.add('minecraft:powder_snow_walkable_mobs', [
     'ecologics:penguin',
+    'ecoligics:squirrel',
   ]);
 
 });
