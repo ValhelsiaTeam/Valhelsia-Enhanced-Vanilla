@@ -1,6 +1,13 @@
 {
 	"basics": {
 		"favorites": [],
+		"hiddenFavorites": [
+			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"ADVENTURE\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}"
+		],
 		// Declares whether cheating mode is on.
 		"cheating": false,
 		"favoritesEnabled": true,
@@ -1701,11 +1708,11 @@
 		"recipeBorder": "DEFAULT",
 		// Declares whether entry panel is scrolled.
 		"scrollingEntryListWidget": false,
-		"horizontalEntriesBoundaries": 1.0,
+		"horizontalEntriesBoundaries": 0.9,
 		"verticalEntriesBoundaries": 1.0,
 		"horizontalEntriesBoundariesColumns": 50,
 		"verticalEntriesBoundariesRows": 1000,
-		"favoritesHorizontalEntriesBoundaries": 1.0,
+		"favoritesHorizontalEntriesBoundaries": 0.9,
 		"favoritesHorizontalEntriesBoundariesColumns": 50,
 		"syntaxHighlightingMode": "COLORFUL",
 		"isFocusModeZoomed": false
