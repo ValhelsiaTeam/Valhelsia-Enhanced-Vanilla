@@ -50,17 +50,21 @@ onEvent('item.tooltip', tooltip => {
   ], ['', Text.translate('valhelsia.cannot_fell_tree_tooltip').red()]);
 
   // Mob Scarecrows Tooltips
-  addTooltip('mobscarecrow:scarecrow', 'valhelsia.mob_scarecrow_tooltip');
-  addTooltip('mobscarecrow:creeper_scarecrow', 'valhelsia.creeper_scarecrow_plushie_tooltip');
-  addTooltip('mobscarecrow:creeper_scarecrow_statue', 'valhelsia.creeper_scarecrow_statue_tooltip');
-  addTooltip('mobscarecrow:skeleton_scarecrow', 'valhelsia.skeleton_scarecrow_plushie_tooltip');
-  addTooltip('mobscarecrow:skeleton_scarecrow_statue', 'valhelsia.skeleton_scarecrow_statue_tooltip');
-  addTooltip('mobscarecrow:spider_scarecrow', 'valhelsia.spider_scarecrow_plushie_tooltip');
-  addTooltip('mobscarecrow:spider_scarecrow_statue', 'valhelsia.spider_scarecrow_statue_tooltip');
-  addTooltip('mobscarecrow:zombie_scarecrow', 'valhelsia.zombie_scarecrow_plushie_tooltip');
-  addTooltip('mobscarecrow:zombie_scarecrow_statue', 'valhelsia.zombie_scarecrow_statue_tooltip');
-  addTooltip('mobscarecrow:turtle_scarecrow', 'valhelsia.turtle_scarecrow_plushie_tooltip');
-  addTooltip('mobscarecrow:turtle_scarecrow_statue', 'valhelsia.turtle_scarecrow_statue_tooltip');
-  addTooltip('mobscarecrow:endermite_scarecrow', 'valhelsia.endermite_scarecrow_plushie_tooltip');
-  addTooltip('mobscarecrow:endermite_scarecrow_statue', 'valhelsia.endermite_scarecrow_statue_tooltip');
+  addTooltip('mobscarecrow:default_scarecrow', 'valhelsia.mob_scarecrow_tooltip');
+  addTooltip('mobscarecrow:cat_plushie', 'valhelsia.cat_plushie_tooltip');
+  addTooltip('mobscarecrow:wolf_plushie', 'valhelsia.wolf_plushie_tooltip');
+  addTooltip('mobscarecrow:pigeon_plushie', 'valhelsia.pigeon_plushie_tooltip');
+  addTooltip('mobscarecrow:iron_golem_plushie', 'valhelsia.iron_golem_plushie_tooltip');
+  addTooltip('mobscarecrow:snow_golem_plushie', 'valhelsia.snow_golem_plushie_tooltip');
+  addTooltip('mobscarecrow:axolotl_plushie', 'valhelsia.axolotl_plushie_tooltip');
+  addTooltip('mobscarecrow:villager_plushie', 'valhelsia.villager_plushie_tooltip');
+  addTooltip('mobscarecrow:pillager_plushie', 'valhelsia.pillager_plushie_tooltip');
+  addTooltip('mobscarecrow:copper_golem_plushie', 'valhelsia.copper_golem_plushie_tooltip');
+  addTooltip('mobscarecrow:zombified_piglin_plushie', 'valhelsia.zombified_piglin_plushie_tooltip');
+  addTooltip('mobscarecrow:gold_pig_plushie', 'valhelsia.gold_pig_plushie_tooltip');
+  addTooltip('mobscarecrow:rabbit_plushie', 'valhelsia.rabbit_plushie_tooltip');
+  addTooltip('mobscarecrow:steve_plushie', 'valhelsia.steve_plushie_tooltip');
+  addTooltip('mobscarecrow:chicken_plushie', 'valhelsia.chicken_plushie_tooltip');
+  addTooltip('mobscarecrow:zombie_plushie', 'valhelsia.zombie_plushie_tooltip');
+  addTooltip('mobscarecrow:piglin_plushie', 'valhelsia.piglin_plushie_tooltip');
 })
