@@ -88,9 +88,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
-  x = 165
+  x = 166
   action = movebutton
-  y = 37
+  y = 38
 }
 
 customization {
@@ -113,6 +113,11 @@ customization {
   action = setbuttontexture
   backgroundhovered = kubejs\assets\custom-menu\textures\gui\accessibility-hover-button.png
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\accessibility-button.png
+}
+
+customization {
+  identifier = %id=376310%
+  action = hidebutton
 }
 
 customization {
@@ -231,9 +236,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
-  x = -199
+  x = -200
   action = movebutton
-  y = 37
+  y = 38
 }
 
 customization {
@@ -336,10 +341,5 @@ customization {
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\twitter-button.png
   value = https://twitter.com/Valhelsia
   height = 32
-}
-
-customization {
-  identifier = %id=376310%
-  action = hidebutton
 }
 
