@@ -33,7 +33,7 @@ blockColours:0
 lighting:true
 dotsStyle:0
 dotNameScale:1.0
-compassOverWaypoints:false
+compassOverEverything:true
 showBiome:true
 showFlowers:true
 keepWaypointNames:true
@@ -78,12 +78,13 @@ lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
-uiScale:11
+uiScale:1
 bossHealthPushBox:1
 potionEffectPushBox:1
 minimapFrame:0
 minimapFrameColor:9
 compassColor:9
+northCompassColor:-1
 showDimensionName:false
 displayMultipleWaypointInfo:1
 entityRadar:false
@@ -92,9 +93,15 @@ autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1
 mainDotSize:1
 partialYTeleportation:true
-interface:dummy:0:36:true:false:false:false
-interface:dummy:0:10000:true:false:false:false
+deleteReachedDeathpoints:true
+hideMinimapUnderScreen:true
+hideMinimapUnderF3:true
+manualCaveModeStartAuto:true
+manualCaveModeStart:-1
+chunkGridLineWidth:1
 interface:dummy:0:0:false:false:true:false
-interface:dummy:0:36:true:false:false:false
+interface:dummy:0:135:false:false:false:false
+interface:dummy:120:0:true:false:false:false
+interface:dummy:0:50:true:false:false:false
 interface:gui.xaero_minimap:0:0:false:false:true:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints
