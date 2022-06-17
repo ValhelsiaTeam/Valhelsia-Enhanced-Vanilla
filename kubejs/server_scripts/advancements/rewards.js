@@ -27,6 +27,7 @@ onEvent('player.advancement', (event) => {
 	  if (display.shouldAnnounceChat() || display.shouldShowToast()) {
 
 	    let frameType = display.getFrame().getName();
+      let playerName = event.player.profile.getName();
 
       // Debug output of advancement information to log.
       if (global.config.debug) {
@@ -38,7 +39,7 @@ onEvent('player.advancement', (event) => {
         switch(frameType) {
           case 'task':
             if (global.config.task_points > 0) {
-              event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.task_points}`);
+              event.server.runCommandSilent(`/playerstats ${playerName} add points ${global.config.task_points}`);
               event.server.schedule(1, event.player, function (callback) {
                 callback.data.tell(Text.translate('valhelsia.advancement_levels.points.awarded', global.config.task_points));
               });
@@ -46,7 +47,7 @@ onEvent('player.advancement', (event) => {
             break;
           case 'goal':
             if (global.config.goal_points > 0) {
-              event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.goal_points}`);
+              event.server.runCommandSilent(`/playerstats ${playerName} add points ${global.config.goal_points}`);
               event.server.schedule(1, event.player, function (callback) {
                 callback.data.tell(Text.translate('valhelsia.advancement_levels.points.awarded', global.config.goal_points));
               });
@@ -54,7 +55,7 @@ onEvent('player.advancement', (event) => {
             break;
           case 'challenge':
             if (global.config.challenge_points > 0) {
-              event.server.runCommandSilent(`/playerstats ${event.player.name} add points ${global.config.challenge_points}`);
+              event.server.runCommandSilent(`/playerstats ${playerName} add points ${global.config.challenge_points}`);
               event.server.schedule(1, event.player, function (callback) {
                 callback.data.tell(Text.translate('valhelsia.advancement_levels.points.awarded', global.config.challenge_points));
               });
@@ -75,12 +76,12 @@ onEvent('player.advancement', (event) => {
           }
         } else {
           if (rewardData.points > 0) {
-            event.server.runCommandSilent(`/playerstats ${event.player.name} add ${rewardData.skill} ${rewardData.points}`);
+            event.server.runCommandSilent(`/playerstats ${playerName} add ${rewardData.skill} ${rewardData.points}`);
             event.server.schedule(1, event.player, function (callback) {
               // Of these reward types, progress and levels probably shouldn't be used, but are there for completeness.
               if (rewardData.skill == 'points') {
                 callback.data.tell(Text.translate('valhelsia.advancement_levels.points.awarded', rewardData.points));
-              } else if (rewardData.skill == 'progress') {
+              } else if (rewardData.skill == 'experience') {
                 callback.data.tell(Text.translate('valhelsia.advancement_levels.progress.awarded', rewardData.points));
               } else if (rewardData.skill == 'level') {
                 callback.data.tell(Text.translate('valhelsia.advancement_levels.levels.awarded', rewardData.points));
