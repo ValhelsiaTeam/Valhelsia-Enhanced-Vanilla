@@ -1,0 +1,25 @@
+{
+	"enderscape:nebulite_ore": "ore",
+	"enderscape:shadow_quartz_ore": "ore",
+
+	"enderscape:celestial_stem": "wood",
+
+	"enderscape:celestial_hyphae": "wood",
+
+	"enderscape:stripped_celestial_stem": "wood,stone",
+
+    "enderscape:stripped_celestial_hyphae": "wood,stone",
+
+	"immersive_weathering:oak_leaf_pile": "leaves",
+	"immersive_weathering:spruce_leaf_pile": "leaves",
+	"immersive_weathering:birch_leaf_pile": "leaves",
+	"immersive_weathering:jungle_leaf_pile": "leaves",
+	"immersive_weathering:acacia_leaf_pile": "leaves",
+	"immersive_weathering:dark_oak_leaf_pile": "leaves",
+	"immersive_weathering:mangrove_leaf_pile": "leaves",
+	"immersive_weathering:azalea_leaf_pile": "leaves",
+	"immersive_weathering:flowering_azalea_leaf_pile": "leaves",
+
+	"immersive_weathering:permafrost": "snow",
+	"immersive_weathering:cryosol": "snow"
+}
