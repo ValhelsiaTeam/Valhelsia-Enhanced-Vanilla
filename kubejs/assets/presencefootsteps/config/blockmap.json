@@ -20,6 +20,8 @@
 	"immersive_weathering:azalea_leaf_pile": "leaves",
 	"immersive_weathering:flowering_azalea_leaf_pile": "leaves",
 
+	"immersive_weathering:ivy": "leaves",
+
 	"immersive_weathering:permafrost": "snow",
 	"immersive_weathering:cryosol": "snow"
 }
