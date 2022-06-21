@@ -43,18 +43,25 @@
     "betterend:crystalite_helmet",
     "betterend:crystalite_chestplate",
     "betterend:crystalite_leggings",
-    "betterend:crystalite_boots"
+    "betterend:crystalite_boots",
+    "enderscape:drift_leggings"
   ],
   "shinyBlocksEnabled": true,
   "shinyBlockEntries": [
     "minecraft:gold_ore",
     "minecraft:deepslate_gold_ore",
     "minecraft:nether_gold_ore",
+    "minecraft:raw_gold_block",
+    "minecraft:gold_block",
     "minecraft:diamond_ore",
     "minecraft:deepslate_diamond_ore",
+    "minecraft:diamond_block",
     "minecraft:emerald_ore",
     "minecraft:deepslate_emerald_ore",
+    "minecraft:emerald_block",
     "betterend:thallasium_ore",
-    "betterend:aurora_crystal"
+    "betterend:thallasium_block",
+    "betterend:aurora_crystal",
+    "enderscape:nebulite_block"
   ]
 }
