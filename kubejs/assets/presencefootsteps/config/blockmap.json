@@ -20,6 +20,31 @@
 	"immersive_weathering:azalea_leaf_pile": "leaves",
 	"immersive_weathering:flowering_azalea_leaf_pile": "leaves",
 
+	"#farmersdelight:wild_crops": "NOT_EMITTER",
+	"#farmersdelight:wild_crops.messy": "MESSY_GROUND",
+	"#farmersdelight:wild_crops.foliage": "brush",
+
+	"farmersdelight:tomatoes": "NOT_EMITTER",
+	"farmersdelight:tomatoes.messy": "MESSY_GROUND",
+	"farmersdelight:tomatoes[age=4].foliage": "brush",
+	"farmersdelight:tomatoes[age=5].foliage": "brush",
+	"farmersdelight:tomatoes[age=6].foliage": "brush",
+	"farmersdelight:tomatoes[age=7].foliage": "brush",
+
+	"farmersdelight:onions": "NOT_EMITTER",
+	"farmersdelight:onions.messy": "MESSY_GROUND",
+	"farmersdelight:onions[age=4].foliage": "brush",
+	"farmersdelight:onions[age=5].foliage": "brush",
+	"farmersdelight:onions[age=6].foliage": "brush",
+	"farmersdelight:onions[age=7].foliage": "brush",
+
+	"farmersdelight:cabbages": "NOT_EMITTER",
+	"farmersdelight:cabbages.messy": "MESSY_GROUND",
+	"farmersdelight:cabbages[age=4].foliage": "brush",
+	"farmersdelight:cabbages[age=5].foliage": "brush",
+	"farmersdelight:cabbages[age=6].foliage": "brush",
+	"farmersdelight:cabbages[age=7].foliage": "brush",
+
 	"immersive_weathering:ivy": "leaves",
 
 	"immersive_weathering:permafrost": "snow",
