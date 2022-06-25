@@ -322,7 +322,7 @@ customization {
   action = addbutton
   y = -45
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\discord-button.png
-  value = https://discord.gg/valhelsia
+  value = https://discord.com/invite/rdfQuaM
   height = 32
 }
 
