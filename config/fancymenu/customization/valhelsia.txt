@@ -259,6 +259,52 @@ customization {
 }
 
 customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 157
+  action = deep_customization_element:title_screen_branding
+  actionid = ce4a47af-0111-4855-85a3-58ce38ae7a4d1656492218127
+  y = 325
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = f47818c6-2004-47c2-b688-42ceb494e9bc1656492218129
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = b5fa945f-071e-4b88-90d7-848c8a1620931656492218132
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 40eb32fe-7442-4b0d-9d2f-450f4c657c451656492218132
+  y = 0
+  height = 30
+}
+
+customization {
   path = kubejs/assets/custom-menu/textures/gui/valhelsia.png
   orientation = top-centered
   x = -77
@@ -317,7 +363,7 @@ customization {
   action = addbutton
   y = -45
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\discord-button.png
-  value = https://discord.com/invite/rdfQuaM
+  value = https://discord.gg/valhelsia
   height = 32
 }
 
@@ -336,18 +382,5 @@ customization {
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\twitter-button.png
   value = https://twitter.com/Valhelsia
   height = 32
-}
-
-customization {
-  identifier = %id=376334%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=376334%
-  orientation = top-left
-  x = 0
-  action = movebutton
-  y = 0
 }
 
