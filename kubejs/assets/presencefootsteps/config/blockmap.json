@@ -3,15 +3,14 @@
 	"enderscape:shadow_quartz_ore": "ore",
 
 	"enderscape:celestial_stem": "wood",
-
 	"enderscape:celestial_hyphae": "wood",
 
 	"enderscape:stripped_celestial_stem": "wood,stone",
-
     "enderscape:stripped_celestial_hyphae": "wood,stone",
 
-	"wilderworld:aspen_leaves": "leaves",
+	"immersive_weathering:icicle": "ice",
 
+	"wilderworld:aspen_leaves": "leaves",
 	"immersive_weathering:oak_leaf_pile": "leaves",
 	"immersive_weathering:spruce_leaf_pile": "leaves",
 	"immersive_weathering:birch_leaf_pile": "leaves",
@@ -22,9 +21,69 @@
 	"immersive_weathering:azalea_leaf_pile": "leaves",
 	"immersive_weathering:flowering_azalea_leaf_pile": "leaves",
 
+	"immersive_weathering:frosty_fern": "NOT_EMITTER",
+	"immersive_weathering:frosty_fern.messy": "MESSY_GROUND",
+	"immersive_weathering:frosty_fern.foliage": "straw,ice",
+
+	"immersive_weathering:frosty_grass": "NOT_EMITTER",
+	"immersive_weathering:frosty_grass.messy": "MESSY_GROUND",
+	"immersive_weathering:frosty_grass.foliage": "brush,ice",
+
+	"betterend:vaiolush_fern": "NOT_EMITTER",
+	"betterend:vaiolush_fern.messy": "MESSY_GROUND",
+	"betterend:vaiolush_fern.foliage": "straw",
+
+	"betterend:tail_moss": "NOT_EMITTER",
+	"betterend:tail_moss.messy": "MESSY_GROUND",
+	"betterend:tail_moss.foliage": "brush",
+	
+	"betterend:shadow_plant": "NOT_EMITTER",
+	"betterend:shadow_plant.messy": "MESSY_GROUND",
+	"betterend:shadow_plant.foliage": "brush",
+
+	"betterend:needlegrass": "NOT_EMITTER",
+	"betterend:needlegrass.messy": "MESSY_GROUND",
+	"betterend:needlegrass.foliage": "brush",
+
+	"betterend:murkweed": "NOT_EMITTER",
+	"betterend:murkweed.messy": "MESSY_GROUND",
+	"betterend:murkweed.foliage": "brush",
+
+	"betterend:salteago": "NOT_EMITTER",
+	"betterend:salteago.messy": "MESSY_GROUND",
+	"betterend:salteago.foliage": "brush",
+	
+	"betterend:blooming_cooksonia": "NOT_EMITTER",
+	"betterend:blooming_cooksonia.messy": "MESSY_GROUND",
+	"betterend:blooming_cooksonia.foliage": "brush",
+
+	"betterend:fracturn": "NOT_EMITTER",
+	"betterend:fracturn.messy": "MESSY_GROUND",
+	"betterend:fracturn.foliage": "brush",
+
+	"betterend:creeping_moss": "NOT_EMITTER",
+	"betterend:creeping_moss.messy": "MESSY_GROUND",
+	"betterend:creeping_moss.foliage": "brush",
+
+	"betterend:twisted_umbrella_moss": "NOT_EMITTER",
+	"betterend:twisted_umbrella_moss.messy": "MESSY_GROUND",
+	"betterend:twisted_umbrella_moss.foliage": "brush",
+
+	"betterend:umbrella_moss": "NOT_EMITTER",
+	"betterend:umbrella_moss.messy": "MESSY_GROUND",
+	"betterend:umbrella_moss.foliage": "brush",
+
 	"#farmersdelight:wild_crops": "NOT_EMITTER",
 	"#farmersdelight:wild_crops.messy": "MESSY_GROUND",
 	"#farmersdelight:wild_crops.foliage": "brush",
+
+	"betterend:twisted_umbrella_moss_tall": "NOT_EMITTER",
+	"betterend:twisted_umbrella_moss_tall.messy": "MESSY_GROUND",
+	"betterend:twisted_umbrella_moss_tall.foliage": "brush_straw_transition",
+
+	"betterend:umbrella_moss_tall": "NOT_EMITTER",
+	"betterend:umbrella_moss_tall.messy": "MESSY_GROUND",
+	"betterend:umbrella_moss_tall.foliage": "brush_straw_transition",
 
 	"farmersdelight:tomatoes": "NOT_EMITTER",
 	"farmersdelight:tomatoes.messy": "MESSY_GROUND",
@@ -47,7 +106,14 @@
 	"farmersdelight:cabbages[age=6].foliage": "brush",
 	"farmersdelight:cabbages[age=7].foliage": "brush",
 
+	"betterend:end_lotus_leaf": "waterfine",
+	"betterend:end_lotus_leaf.carpet": "waterfine",
+
 	"immersive_weathering:ivy": "leaves",
+	"immersive_weathering:ivy.foliage": "leaves",
+
+	"betterend:twisted_vine": "leaves",
+	"betterend:twisted_vine.foliage": "leaves",
 
 	"immersive_weathering:permafrost": "snow",
 	"immersive_weathering:cryosol": "snow"
