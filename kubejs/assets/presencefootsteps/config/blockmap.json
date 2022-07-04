@@ -8,7 +8,16 @@
 	"enderscape:stripped_celestial_stem": "wood,stone",
     "enderscape:stripped_celestial_hyphae": "wood,stone",
 
-	"immersive_weathering:icicle": "ice",
+	"farmersdelight:cabbage_crate": "rug,wood",
+	"farmersdelight:tomato_crate": "rug,wood",
+	"farmersdelight:onion_crate": "rug,wood",
+	"farmersdelight:beetroot_crate": "rug,wood",
+	"farmersdelight:potato_crate": "rug,wood",
+	"farmersdelight:carrot_crate": "rug,wood",
+
+	"#c:wooden_barrels": "squeakywood",
+
+	"betterend:lumecorn": "grass,slick",
 
 	"wilderworld:aspen_leaves": "leaves",
 	"immersive_weathering:oak_leaf_pile": "leaves",
@@ -20,6 +29,8 @@
 	"immersive_weathering:mangrove_leaf_pile": "leaves",
 	"immersive_weathering:azalea_leaf_pile": "leaves",
 	"immersive_weathering:flowering_azalea_leaf_pile": "leaves",
+	"farmersdelight:rice_bale": "leaves",
+	"farmersdelight:straw_bale": "leaves",
 
 	"immersive_weathering:frosty_fern": "NOT_EMITTER",
 	"immersive_weathering:frosty_fern.messy": "MESSY_GROUND",
@@ -77,6 +88,10 @@
 	"#farmersdelight:wild_crops.messy": "MESSY_GROUND",
 	"#farmersdelight:wild_crops.foliage": "brush",
 
+	"wilderworld:ebony_bush": "NOT_EMITTER",
+	"wilderworld:ebony_bush.messy": "MESSY_GROUND",
+	"wilderworld:ebony_bush.foliage": "brush",
+
 	"betterend:twisted_umbrella_moss_tall": "NOT_EMITTER",
 	"betterend:twisted_umbrella_moss_tall.messy": "MESSY_GROUND",
 	"betterend:twisted_umbrella_moss_tall.foliage": "brush_straw_transition",
@@ -84,6 +99,10 @@
 	"betterend:umbrella_moss_tall": "NOT_EMITTER",
 	"betterend:umbrella_moss_tall.messy": "MESSY_GROUND",
 	"betterend:umbrella_moss_tall.foliage": "brush_straw_transition",
+
+	"wilderworld:ebony_bush_tall": "NOT_EMITTER",
+	"wilderworld:ebony_bush_tall.messy": "MESSY_GROUND",
+	"wilderworld:ebony_bush_tall.foliage": "brush_straw_transition",
 
 	"farmersdelight:tomatoes": "NOT_EMITTER",
 	"farmersdelight:tomatoes.messy": "MESSY_GROUND",
@@ -116,5 +135,22 @@
 	"betterend:twisted_vine.foliage": "leaves",
 
 	"immersive_weathering:permafrost": "snow",
-	"immersive_weathering:cryosol": "snow"
+	"immersive_weathering:cryosol": "snow",
+
+	"betterend:ancient_emerald_ice": "stone,snow",
+	"ecologics:ice_bricks": "stone,snow",
+	"ecologics:ice_brick_stairs": "stone,snow",
+	"ecologics:ice_brick_slab": "stone,snow",
+	"ecologics:ice_brick_wall": "stone,snow",
+	"architects_palette:polished_packed_ice": "stone,snow",
+	"architects_palette:polished_packed_ice_stairs": "stone,snow",
+	"architects_palette:polished_packed_ice_slab": "stone,snow",
+	"architects_palette:polished_packed_ice_wall": "stone,snow",
+	"architects_palette:packed_ice_pillar": "stone,snow",
+	"architects_palette:chiseled_packed_ice": "stone,snow",
+	"blockus:ice_pillar": "stone,snow",
+
+	"immersive_weathering:icicle": "ice",
+	"betterend:emerald_ice": "ice",
+	"betterend:dense_emerald_ice": "ice"
 }
