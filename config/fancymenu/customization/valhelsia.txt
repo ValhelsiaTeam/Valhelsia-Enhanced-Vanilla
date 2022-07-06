@@ -90,7 +90,7 @@ customization {
   orientation = mid-centered
   x = 166
   action = movebutton
-  y = 38
+  y = 39
 }
 
 customization {
@@ -166,7 +166,7 @@ customization {
   orientation = mid-centered
   x = -161
   action = movebutton
-  y = 38
+  y = 39
 }
 
 customization {
@@ -202,7 +202,7 @@ customization {
   orientation = mid-centered
   x = 2
   action = movebutton
-  y = 38
+  y = 39
 }
 
 customization {
@@ -238,7 +238,7 @@ customization {
   orientation = mid-centered
   x = -200
   action = movebutton
-  y = 38
+  y = 39
 }
 
 customization {
@@ -261,6 +261,52 @@ customization {
   action = setbuttontexture
   backgroundhovered = kubejs\assets\custom-menu\textures\gui\language-hover-button.png
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\language-button.png
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 39124f7c-bf38-4450-bfb9-d232de4f5f8a1657098621227
+  y = 325
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 1116d0f3-5f1e-469d-960e-54a7a6a998b91657098621229
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 650c2844-16d5-4497-8b9b-5a3d61fb672f1657098621230
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 11de4d28-4e33-4390-8887-9ed06d7224fa1657098621230
+  y = 0
+  height = 30
 }
 
 customization {
