@@ -105,7 +105,7 @@ onEvent('recipes', (event) => {
   //strip('techreborn:stripped_rubber_wood', 'techreborn:rubber_wood');
 
   // ----- Knife Recipes -----
-  cut([Item.of('minecraft:string', 2)], '#minecraft:wool');
+  //cut([Item.of('minecraft:string', 2)], '#minecraft:wool');
 
   // ----- Cooking Pot Recipes -----
 
