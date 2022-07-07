@@ -53,6 +53,7 @@ const DEFAULT_CONFIG = {
   goal_points: 2,
   challenge_points: 3,
   starting_points: 3,
+  disable_travellers_maps: true,
 };
 
 /**

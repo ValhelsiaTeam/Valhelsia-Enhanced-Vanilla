@@ -12,7 +12,7 @@
 /**
  * Player Login Event Handler
  */
-onEvent('player.logged_in', function (event) {
+onEvent('player.logged_in', event => {
   if (!event.player.stages.has('first_start')) {
     event.player.stages.add('first_start');
     
