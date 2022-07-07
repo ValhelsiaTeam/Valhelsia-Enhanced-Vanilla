@@ -49,6 +49,10 @@ onEvent('item.tooltip', tooltip => {
     'ae2:fluix_axe'
   ], ['', Text.translate('valhelsia.cannot_fell_tree_tooltip').red()]);
 
+  // Enchanting Table Tooltips
+  addTooltip('minecraft:enchanting_table', 'valhelsia.tooltip.enchanting_tier_2');
+  addTooltip('minecraft:enchanting_table', 'valhelsia.tooltip.enchanting_tier_3');
+
   // Mob Scarecrows Tooltips
   addTooltip('mobscarecrow:default_scarecrow', 'valhelsia.mob_scarecrow_tooltip');
   addTooltip('mobscarecrow:cat_plushie', 'valhelsia.cat_plushie_tooltip');
