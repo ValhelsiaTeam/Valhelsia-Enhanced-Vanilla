@@ -18,6 +18,8 @@
   "valhelsia.comment.tooltips": "-----Added Tooltips-----",
   "valhelsia.can_fell_tree_tooltip": " Fällt Bäume (wenn der Stamm zerstört wird). ✓",
   "valhelsia.cannot_fell_tree_tooltip": " Fällt keine Bäume (wenn der Stamm zerstört wird). ✗",
+  "valhelsia.tooltip.enchanting_tier_2": "Tier 2 Enchanting requires Alchemy 10.",
+  "valhelsia.tooltip.enchanting_tier_3": "Tier 3 Enchanting requires Alchemy 18.",
   "valhelsia.mob_scarecrow_tooltip": "Schreckt alle Mobs in einem Radius von 8 Blöcken der Vogelscheuche zurück.",
   "valhelsia.cat_plushie_tooltip": "Scares off creepers within 8 blocks of the plushie.",
   "valhelsia.wolf_plushie_tooltip": "Scares off skeletons within 8 blocks of the plushie.",
