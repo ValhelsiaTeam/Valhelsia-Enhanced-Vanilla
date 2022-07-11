@@ -1,0 +1,75 @@
+{
+	// in Blocks
+	"increasingDistance": 800,
+	// 0.1 = 10%
+	"distanceFactor": 0.1,
+	// in minutes
+	"increasingTime": 0,
+	// 0.05 = 5%
+	"timeFactor": 0.0,
+	// in Blocks
+	"heightDistance": 30,
+	// 0.1 = 10%
+	"heightFactor": 0.1,
+	// 2.0 = 200% = double
+	"maxFactorHealth": 2.0,
+	"maxFactorDamage": 2.5,
+	"maxFactorProtection": 2.0,
+	// Applies only to special zombie
+	"maxFactorSpeed": 2.0,
+	"allowRandomValues": false,
+	// in %
+	"randomChance": 10,
+	// in %
+	"randomFactor": 10,
+	// Based on other settings
+	"extraXp": true,
+	"maxXPFactor": 2.0,
+	"startingFactor": 1.0,
+	// in Blocks
+	"startingDistance": 2000,
+	// in minutes
+	"startingTime": 0,
+	// in blocks, sea level is 62
+	"startingHeight": 62,
+	"positiveHeightIncreasion": false,
+	"negativeHeightIncreasion": true,
+	"affectBosses": true,
+	// Applies only for dimensions other than Overworld
+	"excludeDistanceInOtherDimension": true,
+	// Applies only for dimensions other than Overworld
+	"excludeTimeInOtherDimension": true,
+	// Applies only for dimensions other than Overworld
+	"excludeHeightInOtherDimension": true,
+	// Based on level - Requires Nameplate mod addon
+	"dropMoreLoot": false,
+	// 0.1 = +10% chance per lvl
+	"moreLootChance": 0.1,
+	"maxLootChance": 1.0,
+	// Each loot table item has 0.7 = 70% chance to get dropped
+	"chanceForEachItem": 0.7,
+	// Hud for testing purpose only
+	"hudTesting": false,
+	// Excluded Entity List Bsp: minecraft:villager
+	"excluded_entity": [],
+	"allowSpecialZombie": true,
+	// in %
+	"bigZombieChance": 5,
+	"bigZombieSlownessFactor": 0.75,
+	"bigZombieBonusLifePoints": 10,
+	"bigZombieBonusDamage": 2,
+	"bigZombieSize": 1.4,
+	// in %
+	"speedZombieChance": 10,
+	"speedZombieSpeedFactor": 1.25,
+	"speedZombieMalusLifePoints": 10,
+	// Each player increases boss attributes
+	"dynamicBossModification": true,
+	// 0.2 = 20% per player
+	"dynamicBossModificator": 0.25,
+	"bossMaxFactor": 4.0,
+	"bossDistanceFactor": 0.0,
+	"bossTimeFactor": 0.0,
+	// Additional factor to prevent extrem explosions
+	"creeperExplosionFactor": 1.0
+}
