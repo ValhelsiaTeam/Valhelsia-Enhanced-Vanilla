@@ -88,9 +88,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
-  x = 166
+  x = 165
   action = movebutton
-  y = 39
+  y = 37
 }
 
 customization {
@@ -166,7 +166,7 @@ customization {
   orientation = mid-centered
   x = -161
   action = movebutton
-  y = 39
+  y = 37
 }
 
 customization {
@@ -202,7 +202,7 @@ customization {
   orientation = mid-centered
   x = 2
   action = movebutton
-  y = 39
+  y = 37
 }
 
 customization {
@@ -236,9 +236,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
-  x = -200
+  x = -199
   action = movebutton
-  y = 39
+  y = 37
 }
 
 customization {
