@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "defense",
+    "level": 16,
+    "item": "minecraft:custom_item",
+    "object": "betterend:crystalite_boots"
+}
