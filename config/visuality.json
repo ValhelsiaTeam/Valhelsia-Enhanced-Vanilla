@@ -63,6 +63,8 @@
     "betterend:thallasium_ore",
     "betterend:thallasium_block",
     "betterend:aurora_crystal",
-    "enderscape:nebulite_block"
+    "enderscape:nebulite_block",
+    "ae2:quartz_ore",
+    "ae2:deepslate_quartz_ore"
   ]
 }
