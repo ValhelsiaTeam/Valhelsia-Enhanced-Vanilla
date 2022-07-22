@@ -99,12 +99,14 @@ onEvent('tags.items', event => {
   // Plate Unification
   event.add('c:plates', [
     'techreborn:brass_plate',
+    'techreborn:copper_plate',
     'techreborn:gold_plate',
     'techreborn:iron_plate',
     'techreborn:zinc_plate',
   ]);
 
   event.add('c:plates/brass', 'techreborn:brass_plate');
+  event.add('c:plates/copper', 'techreborn:copper_plate');
   event.add('c:plates/gold', 'techreborn:gold_plate');
   event.add('c:plates/iron', 'techreborn:iron_plate');
   event.add('c:plates/zinc', 'techreborn:zinc_plate');
