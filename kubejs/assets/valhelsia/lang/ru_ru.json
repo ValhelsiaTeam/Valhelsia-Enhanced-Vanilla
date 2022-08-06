@@ -8,7 +8,7 @@
   "valhelsia.config.syntax": "Syntax: Get config entry: !vconfig [option]. Set config entry: !vconfig [option] [entry]",
   "valhelsia.comment.advancement_levels": "-----Advancement Levels System-----",
   "valhelsia.advancement_levels.points.awarded": "You have earned %d skill point(s)!",
-  "valhelsia.advancement_levels.skills.awarded": "You have earned %d points(s) in %s.",
+  "valhelsia.advancement_levels.skills.awarded": "You have earned %d point(s) in %s.",
   "valhelsia.advancement_levels.levels.awarded": "You have earned %d level(s).",
   "valhelsia.advancement_levels.progress.awarded": "You have earned %d progress towards your next level.",
   "valhelsia.advancement_levels.points.tooltip": "Awards %d skill point(s).",
