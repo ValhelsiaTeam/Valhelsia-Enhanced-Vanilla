@@ -8,7 +8,7 @@
   "valhelsia.config.syntax": "Syntaks: Hent konfig-oppføring: !vconfig [option]. Sett konfig-oppføring: !vconfig [option] [entry]",
   "valhelsia.comment.advancement_levels": "-----Advancement Levels System-----",
   "valhelsia.advancement_levels.points.awarded": "Du har opptjent %d ferdighetspoeng!",
-  "valhelsia.advancement_levels.skills.awarded": "Du har opptjent %d poeng i %s.",
+  "valhelsia.advancement_levels.skills.awarded": "You have earned %d point(s) in %s.",
   "valhelsia.advancement_levels.levels.awarded": "Du har opptjent %d nivå(er).",
   "valhelsia.advancement_levels.progress.awarded": "Du har opptjent %d fremgang til ditt neste nivå.",
   "valhelsia.advancement_levels.points.tooltip": "Gir %d ferdighetspoeng.",
