@@ -8,7 +8,7 @@
   "valhelsia.config.syntax": "语法：获取配置条目： !vconfig [option]，选中配置条目：!vconfig [option] [entry]",
   "valhelsia.comment.advancement_levels": "-----Advancement Levels System-----",
   "valhelsia.advancement_levels.points.awarded": "你获得了%d个技能点！",
-  "valhelsia.advancement_levels.skills.awarded": "You have earned %d point(s) in %s.",
+  "valhelsia.advancement_levels.skills.awarded": "你在%s中获得了%d个技能点数。",
   "valhelsia.advancement_levels.levels.awarded": "你提升了%d个等级。",
   "valhelsia.advancement_levels.progress.awarded": "你向下一等级获得了%d进度",
   "valhelsia.advancement_levels.points.tooltip": "奖励%d个技能点。",
