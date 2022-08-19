@@ -7,8 +7,8 @@
 
 /**
  * Checks if a string can be parsed as a number.
- * @param {string} str The input string to check.
- * @returns True for strings that can be parsed as floats (except NaN), false otherwise.
+ * @param {?string} str The input string to check.
+ * @returns {!boolean} true for strings that can be parsed as floats (except NaN), false otherwise.
  */
 function isNumeric(str) {
   // Although we expect a string here, it's robust enough to return false for non-strings rather than break.

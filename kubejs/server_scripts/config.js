@@ -27,21 +27,21 @@
 
 /**
  * The filename of the config file.
- * @const {string}
- * @default 
+ * @const {!string}
+ * @default 'vev_config.json'
  */
 const CONFIG_FILENAME = 'vev_config.json';
 
 /**
  * The chat command to modify the config.
- * @const {string}
- * @default
+ * @const {!string}
+ * @default 'vconfig'
  */
 const CONFIG_COMMAND = '!vconfig';
 
 /**
  * The default values for config options in the pack.
- * @const {Object}
+ * @const {!Object}
  */
 const DEFAULT_CONFIG = {
   debug: false,
@@ -61,8 +61,8 @@ const DEFAULT_CONFIG = {
 
 /**
  * Converts a given value into a boolean or number, if appropriate.
- * @param {*} value The input to parse. Often a string, but not required to be.
- * @returns {boolean|Number|string} The converted value.
+ * @param {!*} value The input to parse. Often a string, but not required to be.
+ * @returns {!boolean|!number|!string} The converted value.
  */
 function parseConfigValue(value) {
   // Quick and dirty parser - converts strings to boolean or number if needed before storing them.
@@ -119,8 +119,9 @@ onEvent('player.chat', (event) => {
   }
 });
 
-// Read in current config + set any missing properties to defaults:
+/** @type {?Object} */
 let config = JsonIO.read(CONFIG_FILENAME);
+/** @type {!boolean} */
 let configDirty = false;
 
 if (!config) {

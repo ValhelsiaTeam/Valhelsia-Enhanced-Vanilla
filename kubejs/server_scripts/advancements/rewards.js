@@ -8,7 +8,7 @@
 
 /**
  * Default reward data, used when writing a new blank advancement reward to disk.
- * @const {string, number}
+ * @const {!string, !number}
  * @default 
  */
 const DEFAULT_REWARD_DATA = {
@@ -21,17 +21,17 @@ const DEFAULT_REWARD_DATA = {
  */
 onEvent('player.advancement', (event) => {
   if (event.advancement.hasDisplay()) {
-    let display = event.advancement.advancement.getDisplay();
+    const display = event.advancement.advancement.getDisplay();
 
     // Award points only for advancements that are announced to chat or that show a toast:
-	  if (display.shouldAnnounceChat() || display.shouldShowToast()) {
+    if (display.shouldAnnounceChat() || display.shouldShowToast()) {
 
-	    let frameType = display.getFrame().getName();
-      let playerName = event.player.profile.getName();
+      const frameType = display.getFrame().getName();
+      const playerName = event.player.profile.getName();
 
       // Debug output of advancement information to log.
       if (global.config.debug) {
-	      console.log(`Advancement Obtained: ${event.advancement.getTitle()} ("${event.advancement.id()}"), type: "${frameType}"`);
+        console.log(`Advancement Obtained: ${event.advancement.getTitle()} ("${event.advancement.id()}"), type: "${frameType}"`);
       }
 
       // Simple Advancement Reward System
@@ -68,8 +68,8 @@ onEvent('player.advancement', (event) => {
 
       // Advanced Advancement Reward System
       if (global.config.individual_advancement_points) {
-        let path = `kubejs/script_data/advancement_rewards/${event.advancement.id().toString().replace(':', '-').replace('/', '-')}.json`;
-        let rewardData = JsonIO.read(path);
+        const path = `kubejs/script_data/advancement_rewards/${event.advancement.id().toString().replace(':', '-').replace('/', '-')}.json`;
+        const rewardData = JsonIO.read(path);
         if (!rewardData) {
           if (global.config.write_default_reward_data) {
             JsonIO.write(path, DEFAULT_REWARD_DATA);

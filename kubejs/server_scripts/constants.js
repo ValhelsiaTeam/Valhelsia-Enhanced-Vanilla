@@ -10,6 +10,8 @@
  * Note: Some mods use abnormal names for colors, such as Absent By Design (which uses 'silver' in some places 
  * instead of 'light_gray'), so this shouldn't be used blindly without verifying that the mod uses standard
  * color names.
+ * 
+ * @const {string[]}
  */
  const COLORS = [
   'white',
