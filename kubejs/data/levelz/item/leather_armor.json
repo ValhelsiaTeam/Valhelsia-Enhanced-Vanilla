@@ -1,5 +1,5 @@
 {
-    "replace": false,
+    "replace": true,
     "skill": "defense",
     "level": 1,
     "item": "minecraft:armor",

@@ -1,5 +1,5 @@
 {
-    "replace": false,
+    "replace": true,
     "skill": "farming",
     "level": 2,
     "item": "minecraft:fishing_rod"

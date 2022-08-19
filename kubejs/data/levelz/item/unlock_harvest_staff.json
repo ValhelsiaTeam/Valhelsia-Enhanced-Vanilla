@@ -1,5 +1,5 @@
 {
-    "replace": false,
+    "replace": true,
     "skill": "luck",
     "level": 12,
     "item": "minecraft:custom_item",
