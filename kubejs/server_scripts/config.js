@@ -9,14 +9,17 @@
  * will be created or updated. See the examples for how to use the config in
  * KubeJS scripts.
  * 
+ * Note: There is a single config file per instance, not per world. Changing settings
+ * will impact all saves / worlds. Use NBT instead for per-world configuration.
+ * 
  * It is possible to adjust the config in-game using chat 
  * (via the !vconfig command by default).
  * 
- * @example Accessing Config Entries:
+ * @example Accessing Config Entries (via script):
  * let debug = global.config.debug;
  * let starting_points = global.config.starting_points
  * 
- * @example Setting Config Entries:
+ * @example Setting Config Entries (via script):
  * setConfig('debug', true)
  * setConfig('starting_points', 3)
  * 
@@ -104,10 +107,10 @@ onEvent('player.chat', (event) => {
       if (params.length < 2) {
         event.player.tell(Text.translate('valhelsia.config.syntax'));
       } else if (params.length == 2) {
-        event.player.tell(Text.translate('valhelsia.config.current', `${params[1]}: '${global.config[params[1]]}'`));
+        event.player.tell(Text.translate('valhelsia.config.current', `${params[1].toLowerCase()}: '${global.config[params[1].toLowerCase()]}'`));
       } else {
         setConfig(params[1], params[2])
-        event.player.tell(Text.translate('valhelsia.config.updated', `${params[1]}: '${global.config[params[1]]}'`));
+        event.player.tell(Text.translate('valhelsia.config.updated', `${params[1].toLowerCase()}: '${global.config[params[1].toLowerCase()]}'`));
       }
     } else {
       event.player.tell(Text.translate('valhelsia.config.no_permission'));

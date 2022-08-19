@@ -116,5 +116,4 @@ onEvent('tags.items', event => {
   event.add('c:gold_plates', 'create:golden_sheet');
   event.add('c:iron_plates', 'create:iron_sheet');
 
-
 });
