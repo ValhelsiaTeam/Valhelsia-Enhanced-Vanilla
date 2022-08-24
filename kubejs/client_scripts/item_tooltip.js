@@ -71,4 +71,4 @@ onEvent('item.tooltip', tooltip => {
   addTooltip('mobscarecrow:chicken_plushie', 'valhelsia.chicken_plushie_tooltip');
   addTooltip('mobscarecrow:zombie_plushie', 'valhelsia.zombie_plushie_tooltip');
   addTooltip('mobscarecrow:piglin_plushie', 'valhelsia.piglin_plushie_tooltip');
-})
+});

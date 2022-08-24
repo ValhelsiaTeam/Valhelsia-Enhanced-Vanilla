@@ -13,7 +13,7 @@
  * 
  * @const {string[]}
  */
- const COLORS = [
+const COLORS = [
   'white',
   'orange',
   'magenta',
