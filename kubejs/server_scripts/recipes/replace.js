@@ -44,7 +44,27 @@ onEvent('recipes', (event) => {
   replaceInput('blockus:snow_bricks', 'ecologics:snow_bricks');
   replaceInput('blockus:amethyst_bricks', 'twigs:polished_amethyst_bricks');
   replaceInput('blockus:polished_amethyst', 'twigs:polished_amethyst');
-
+  replaceInput('techreborn:brass_ingot', '#c:ingots/brass');
+  replaceInput('techreborn:brass_storage_block', '#c:storage_blocks/brass');
+  replaceInput('techreborn:brass_nugget', '#c:nuggets/brass');
+  replaceInput('techreborn:iron_plate', '#c:iron_plates');
+  replaceInput('techreborn:gold_plate', '#c:gold_plates');
+  replaceInput('techreborn:zinc_ingot', '#c:zinc_ingots');
+  replaceInput('techreborn:zinc_nugget', '#c:zinc_nuggets');
+  
   replaceOutput('betterend:ender_dust', 'techreborn:ender_pearl_dust');
   replaceOutput('ae2:ender_dust', 'techreborn:ender_pearl_dust');
+
+  replaceOutput('techreborn:copper_plate', 'create:copper_sheet');
+  replaceOutput('techreborn:iron_plate', 'create:iron_sheet');
+  replaceOutput('techreborn:gold_plate', 'create:golden_sheet');
+  replaceOutput('techreborn:brass_plate', 'create:brass_sheet');
+  replaceOutput('techreborn:obsidian_plate', 'create:sturdy_sheet');
+  replaceOutput('techreborn:brass_ingot', 'create:brass_ingot');
+  replaceOutput('techreborn:brass_nugget', 'create:brass_nugget');
+  replaceOutput('techreborn:copper_nugget', 'create:copper_nugget');
+  replaceOutput('techreborn:zinc_nugget', 'create:zinc_nugget');
+
+  replaceOutput('techreborn:obsidian_dust', 'create:powdered_obsidian');
+  replaceInput('techreborn:obsidian_dust', '#c:obsidian_dusts');
 });

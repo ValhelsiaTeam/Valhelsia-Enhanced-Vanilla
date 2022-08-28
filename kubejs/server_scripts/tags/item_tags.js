@@ -110,6 +110,8 @@ onEvent('tags.items', event => {
   event.add('c:plates/gold', 'techreborn:gold_plate');
   event.add('c:plates/iron', 'techreborn:iron_plate');
   event.add('c:plates/zinc', 'techreborn:zinc_plate');
+  event.add('c:obsidian_plates', 'create:sturdy_sheet');
+  event.add('c:plates/obsidian', 'techreborn:obsidian_plate');
 
   event.add('c:brass_plates', 'create:brass_sheet');
   event.add('c:copper_plates', 'create:copper_sheet');
@@ -123,4 +125,7 @@ onEvent('tags.items', event => {
   // Enhanced mushrooms uses fabric:tools/axes in their recipes
   event.add('fabric:tools/axes', '#c:axes')
 
+  // Obsidian dust unification
+  event.add('c:obsidian_dusts', 'create:powdered_obsidian')
+  event.add('c:obsidian_dusts', 'techreborn:obsidian_dust')
 });
