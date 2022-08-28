@@ -13,17 +13,17 @@
 onEvent('tags.items', event => {
   
   // Tools
-  event.get('fabric:swords').add([
+  event.get('c:swords').add([
     'ae2:certus_quartz_sword',
     'ae2:nether_quartz_sword',
   ]);
 
-  event.get('fabric:pickaxes').add([
+  event.get('c:pickaxes').add([
     'ae2:certus_quartz_pickaxe',
     'ae2:nether_quartz_pickaxe',
   ]);
 
-  event.get('fabric:axes').add([
+  event.get('c:tools/axes').add([
     'ae2:certus_quartz_axe',
     'ae2:nether_quartz_axe',
   ]);
@@ -115,5 +115,12 @@ onEvent('tags.items', event => {
   event.add('c:copper_plates', 'create:copper_sheet');
   event.add('c:gold_plates', 'create:golden_sheet');
   event.add('c:iron_plates', 'create:iron_sheet');
+
+  // Farmer's Delight compatibility retagging
+  event.add('c:tools/pickaxes', '#c:pickaxes')
+  event.add('c:tools/axes', '#c:axes')
+
+  // Enhanced mushrooms uses fabric:tools/axes in their recipes
+  event.add('fabric:tools/axes', '#c:axes')
 
 });

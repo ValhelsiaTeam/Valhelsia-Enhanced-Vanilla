@@ -165,5 +165,10 @@
   "text.levelz.object_prefix.stone_golem": "Gilded Netherite",
 
   "advancements.arcanus.criteria.has_wand": "Unlimited Power!",
-  "advancementinfo.infopane": "Info"
+  "advancementinfo.infopane": "Info",
+
+  "farmersdelight.advancement.place_stove": "Fire up the stove",
+  "farmersdelight.advancement.place_stove.desc": "Place down a stove",
+  "farmersdelight.advancement.drink_hot_cocoa": "A cup of joy",
+  "farmersdelight.advancement.drink_hot_cocoa.desc": "Remove a debuff by drinking hot cocoa"
 }
