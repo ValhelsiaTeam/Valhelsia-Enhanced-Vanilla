@@ -1,13 +1,13 @@
 {
-	"replace": true,
-	"level": 8,
-	"block": [
-		"minecraft:redstone_ore",
-		"techreborn:silver_ore",
-		//"artifality:budding_lunar_crystal",
-		//"artifality:small_lunar_crystal_cluster",
-		//"artifality:medium_lunar_crystal_cluster",
-		//"artifality:lunar_crystal_cluster",
-		"create:asurine"
-	]
+  "replace": true,
+  "level": 8,
+  "block": [
+    "minecraft:redstone_ore",
+    "techreborn:silver_ore",
+    //"artifality:budding_lunar_crystal",
+    //"artifality:small_lunar_crystal_cluster",
+    //"artifality:medium_lunar_crystal_cluster",
+    //"artifality:lunar_crystal_cluster",
+    "create:asurine"
+  ]
 }

@@ -1,16 +1,16 @@
 {
-	"replace": false,
-	"level": 11,
-	"block": [
-		"techreborn:sapphire_ore",
-		"techreborn:deepslate_sapphire_ore",
-		"minecraft:budding_amethyst",
-		"minecraft:small_amethyst_bud",
-		"minecraft:medium_amethyst_bud",
-		"minecraft:large_amethyst_bud",
-		"minecraft:amethyst_cluster",
-		"minecraft:amethyst_block",
-		"minecraft:tuff",
-		"minecraft:calcite"
-	]
+  "replace": false,
+  "level": 11,
+  "block": [
+    "techreborn:sapphire_ore",
+    "techreborn:deepslate_sapphire_ore",
+    "minecraft:budding_amethyst",
+    "minecraft:small_amethyst_bud",
+    "minecraft:medium_amethyst_bud",
+    "minecraft:large_amethyst_bud",
+    "minecraft:amethyst_cluster",
+    "minecraft:amethyst_block",
+    "minecraft:tuff",
+    "minecraft:calcite"
+  ]
 }

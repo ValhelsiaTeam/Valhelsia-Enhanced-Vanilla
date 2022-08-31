@@ -1,10 +1,10 @@
 {
-    "replace": true,
-    "level": 5,
-    "block": [
-        "minecraft:copper_ore",
-        "create:ochrum",
-        "ce:jagged_rose_quartz",
-        "ce:rose_quartz_block"
-    ]
+  "replace": true,
+  "level": 5,
+  "block": [
+    "minecraft:copper_ore",
+    "create:ochrum",
+    "ce:jagged_rose_quartz",
+    "ce:rose_quartz_block"
+  ]
 }

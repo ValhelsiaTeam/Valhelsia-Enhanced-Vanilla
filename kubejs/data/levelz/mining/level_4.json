@@ -1,9 +1,9 @@
 {
-    "replace": true,
-    "level": 4,
-    "block": [
-        "minecraft:coal_ore",
-        "ae2:quartz_ore",
-        "blockus:marble"
-    ]
+  "replace": true,
+  "level": 4,
+  "block": [
+    "minecraft:coal_ore",
+    "ae2:quartz_ore",
+    "blockus:marble"
+  ]
 }

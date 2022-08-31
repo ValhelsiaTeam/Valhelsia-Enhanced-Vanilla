@@ -1,7 +1,7 @@
 {
-	"replace": true,
-	"level": 27,
-	"block": [
-		"betterend:aurora_crystal"
-	]
+  "replace": true,
+  "level": 27,
+  "block": [
+    "betterend:aurora_crystal"
+  ]
 }

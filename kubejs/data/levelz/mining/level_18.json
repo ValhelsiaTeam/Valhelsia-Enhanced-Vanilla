@@ -1,11 +1,11 @@
 {
-	"replace": false,
-	"level": 18,
-	"block": [
-		"minecraft:gilded_blackstone",
-		"minecraft:blackstone",
-		"minecraft:basalt",
-		"minecraft:smooth_basalt",
-		"minecraft:glowstone"
-	]
+  "replace": false,
+  "level": 18,
+  "block": [
+    "minecraft:gilded_blackstone",
+    "minecraft:blackstone",
+    "minecraft:basalt",
+    "minecraft:smooth_basalt",
+    "minecraft:glowstone"
+  ]
 }

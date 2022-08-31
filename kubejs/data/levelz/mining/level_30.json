@@ -1,8 +1,8 @@
 {
-	"replace": true,
-	"level": 30,
-	"block": [
-		"ae2:fluix_block",
-		"ae2:sky_stone_block"
-	]
+  "replace": true,
+  "level": 30,
+  "block": [
+    "ae2:fluix_block",
+    "ae2:sky_stone_block"
+  ]
 }

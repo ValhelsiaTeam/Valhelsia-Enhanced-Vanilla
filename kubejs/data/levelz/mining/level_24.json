@@ -1,9 +1,9 @@
 {
-	"replace": true,
-	"level": 24,
-	"block": [
-		"techreborn:peridot_ore",
-		"enderscape:nebulite_ore",
-		"betterend:violecite"
-	]
+  "replace": true,
+  "level": 24,
+  "block": [
+    "techreborn:peridot_ore",
+    "enderscape:nebulite_ore",
+    "betterend:violecite"
+  ]
 }

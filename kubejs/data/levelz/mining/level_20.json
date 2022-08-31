@@ -1,7 +1,7 @@
 {
-	"replace": true,
-	"level": 20,
-	"block": [
-		"minecraft:ancient_debris"
-	]
+  "replace": true,
+  "level": 20,
+  "block": [
+    "minecraft:ancient_debris"
+  ]
 }

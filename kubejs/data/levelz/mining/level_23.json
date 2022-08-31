@@ -1,10 +1,10 @@
 {
-	"replace": true,
-	"level": 23,
-	"block": [
-		"betterend:amber_ore",
-		"betterend:virid_jadestone",
-		"betterend:azure_jadestone",
-		"betterend:sandy_jadestone"
-	]
+  "replace": true,
+  "level": 23,
+  "block": [
+    "betterend:amber_ore",
+    "betterend:virid_jadestone",
+    "betterend:azure_jadestone",
+    "betterend:sandy_jadestone"
+  ]
 }

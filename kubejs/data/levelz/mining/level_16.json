@@ -1,12 +1,12 @@
 {
-	"replace": false,
-	"level": 16,
-	"block": [
-		"minecraft:nether_gold_ore",
-        "minecraft:nether_quartz_ore",
-		"minecraft:netherrack",
-		"minecraft:crimson_nylium",
-		"minecraft:warped_nylium",
-		"minecraft:magma_block"
-	]
+  "replace": false,
+  "level": 16,
+  "block": [
+    "minecraft:nether_gold_ore",
+    "minecraft:nether_quartz_ore",
+    "minecraft:netherrack",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:magma_block"
+  ]
 }

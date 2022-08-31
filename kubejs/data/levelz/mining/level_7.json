@@ -1,14 +1,14 @@
 {
-	"replace": false,
-	"level": 7,
-	"block": [
-		"minecraft:gold_ore",
-		"techreborn:tin_ore",
-		"minecraft:blue_ice",
-		"minecraft:ice",
-		"minecraft:packed_ice",
-		"betterend:emerald_ice",
-		"betterend:dense_emerald_ice",
-		"betterend:ancient_emerald_ice"
-	]
+  "replace": false,
+  "level": 7,
+  "block": [
+    "minecraft:gold_ore",
+    "techreborn:tin_ore",
+    "minecraft:blue_ice",
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "betterend:emerald_ice",
+    "betterend:dense_emerald_ice",
+    "betterend:ancient_emerald_ice"
+  ]
 }

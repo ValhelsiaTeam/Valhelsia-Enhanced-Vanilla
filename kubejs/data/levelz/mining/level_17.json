@@ -1,12 +1,12 @@
 {
-	"replace": true,
-	"level": 17,
-	"block": [
-		"techreborn:iridium_ore",
-		"techreborn:deepslate_iridium_ore",
-		"techreborn:cinnabar_ore",
-		"techreborn:sphalerite_ore",
-		"minecraft:soul_sand",
-		"minecraft:soul_soil"
-	]
+  "replace": true,
+  "level": 17,
+  "block": [
+    "techreborn:iridium_ore",
+    "techreborn:deepslate_iridium_ore",
+    "techreborn:cinnabar_ore",
+    "techreborn:sphalerite_ore",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil"
+  ]
 }

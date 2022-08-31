@@ -1,12 +1,12 @@
 {
-    "replace": true,
-    "level": 1,
-    "block": [
-        "minecraft:gravel",
-        "minecraft:sand",
-        "minecraft:red_sand",
-        "betterend:endstone_dust",
-        "minecraft:snow_block",
-        "betterend:dense_snow"
-    ]
+  "replace": true,
+  "level": 1,
+  "block": [
+    "minecraft:gravel",
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "betterend:endstone_dust",
+    "minecraft:snow_block",
+    "betterend:dense_snow"
+  ]
 }
