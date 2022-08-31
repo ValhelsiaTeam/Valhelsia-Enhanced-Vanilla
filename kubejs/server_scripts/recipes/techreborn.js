@@ -36,6 +36,17 @@ onEvent('recipes', (event) => {
     });
   };
 
+  // Alloy Smelter recipe template
+  // most default recipes have 6 power, 200 time
+  const alloy = (outputs, inputs, power, time) => {
+    event.custom({
+      type: 'techreborn:alloy_smelter',
+      power: power,
+      time: time,
+      ingredients: inputs,
+      results: outputs
+    });
+  };
   // ----- Grinder Recipes -----
   grind('techreborn:marble_dust', 'blockus:marble', 2, 1440);
 

@@ -29,7 +29,7 @@ onEvent('recipes', (event) => {
       ],
       tool: {
         type: 'farmersdelight:tool',
-        tag: 'fabric:tools/axes'
+        tag: 'c:axes'
       },
       result: [
         Item.of(output).toResultJson(),
@@ -52,7 +52,7 @@ onEvent('recipes', (event) => {
       ],
       tool: {
         type: 'farmersdelight:tool',
-        tag: 'fabric:tools/axes'
+        tag: 'c:axes'
       },
       result: [
         Item.of(output).toResultJson()
@@ -72,7 +72,7 @@ onEvent('recipes', (event) => {
         Ingredient.of(input).toJson()
       ],
       tool: {
-        tag: 'farmersdelight:tools/knives'
+        tag: 'c:tools/knives'
       },
       result: output
     });
@@ -97,15 +97,15 @@ onEvent('recipes', (event) => {
   };
 
   // ----- Axe Recipes -----
-  //strip('architects_palette:stripped_twisted_log', 'architects_palette:twisted_log');
-  //strip('architects_palette:stripped_twisted_wood', 'architects_palette:twisted_wood');
-  //strip('blockus:stripped_white_oak_log', 'blockus:white_oak_log');
-  //strip('blockus:stripped_white_oak_wood', 'blockus:white_oak_wood');
-  //strip('techreborn:stripped_rubber_log', 'techreborn:rubber_log');
-  //strip('techreborn:stripped_rubber_wood', 'techreborn:rubber_wood');
+  strip('architects_palette:stripped_twisted_log', 'architects_palette:twisted_log');
+  strip('architects_palette:stripped_twisted_wood', 'architects_palette:twisted_wood');
+  strip('blockus:stripped_white_oak_log', 'blockus:white_oak_log');
+  strip('blockus:stripped_white_oak_wood', 'blockus:white_oak_wood');
+  strip('techreborn:rubber_log_stripped', 'techreborn:rubber_log');
+  strip('techreborn:stripped_rubber_wood', 'techreborn:rubber_wood');
 
   // ----- Knife Recipes -----
-  //cut([Item.of('minecraft:string', 2)], '#minecraft:wool');
+  cut([Item.of('minecraft:string', 2)], '#minecraft:wool');
 
   // ----- Cooking Pot Recipes -----
 
