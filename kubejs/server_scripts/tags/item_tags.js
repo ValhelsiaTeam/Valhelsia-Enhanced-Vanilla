@@ -109,14 +109,14 @@ onEvent('tags.items', event => {
   event.add('c:plates/copper', 'techreborn:copper_plate');
   event.add('c:plates/gold', 'techreborn:gold_plate');
   event.add('c:plates/iron', 'techreborn:iron_plate');
-  event.add('c:plates/zinc', 'techreborn:zinc_plate');
-  event.add('c:obsidian_plates', 'create:sturdy_sheet');
   event.add('c:plates/obsidian', 'techreborn:obsidian_plate');
-
+  event.add('c:plates/zinc', 'techreborn:zinc_plate');
+  
   event.add('c:brass_plates', 'create:brass_sheet');
   event.add('c:copper_plates', 'create:copper_sheet');
   event.add('c:gold_plates', 'create:golden_sheet');
   event.add('c:iron_plates', 'create:iron_sheet');
+  event.add('c:obsidian_plates', 'create:sturdy_sheet');
 
   // Farmer's Delight compatibility retagging
   event.add('c:tools/pickaxes', '#c:pickaxes');
