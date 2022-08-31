@@ -119,13 +119,13 @@ onEvent('tags.items', event => {
   event.add('c:iron_plates', 'create:iron_sheet');
 
   // Farmer's Delight compatibility retagging
-  event.add('c:tools/pickaxes', '#c:pickaxes')
-  event.add('c:tools/axes', '#c:axes')
+  event.add('c:tools/pickaxes', '#c:pickaxes');
+  event.add('c:tools/axes', '#c:axes');
 
   // Enhanced mushrooms uses fabric:tools/axes in their recipes
-  event.add('fabric:tools/axes', '#c:axes')
+  event.add('fabric:tools/axes', '#c:axes');
 
   // Obsidian dust unification
-  event.add('c:obsidian_dusts', 'create:powdered_obsidian')
-  event.add('c:obsidian_dusts', 'techreborn:obsidian_dust')
+  event.add('c:obsidian_dusts', 'create:powdered_obsidian');
+  event.add('c:obsidian_dusts', 'techreborn:obsidian_dust');
 });
