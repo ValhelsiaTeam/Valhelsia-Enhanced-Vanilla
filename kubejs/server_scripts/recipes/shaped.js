@@ -84,6 +84,14 @@ onEvent('recipes', (event) => {
     C: 'farmersdelight:canvas'
   });
 
+  event.shaped('minecraft:chest', [
+    'AAA',
+    'A A',
+    'AAA'
+  ], {
+    A: '#minecraft:planks'
+  });
+
   // Architect's Palette
   shaped3x3('architects_palette:ender_pearl_block', 'minecraft:ender_pearl');
   
@@ -155,6 +163,16 @@ onEvent('recipes', (event) => {
 
   // Ecologics
   shaped2x2('minecraft:moss_block', 'ecologics:surface_moss');
+
+  // Iron Chests
+  event.shaped('ironchests:copper_chest', [
+    'AAA',
+    'ABA',
+    'AAA'
+  ], {
+    A: 'minecraft:copper_ingot',
+    B: '#c:wooden_chests'
+  });
   
   // Quartz Elevator
   wrapped('quartzelv:quartz_elevator', '#valhelsia:storage_blocks/ender', 'minecraft:quartz');
