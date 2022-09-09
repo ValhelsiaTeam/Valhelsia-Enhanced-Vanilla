@@ -72,6 +72,9 @@ onEvent('recipes', (event) => {
     'ecologics:moss_block',
     'ecologics:surface_moss',
 
+    // Iron Chests
+    'ironchests:copper_chest',
+
     // Quartz Elevator
     'quartzelv:quartz_elevator',
     'quartzelv:quartz_elevator_from_quartz_block',
