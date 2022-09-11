@@ -38,14 +38,15 @@ onEvent('recipes', (event) => {
 
   // Ingots
   replaceInput('techreborn:brass_ingot', '#c:ingots/brass');
-  replaceInput('techreborn:zinc_ingot', '#c:zinc_ingots');
+  replaceInput('techreborn:zinc_ingot', '#c:ingots/zinc');
 
   // Storage Blocks
   replaceInput('techreborn:brass_storage_block', '#c:storage_blocks/brass');
 
   // Nuggets
+  replaceInput('techreborn:copper_nugget', '#c:nuggets/copper');
   replaceInput('techreborn:brass_nugget', '#c:nuggets/brass');
-  replaceInput('techreborn:zinc_nugget', '#c:zinc_nuggets');
+  replaceInput('techreborn:zinc_nugget', '#c:nuggets/zinc');
 
   // Dusts
   replaceInput('betterend:ender_dust', '#c:ender_pearl_dusts');

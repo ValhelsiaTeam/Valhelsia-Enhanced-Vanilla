@@ -77,13 +77,16 @@ onEvent('tags.items', event => {
 
   // Nugget Unification
   event.add('c:nuggets', [
+    'techreborn:copper_nugget',
     'techreborn:brass_nugget',
     'techreborn:zinc_nugget',
   ]);
 
+  event.add('c:nuggets/copper', 'techreborn:copper_nugget');
   event.add('c:nuggets/brass', 'techreborn:brass_nugget');
   event.add('c:nuggets/zinc', 'techreborn:zinc_nugget');
 
+  event.add('c:copper_nuggets', 'create:copper_nugget');
   event.add('c:brass_nuggets', 'create:brass_nugget');
   event.add('c:zinc_nuggets', 'create:zinc_nugget');
 

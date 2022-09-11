@@ -88,6 +88,7 @@ onEvent('recipes', (event) => {
       results: outputs
     });
   };
+  
   // ----- Grinder Recipes -----
   grind('techreborn:marble_dust', 'blockus:marble', 2, 1440);
 
@@ -97,5 +98,5 @@ onEvent('recipes', (event) => {
 
   // ----- Alloy Smelter Recipes -----
   // None yet.
-  
+
 });
