@@ -1,24 +1,25 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:0
+ignoreUpdate:340
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
 debugEntityIcons:false
 debugEntityVariantIds:false
+radarHideInvisibleEntities:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:false
 minimap:false
 caveMaps:0
-caveZoom:1
+caveZoom:2
 showWaypoints:true
-showIngameWaypoints:false
+showIngameWaypoints:true
 displayRedstone:true
 deathpoints:true
-oldDeathpoints:false
+oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:false
-zoom:1
+zoom:2
 minimapSize:0
 chunkGrid:-1
 slimeChunks:false
@@ -47,7 +48,7 @@ smoothDots:true
 worldMap:true
 terrainDepth:true
 terrainSlopes:2
-mainEntityAs:2
+mainEntityAs:0
 blockTransparency:true
 waypointOpacityIngame:80
 waypointOpacityMap:90
@@ -66,7 +67,7 @@ zoomedOutEnlarged:false
 minimapTextAlign:0
 showAngles:false
 waypointsMutualEdit:true
-compassLocation:2
+compassLocation:1
 compassScale:1
 caveMapsDepth:15
 hideWaypointCoordinates:false
@@ -87,7 +88,7 @@ compassColor:9
 northCompassColor:-1
 showDimensionName:false
 displayMultipleWaypointInfo:1
-entityRadar:false
+entityRadar:true
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1
@@ -99,9 +100,19 @@ hideMinimapUnderF3:true
 manualCaveModeStartAuto:true
 manualCaveModeStart:-1
 chunkGridLineWidth:1
-interface:dummy:0:36:true:false:false:false
-interface:dummy:0:10000:true:false:false:false
+temporaryWaypointsGlobal:true
+keepUnlockedWhenEnlarged:false
+enlargedMinimapAToggle:false
+displayStainedGlass:true
+waypointOnMapScale:0
+displayPacPlayers:true
+displayClaims:true
+displayCurrentClaim:true
+claimsFillOpacity:46
+claimsBorderOpacity:80
 interface:dummy:0:0:false:false:true:false
-interface:dummy:0:36:true:false:false:false
+interface:dummy:0:135:false:false:false:false
+interface:dummy:120:0:true:false:false:false
+interface:dummy:0:50:true:false:false:false
 interface:gui.xaero_minimap:0:0:false:false:true:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints
