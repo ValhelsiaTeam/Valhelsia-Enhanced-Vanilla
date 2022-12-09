@@ -14,7 +14,7 @@
     "minimumLeavesAroundRequired": 1,
     "includePersistentLeavesInRequiredCount": true,
     "treeBreaking": true,
-    "leavesBreaking": false,
+    "leavesBreaking": true,
     "leavesBreakingForceRadius": 0,
     "allowMixedLogs": false,
     "breakNetherTreeWarts": true,
@@ -31,7 +31,8 @@
     "ignoreTools": false,
     "damageMultiplicand": 1.0,
     "damageRounding": "ROUND_DOWN",
-    "speedMultiplicand": 0.85
+    "speedMultiplicand": 0.85,
+    "forceToolUsage": false
   },
   "player": {
     "allowedTags": []
@@ -43,5 +44,6 @@
   },
   "sneakMode": "SNEAK_DISABLE",
   "breakInCreative": false,
+  "lootInCreative": true,
   "notificationMode": "ACTION_BAR"
 }
