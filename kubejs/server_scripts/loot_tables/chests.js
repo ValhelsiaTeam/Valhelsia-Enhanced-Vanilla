@@ -3,12 +3,14 @@
 
 /**
  * @file Chest loot table injection / replacement for Valhelsia: Enhanced Vanilla.
+ * 
+ * @copyright Valhelsia Inc 2023
  */
 
 /**
  * Chest Loot Table Event Handler
  */
-onEvent('chest.loot_tables', event => {
+ServerEvents.chestLootTables(event => {
 
   // End City Treasure Chest Injection
   event.modify('minecraft:end_city_treasure', table => {
