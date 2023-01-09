@@ -8,12 +8,13 @@
  * including presets for different categories of cutting board recipe
  * (eg. stripping, chopping, cutting).
  * 
+ * @copyright Valhelsia Inc 2023
  */
 
 /**
  * Farmer's Delight Recipe Event Handler
  */
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 
   /**
    * Creates an Axe Stripping recipe for the Farmer's Delight Cutting Board.
@@ -97,12 +98,6 @@ onEvent('recipes', (event) => {
   };
 
   // ----- Axe Recipes -----
-  //strip('architects_palette:stripped_twisted_log', 'architects_palette:twisted_log');
-  //strip('architects_palette:stripped_twisted_wood', 'architects_palette:twisted_wood');
-  //strip('blockus:stripped_white_oak_log', 'blockus:white_oak_log');
-  //strip('blockus:stripped_white_oak_wood', 'blockus:white_oak_wood');
-  //strip('techreborn:stripped_rubber_log', 'techreborn:rubber_log');
-  //strip('techreborn:stripped_rubber_wood', 'techreborn:rubber_wood');
 
   // ----- Knife Recipes -----
   cut([Item.of('minecraft:string', 2)], '#minecraft:wool');
