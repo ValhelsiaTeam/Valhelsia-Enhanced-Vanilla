@@ -8,6 +8,7 @@
  * 
  * @see shapeless.js
  * 
+ * @copyright Valhelsia Inc 2023
  */
 
 /**
@@ -83,10 +84,6 @@ ServerEvents.recipes(event => {
     S: 'minecraft:string',
     C: 'farmersdelight:canvas'
   });
-  
-  // Better End
-  shaped3x3('betterend:ender_block', 'betterend:ender_shard');
-  shaped2x2('minecraft:ender_pearl', 'betterend:ender_shard');
 
   // Decorative Blocks
   event.shaped('decorative_blocks:chain', [
