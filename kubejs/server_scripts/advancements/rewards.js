@@ -4,6 +4,8 @@
 /**
  * @file Advancement reward handling for Valhelsia: Enhanced Vanilla. Gives rewards to players for
  * obtaining advancements (typically skills or points in the LevelZ mod).
+ * 
+ * @copyright Valhelsia Inc 2023
  */
 
 /**
@@ -19,7 +21,7 @@ const DEFAULT_REWARD_DATA = {
 /**
  * Event handler for rewarding the player when gaining advancements.
  */
-onEvent('player.advancement', (event) => {
+ServerEvents.playerAdvancement(event => {
   if (event.advancement.hasDisplay()) {
     let display = event.advancement.advancement.getDisplay();
 
