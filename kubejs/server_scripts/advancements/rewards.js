@@ -21,7 +21,7 @@ const DEFAULT_REWARD_DATA = {
 /**
  * Event handler for rewarding the player when gaining advancements.
  */
-ServerEvents.playerAdvancement(event => {
+PlayerEvents.advancement(event => {
   if (event.advancement.hasDisplay()) {
     let display = event.advancement.advancement.getDisplay();
 
