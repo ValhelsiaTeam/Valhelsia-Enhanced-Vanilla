@@ -20,6 +20,7 @@
  * setConfig('debug', true)
  * setConfig('starting_points', 3)
  * 
+ * @copyright Valhelsia Inc 2023
  */
 
 /**
@@ -96,7 +97,7 @@ function setConfig(key, value) {
  * Announce the current value of the debug entry to chat: !config debug
  * Set the value of the debug entry to true: !config debug true
  */
-onEvent('player.chat', (event) => {
+ServerEvents.commandRegistry(event => {
   if (event.message.startsWith(CONFIG_COMMAND)) {
     if (event.player.isOp()) {
       const params = event.message.trim().split(' ')
@@ -139,7 +140,7 @@ if (configDirty) {
 global.config = config;
 
 // KubeJS Settings
-settings.logAddedRecipes = config.log_added_recipes ? true : false;
-settings.logRemovedRecipes = config.log_removed_recipess ? true : false;
-settings.logSkippedRecipes = config.log_skipped_recipess ? true : false;
-settings.logErroringRecipes = config.log_erroring_recipess ? true : false;
+//settings.logAddedRecipes = config.log_added_recipes ? true : false;
+//settings.logRemovedRecipes = config.log_removed_recipes ? true : false;
+//settings.logSkippedRecipes = config.log_skipped_recipes ? true : false;
+//settings.logErroringRecipes = config.log_erroring_recipes ? true : false;
