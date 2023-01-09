@@ -3,6 +3,8 @@
 
 /**
  * @file Removes unused / undesired advancements from the pack.
+ * 
+ * @copyright Valhelsia Inc 2023
  */
 
 /**
@@ -12,8 +14,6 @@
  * @const {string[]}
  */
  const ADVANCEMENTS_TO_REMOVE = [
-  'outvoted:advancements/obtain_wildfire_helmet.json',
-  'outvoted:advancements/obtain_wildfire_piece.json',
 ];
 
 /**
@@ -27,7 +27,7 @@ const EMPTY_ADVANCEMENT = {criteria:{impossible:{trigger:"minecraft:impossible"}
  * Event handler for KubeJS's virtual datapack. Removes unused / undesired advancements
  * from the pack.
  */
- onEvent('server.datapack.high_priority', (event) => {
+ServerEvents.highPriorityData(event => {
   // Remove specified advancements.
   ADVANCEMENTS_TO_REMOVE.forEach(file => {
     event.addJson(file, EMPTY_ADVANCEMENT);
