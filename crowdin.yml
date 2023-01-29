@@ -1,3 +1,0 @@
-files:
-  - source: /kubejs/assets/valhelsia/lang/en_us.json
-    translation: /kubejs/assets/valhelsia/lang/%locale_with_underscore%.json
