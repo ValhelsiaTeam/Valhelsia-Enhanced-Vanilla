@@ -37,9 +37,9 @@ ServerEvents.recipes(event => {
   });
 
   event.shaped('minecraft:dispenser', [
-    'RS ',
+    ' RS',
     'RDS',
-    'RS '
+    ' RS'
   ], {
     R: 'minecraft:stick',
     S: 'minecraft:string',
