@@ -1,0 +1,23 @@
+version:3120
+autoJump:false
+enableVsync:false
+realmsNotifications:false
+renderDistance:12
+simulationDistance:12
+entityDistanceScaling:1.0
+guiScale:3
+maxFps:120
+biomeBlendRadius:2
+renderClouds:"true"
+resourcePacks:["vanilla","Fabric Mods","minecraft/supporteatinganimation","file/EclecticTrove-noconfig-1.19-1.2.0.zip","file/Visual Titles.zip","file/Fantasy_Ores_v6.1_shiny_ores.zip","file/Fantasy_Ores_Modded_v2_shiny_ores.zip","file/xali\u0027s Enchanted Books v0.12.0.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enhanced Vanilla v1.10.5.zip","file/xalis Bushy Leaves v3.3.0.zip"]
+incompatibleResourcePacks:["file/xali\u0027s Potions v1.0.zip","file/xalis Bushy Leaves v3.3.0.zip"]
+soundCategory_master:0.5
+soundCategory_music:0.25
+soundCategory_record:1.0
+soundCategory_weather:1.0
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:0.25
+soundCategory_voice:1.0
