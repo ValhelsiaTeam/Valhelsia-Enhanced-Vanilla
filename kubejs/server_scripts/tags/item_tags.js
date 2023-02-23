@@ -15,33 +15,33 @@
 ServerEvents.tags('item', event => {
   
   // Tools
-  event.get('fabric:swords').add([
+  event.add('fabric:swords', [
     'ae2:certus_quartz_sword',
     'ae2:nether_quartz_sword',
   ]);
 
-  event.get('fabric:pickaxes').add([
+  event.add('fabric:pickaxes', [
     'ae2:certus_quartz_pickaxe',
     'ae2:nether_quartz_pickaxe',
   ]);
 
-  event.get('fabric:axes').add([
+  event.add('fabric:axes', [
     'ae2:certus_quartz_axe',
     'ae2:nether_quartz_axe',
   ]);
 
-  event.get('fabric:shovels').add([
+  event.add('fabric:shovels', [
     'ae2:certus_quartz_shovel',
     'ae2:nether_quartz_shovel',
   ]);
 
-  event.get('fabric:hoes').add([
+  event.add('fabric:hoes', [
     'ae2:certus_quartz_hoe',
     'ae2:nether_quartz_hoe',
   ]);
 
   // Machetes
-  event.get('harvest_scythes:machetes').add([
+  event.add('harvest_scythes:machetes', [
     'harvest_scythes:wooden_machete',
     'harvest_scythes:stone_machete',
     'harvest_scythes:iron_machete',
@@ -49,18 +49,10 @@ ServerEvents.tags('item', event => {
     'harvest_scythes:diamond_machete',
     'harvest_scythes:netherite_machete',
     'harvest_scythes:creative_machete',
-    'harvest_scythes:peridot_machete',
-    'harvest_scythes:sapphire_machete',
-    'harvest_scythes:ruby_machete',
-    'harvest_scythes:bronze_machete',
     'harvest_scythes:dragon_machete',
   ]);
 
   // ----- Inter-mod Compatibility -----
-  event.get('valhelsia:storage_blocks/ender').add([
-    'betterend:ender_block',
-  ]);
-
   event.add('c:ender_pearl_dusts', 'betterend:ender_dust');
 
 });
