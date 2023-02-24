@@ -3,7 +3,6 @@
 	"level": 7,
 	"block": [
 		"minecraft:gold_ore",
-		"techreborn:tin_ore",
 		"minecraft:blue_ice",
 		"minecraft:ice",
 		"minecraft:packed_ice",

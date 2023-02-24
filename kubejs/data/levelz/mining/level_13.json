@@ -4,9 +4,5 @@
     "block": [
         "create:zinc_ore",
         "create:deepslate_zinc_ore"
-        //"artifality:budding_life_crystal",
-        //"artifality:small_life_crystal_cluster",
-        //"artifality:medium_life_crystal_cluster",
-        //"artifality:life_crystal_cluster"
     ]
 }

@@ -3,9 +3,6 @@
   "level": 12,
   "block": [
     "minecraft:lapis_ore",
-    "minecraft:deepslate_lapis_ore",
-    "techreborn:galena_ore",
-    "techreborn:deepslate_galena_ore",
-    "blockus:bluestone"
+    "minecraft:deepslate_lapis_ore"
   ]
 }

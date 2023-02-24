@@ -3,8 +3,6 @@
     "level": 10,
     "block": [
         "minecraft:emerald_ore",
-        "techreborn:bauxite_ore",
-        "techreborn:deepslate_bauxite_ore",
         "minecraft:deepslate_coal_ore",
         "minecraft:deepslate_iron_ore",
         "minecraft:deepslate_copper_ore",
@@ -12,9 +10,6 @@
         "minecraft:deepslate_redstone_ore",
         "minecraft:deepslate_emerald_ore",
         "ae2:deepslate_quartz_ore",
-        "techreborn:deepslate_tin_ore",
-        "techreborn:deepslate_silver_ore",
-        "techreborn:deepslate_ruby_ore",
         "minecraft:deepslate"
     ]
 }
