@@ -1,0 +1,63 @@
+{
+  "force_include": {
+    "NETHER": [],
+    "END_LAND": [],
+    "END_VOID": [],
+    "END_CENTER": [],
+    "END_BARRENS": []
+  },
+  "force_exclude": {
+    "NETHER": [],
+    "END": []
+  },
+  "minecraft": {
+    "the_end": {
+      "generation_chance [default: 0.5]": 0.5
+    },
+    "end_midlands": {
+      "generation_chance [default: 0.5]": 0.5
+    },
+    "end_highlands": {
+      "generation_chance [default: 0.5]": 0.5,
+      "edge_size [default: 8]": 8
+    }
+  },
+  "enderscape": {
+    "celestial_islands": {
+      "generation_chance [default: 0.3]": 0.3,
+      "fog_density [default: 1.25]": 1.25,
+      "vertical [default: false]": false,
+      "terrain_height [default: 0.1]": 0.1
+    },
+    "celestial_plains": {
+      "generation_chance [default: 0.3]": 0.3,
+      "fog_density [default: 1.25]": 1.25,
+      "vertical [default: false]": false,
+      "terrain_height [default: 0.1]": 0.1
+    },
+    "barren_depths": {
+      "generation_chance [default: 1.0]": 1.0,
+      "fog_density [default: 1.0]": 1.0,
+      "vertical [default: false]": false,
+      "terrain_height [default: 0.1]": 0.1
+    },
+    "corrupt_depths": {
+      "generation_chance [default: 0.25]": 0.25,
+      "fog_density [default: 1.5]": 1.5,
+      "vertical [default: false]": false,
+      "terrain_height [default: 0.1]": 0.1
+    },
+    "barren_skies": {
+      "generation_chance [default: 0.6]": 0.6,
+      "fog_density [default: 1.0]": 1.0,
+      "vertical [default: false]": false,
+      "terrain_height [default: 0.1]": 0.1
+    },
+    "sky_islands": {
+      "generation_chance [default: 0.4]": 0.4,
+      "fog_density [default: 1.0]": 1.0,
+      "vertical [default: false]": false,
+      "terrain_height [default: 0.1]": 0.1
+    }
+  }
+}
