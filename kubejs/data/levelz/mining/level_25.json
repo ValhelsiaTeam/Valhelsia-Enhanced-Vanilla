@@ -2,7 +2,5 @@
 	"replace": true,
 	"level": 25,
 	"block": [
-		"betterend:brimstone",
-		"betterend:sulphuric_rock"
 	]
 }

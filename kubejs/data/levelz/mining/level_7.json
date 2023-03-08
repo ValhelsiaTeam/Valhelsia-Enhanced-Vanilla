@@ -5,9 +5,6 @@
 		"minecraft:gold_ore",
 		"minecraft:blue_ice",
 		"minecraft:ice",
-		"minecraft:packed_ice",
-		"betterend:emerald_ice",
-		"betterend:dense_emerald_ice",
-		"betterend:ancient_emerald_ice"
+		"minecraft:packed_ice"
 	]
 }
