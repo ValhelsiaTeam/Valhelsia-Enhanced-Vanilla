@@ -17,8 +17,6 @@
 
 	"#c:wooden_barrels": "squeakywood",
 
-	"betterend:lumecorn": "grass,slick",
-
 	"wilderworld:aspen_leaves": "leaves",
 	"immersive_weathering:oak_leaf_pile": "leaves",
 	"immersive_weathering:spruce_leaf_pile": "leaves",
@@ -40,50 +38,6 @@
 	"immersive_weathering:frosty_grass.messy": "MESSY_GROUND",
 	"immersive_weathering:frosty_grass.foliage": "brush,ice",
 
-	"betterend:vaiolush_fern": "NOT_EMITTER",
-	"betterend:vaiolush_fern.messy": "MESSY_GROUND",
-	"betterend:vaiolush_fern.foliage": "straw",
-
-	"betterend:tail_moss": "NOT_EMITTER",
-	"betterend:tail_moss.messy": "MESSY_GROUND",
-	"betterend:tail_moss.foliage": "brush",
-	
-	"betterend:shadow_plant": "NOT_EMITTER",
-	"betterend:shadow_plant.messy": "MESSY_GROUND",
-	"betterend:shadow_plant.foliage": "brush",
-
-	"betterend:needlegrass": "NOT_EMITTER",
-	"betterend:needlegrass.messy": "MESSY_GROUND",
-	"betterend:needlegrass.foliage": "brush",
-
-	"betterend:murkweed": "NOT_EMITTER",
-	"betterend:murkweed.messy": "MESSY_GROUND",
-	"betterend:murkweed.foliage": "brush",
-
-	"betterend:salteago": "NOT_EMITTER",
-	"betterend:salteago.messy": "MESSY_GROUND",
-	"betterend:salteago.foliage": "brush",
-	
-	"betterend:blooming_cooksonia": "NOT_EMITTER",
-	"betterend:blooming_cooksonia.messy": "MESSY_GROUND",
-	"betterend:blooming_cooksonia.foliage": "brush",
-
-	"betterend:fracturn": "NOT_EMITTER",
-	"betterend:fracturn.messy": "MESSY_GROUND",
-	"betterend:fracturn.foliage": "brush",
-
-	"betterend:creeping_moss": "NOT_EMITTER",
-	"betterend:creeping_moss.messy": "MESSY_GROUND",
-	"betterend:creeping_moss.foliage": "brush",
-
-	"betterend:twisted_umbrella_moss": "NOT_EMITTER",
-	"betterend:twisted_umbrella_moss.messy": "MESSY_GROUND",
-	"betterend:twisted_umbrella_moss.foliage": "brush",
-
-	"betterend:umbrella_moss": "NOT_EMITTER",
-	"betterend:umbrella_moss.messy": "MESSY_GROUND",
-	"betterend:umbrella_moss.foliage": "brush",
-
 	"#farmersdelight:wild_crops": "NOT_EMITTER",
 	"#farmersdelight:wild_crops.messy": "MESSY_GROUND",
 	"#farmersdelight:wild_crops.foliage": "brush",
@@ -91,14 +45,6 @@
 	"wilderworld:ebony_bush": "NOT_EMITTER",
 	"wilderworld:ebony_bush.messy": "MESSY_GROUND",
 	"wilderworld:ebony_bush.foliage": "brush",
-
-	"betterend:twisted_umbrella_moss_tall": "NOT_EMITTER",
-	"betterend:twisted_umbrella_moss_tall.messy": "MESSY_GROUND",
-	"betterend:twisted_umbrella_moss_tall.foliage": "brush_straw_transition",
-
-	"betterend:umbrella_moss_tall": "NOT_EMITTER",
-	"betterend:umbrella_moss_tall.messy": "MESSY_GROUND",
-	"betterend:umbrella_moss_tall.foliage": "brush_straw_transition",
 
 	"wilderworld:ebony_bush_tall": "NOT_EMITTER",
 	"wilderworld:ebony_bush_tall.messy": "MESSY_GROUND",
@@ -131,28 +77,15 @@
 	"immersive_weathering:ivy": "leaves",
 	"immersive_weathering:ivy.foliage": "leaves",
 
-	"betterend:twisted_vine": "leaves",
-	"betterend:twisted_vine.foliage": "leaves",
-
 	"immersive_weathering:permafrost": "snow",
 	"immersive_weathering:cryosol": "snow",
 
-	"betterend:ancient_emerald_ice": "stone,snow",
 	"ecologics:ice_bricks": "stone,snow",
 	"ecologics:ice_brick_stairs": "stone,snow",
 	"ecologics:ice_brick_slab": "stone,snow",
 	"ecologics:ice_brick_wall": "stone,snow",
-	"architects_palette:polished_packed_ice": "stone,snow",
-	"architects_palette:polished_packed_ice_stairs": "stone,snow",
-	"architects_palette:polished_packed_ice_slab": "stone,snow",
-	"architects_palette:polished_packed_ice_wall": "stone,snow",
-	"architects_palette:packed_ice_pillar": "stone,snow",
-	"architects_palette:chiseled_packed_ice": "stone,snow",
-	"blockus:ice_pillar": "stone,snow",
 
 	"immersive_weathering:icicle": "ice",
-	"betterend:emerald_ice": "ice",
-	"betterend:dense_emerald_ice": "ice",
 
 	"farmersdelight:cooking_pot": "metalbar",
 	"immersive_weathering:exposed_iron_bars": "metalbar",
@@ -179,9 +112,6 @@
 	"immersive_weathering:waxed_exposed_iron_door": "metalsubparts",
 	"immersive_weathering:waxed_weathered_iron_door": "metalsubparts",
 	"immersive_weathering:waxed_rusted_iron_door": "metalsubparts",
-	"blockus:iron_plating": "metalsubparts",
-	"blockus:iron_plating_stairs": "metalsubparts",
-	"blockus:iron_plating_slab": "metalsubparts",
 
 	"immersive_weathering:plate_iron": "hardmetal",
 	"immersive_weathering:exposed_plate_iron": "hardmetal",
