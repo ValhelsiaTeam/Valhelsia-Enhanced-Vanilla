@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "defense",
-    "level": 32,
+    "level": 20,
     "item": "minecraft:armor",
     "material": "dragon"
 }

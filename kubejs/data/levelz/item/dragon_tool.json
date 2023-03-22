@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "mining",
-    "level": 32,
+    "level": 20,
     "item": "minecraft:tool",
     "material": "dragon"
 }

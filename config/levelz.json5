@@ -1,6 +1,8 @@
 {
 	// Maximum level per skills
-	"maxLevel": 30,
+	"maxLevel": 20,
+	// Maximum level: 0 = disabled
+	"overallMaxLevel": 0,
 	// Applies if bonus chest world setting is enabled
 	"startPoints": 0,
 	// Enables starter points for SERVER only
@@ -11,6 +13,12 @@
 	"disableMobFarms": false,
 	// Amount of allowed mob kills in a chunk
 	"mobKillCount": 5,
+	// Strange potion resets all stats instead of one
+	"opStrangePotion": false,
+	// restrict hand usage when item not unlocked
+	"lockedHandUsage": false,
+	// Only for Devs
+	"devMode": false,
 	// Attribute values - Bonus for each lvl
 	"healthBase": 6.0,
 	"healthBonus": 0.5,
@@ -61,7 +69,8 @@
 	// Chance of increased enchantment strength
 	"alchemyEnchantmentChance": 0.05,
 	// Chance of drinking potion with double value at max lvl
-	"alchemyPotionChance": 0.005,
+	"alchemyPotionChance": 0.01,
+	"archeryInaccuracyBonus": 0.4,
 	"archeryBowExtraDamage": 0.1,
 	"archeryCrossbowExtraDamage": 0.2,
 	// Chance of double range damage at max lvl
@@ -72,8 +81,11 @@
 	"miningTntBonus": 0.5,
 	// Locked blocks break slower factor
 	"miningLockedMultiplicator": 2.0,
+	"bindAxeDamageToSwordRestriction": true,
+	// Caution! Level up use independent levelz xp system
+	"useIndependentExp": true,
 	// XP equation: lvl^exponent * multiplicator + base
-	"xpCostMultiplicator": 0.09,
+	"xpCostMultiplicator": 0.1,
 	"xpExponent": 2,
 	"xpBaseCost": 50,
 	// 0 = no experience cap
@@ -97,6 +109,15 @@
 	"highlightLocked": false,
 	"sortCraftingRecipesBySkill": false,
 	"inventorySkillLevel": true,
+	"inventorySkillLevelPosX": 0,
+	"inventorySkillLevelPosY": 0,
+	"showLevelList": true,
+	"showLevel": true,
+	// Switch levelz screen instead of closing with inventory key
+	"switch_screen": false,
+	"showLockedBlockInfo": false,
+	"lockedBlockInfoPosX": 0,
+	"lockedBlockInfoPosY": 0,
 	"miningProgression": true,
 	"itemProgression": true,
 	"blockProgression": true,

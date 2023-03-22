@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "defense",
-    "level": 17,
+    "level": 18,
     "item": "minecraft:armor",
-    "material": "stone_golem"
+    "material": "fiery"
 }

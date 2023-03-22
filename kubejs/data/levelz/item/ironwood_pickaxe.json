@@ -1,7 +1,7 @@
 {
     "replace": true,
-    "skill": "strength",
+    "skill": "mining",
     "level": 6,
     "item": "minecraft:custom_item",
-    "object": "betterend:iron_hammer"
+    "object": "twilightforest:ironwood_pickaxe"
 }

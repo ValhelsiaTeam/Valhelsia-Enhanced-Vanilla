@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "defense",
-    "level": 16,
+    "level": 7,
     "item": "minecraft:armor",
-    "material": "crystalite"
+    "material": "ironwood"
 }
