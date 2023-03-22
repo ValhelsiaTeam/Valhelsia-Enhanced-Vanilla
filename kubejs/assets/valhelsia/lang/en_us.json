@@ -28,6 +28,10 @@
   "text.levelz.object_prefix.ae2:certus_quartz": "Certus Quartz",
   "text.levelz.object_prefix.gilded_netherite": "Gilded Netherite",
   "text.levelz.object_prefix.stone_golem": "Gilded Netherite",
+  "text.levelz.object_prefix.naga_scale": "Naga Scale",
+  "text.levelz.object_prefix.arcticarmor": "Arctic",
+  "text.levelz.object_prefix.yetiarmor": "Arctic",
+  "text.levelz.object_prefix.dragon": "Dragon Scale",
 
   "advancementinfo.infopane": "Info"
 }
