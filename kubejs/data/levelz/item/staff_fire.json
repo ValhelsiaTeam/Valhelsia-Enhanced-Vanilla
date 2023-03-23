@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "luck",
+    "level": 15,
+    "item": "minecraft:custom_item",
+    "object": "wizards:staff_fire"
+}
