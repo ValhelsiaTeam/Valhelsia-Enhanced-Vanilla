@@ -22,6 +22,8 @@
   "category.carrier": "Carrier",
 
   "valhelsia.comment.levelz": "----- Additional Materials for LevelZ -----",
+  "text.levelz.object_prefix.wood": "Wooden",
+  "text.levelz.object_prefix.gold": "Golden",
   "text.levelz.object_prefix.rose_gold": "Rose Gold",
   "text.levelz.object_prefix.ae2:fluix": "Fluix",
   "text.levelz.object_prefix.ae2:nether_quartz": "Nether Quartz",
@@ -30,7 +32,7 @@
   "text.levelz.object_prefix.stone_golem": "Gilded Netherite",
   "text.levelz.object_prefix.naga_scale": "Naga Scale",
   "text.levelz.object_prefix.arcticarmor": "Arctic",
-  "text.levelz.object_prefix.yetiarmor": "Arctic",
+  "text.levelz.object_prefix.yetiarmor": "Yeti",
   "text.levelz.object_prefix.dragon": "Dragon Scale",
 
   "advancementinfo.infopane": "Info"
