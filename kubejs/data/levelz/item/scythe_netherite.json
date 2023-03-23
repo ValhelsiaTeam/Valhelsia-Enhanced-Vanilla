@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 32,
+    "level": 16,
     "item": "minecraft:custom_item",
-    "object": "harvest_scythes:dragon_scythe"
+    "object": "harvest_scythes:netherite_scythe"
 }
