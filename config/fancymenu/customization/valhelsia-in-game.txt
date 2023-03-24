@@ -72,6 +72,14 @@ customization {
 }
 
 customization {
+  identifier = %id=376330%
+  orientation = mid-centered
+  x = -126
+  action = movebutton
+  y = -4
+}
+
+customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
@@ -99,5 +107,13 @@ customization {
   label = Support Us
   value = https://wiki.valhelsia.net/support-us
   height = 20
+}
+
+customization {
+  identifier = %id=374306%
+  orientation = mid-centered
+  x = -126
+  action = movebutton
+  y = -28
 }
 
