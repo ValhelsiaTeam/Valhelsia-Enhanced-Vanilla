@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "mining",
+    "level": 5,
+    "item": "minecraft:custom_item",
+    "object": "twilightforest:giant_pickaxe"
+}
