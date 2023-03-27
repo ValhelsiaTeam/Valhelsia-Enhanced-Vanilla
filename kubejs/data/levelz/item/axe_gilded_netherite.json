@@ -1,7 +1,7 @@
 {
     "replace": false,
     "skill": "farming",
-    "level": 16,
+    "level": 18,
     "item": "minecraft:axe",
-    "material": "netherite"
+    "material": "gilded_netherite"
 }
