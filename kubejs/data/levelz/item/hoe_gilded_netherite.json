@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 8,
+    "level": 18,
     "item": "minecraft:hoe",
-    "material": "ae2:fluix"
+    "material": "gilded_netherite"
 }
