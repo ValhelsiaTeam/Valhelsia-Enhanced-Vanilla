@@ -18,9 +18,6 @@ ServerEvents.recipes(event => {
 
   // Remove recipes by recipe ID.
   [
-    // Better End
-    'betterend:charcoal_block',
-    
     // Oxidized
     'oxidized:copper_nugget', // Duplicate recipe.
     'oxidized:rose_gold_sword', // Duplicate recipe.
