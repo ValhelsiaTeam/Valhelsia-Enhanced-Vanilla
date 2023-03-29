@@ -53,6 +53,5 @@ ServerEvents.tags('item', event => {
   ]);
 
   // ----- Inter-mod Compatibility -----
-  event.add('c:ender_pearl_dusts', 'betterend:ender_dust');
 
 });
