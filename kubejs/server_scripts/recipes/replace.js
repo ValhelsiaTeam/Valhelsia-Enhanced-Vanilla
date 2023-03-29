@@ -23,7 +23,6 @@ ServerEvents.recipes(event => {
   const replaceOutput = (from, to) => { event.replaceOutput({}, from, to, true)};
 
   // ----- Inter-mod Compatibility -----
-  replaceInput('ae2:ender_dust', '#c:ender_pearl_dusts');
   replaceInput('farmersdelight:tree_bark', '#immersive_weathering:bark');
 
 });
