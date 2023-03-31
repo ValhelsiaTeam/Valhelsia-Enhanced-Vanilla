@@ -34,6 +34,12 @@ ServerEvents.recipes(event => {
     // Decorative Blocks
     'decorative_blocks:chain',
     'decorative_blocks:rocky_dirt',
+
+    // Nether's Delight
+    'nethersdelight:iron_machete',
+    'nethersdelight:golden_machete',
+    'nethersdelight:diamond_machete',
+    'nethersdelight:netherite_machete',
   ].forEach((recipeID) => event.remove({id: recipeID}));
 
   // Remove recipes by input.
