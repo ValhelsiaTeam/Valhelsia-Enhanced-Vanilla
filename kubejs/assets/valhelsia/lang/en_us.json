@@ -34,6 +34,10 @@
   "text.levelz.object_prefix.arcticarmor": "Arctic",
   "text.levelz.object_prefix.yetiarmor": "Yeti",
   "text.levelz.object_prefix.dragon": "Dragon",
+  "text.levelz.object_prefix.fire_robe": "Fire Robe",
+  "text.levelz.object_prefix.arcane_robe": "Arcane Robe",
+  "text.levelz.object_prefix.wizard_robe": "Wizard Robe",
+  "text.levelz.object_prefix.frost_robe": "Frost Robe",
 
   "advancementinfo.infopane": "Info"
 }
