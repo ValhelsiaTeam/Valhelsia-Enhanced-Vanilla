@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "archery",
-    "level": 26,
+    "level": 14,
     "item": "minecraft:custom_item",
     "object": "dragonloot:dragon_crossbow"
 }
