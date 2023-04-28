@@ -1,6 +1,45 @@
 {
+	"galosphere:silver_ore": "ore",
+	"spelunkery:granite_coal_ore": "ore",
+	"spelunkery:andesite_coal_ore": "ore",
+	"spelunkery:diorite_coal_ore": "ore",
+	"spelunkery:tuff_coal_ore": "ore",
+	"spelunkery:granite_iron_ore": "ore",
+	"spelunkery:andesite_iron_ore": "ore",
+	"spelunkery:diorite_iron_ore": "ore",
+	"spelunkery:tuff_iron_ore": "ore",
+	"spelunkery:granite_copper_ore": "ore",
+	"spelunkery:andesite_copper_ore": "ore",
+	"spelunkery:diorite_copper_ore": "ore",
+	"'spelunkery:tuff_copper_ore": "ore",
+	"spelunkery:granite_gold_ore": "ore",
+	"spelunkery:andesite_gold_ore": "ore",
+	"spelunkery:diorite_gold_ore": "ore",
+	"spelunkery:tuff_gold_ore": "ore",
+	"spelunkery:granite_redstone_ore": "ore",
+	"spelunkery:andesite_redstone_ore": "ore",
+	"spelunkery:diorite_redstone_ore": "ore",
+	"spelunkery:tuff_redstone_ore": "ore",
+	"spelunkery:granite_lapis_ore": "ore",
+	"spelunkery:andesite_lapis_ore": "ore",
+	"spelunkery:diorite_lapis_ore": "ore",
+	"spelunkery:tuff_lapis_ore": "ore",
+	"spelunkery:granite_emerald_ore": "ore",
+	"spelunkery:diorite_emerald_ore": "ore",
+	"spelunkery:tuff_emerald_ore": "ore",
+	"spelunkery:granite_diamond_ore": "ore",
+	"spelunkery:andesite_diamond_ore": "ore",
+	"spelunkery:diorite_diamond_ore": "ore",
+	"spelunkery:tuff_diamond_ore": "ore",
+	"spelunkery:granite_zinc_ore": "ore",
+	"spelunkery:andesite_zinc_ore": "ore",
+	"spelunkery:diorite_zinc_ore": "ore",
+	"spelunkery:tuff_zinc_ore": "ore",
+	"spelunkery:calcite_redstone_ore": "ore",
 	"enderscape:nebulite_ore": "ore",
 	"enderscape:shadow_quartz_ore": "ore",
+
+	"galosphere:deepslate_silver_ore": "slate_ore",
 
 	"enderscape:celestial_stem": "wood",
 	"enderscape:celestial_hyphae": "wood",
@@ -102,6 +141,13 @@
 	"immersive_weathering:ivy": "leaves",
 	"immersive_weathering:ivy.foliage": "leaves",
 
+	"galosphere:raw_silver_block": "stone",
+
+	"immersive_weathering:mossy_stone": "stone,rug,grass",
+	"immersive_weathering:mossy_stone_stairs": "stone,rug,grass",
+	"immersive_weathering:mossy_stone_slab": "stone,rug,grass",
+	"immersive_weathering:mossy_stone_wall": "stone,rug,grass",
+
 	"immersive_weathering:permafrost": "snow",
 	"immersive_weathering:cryosol": "snow",
 
@@ -111,6 +157,9 @@
 	"ecologics:ice_brick_wall": "stone,snow",
 
 	"immersive_weathering:icicle": "ice",
+
+	"spelunkery:white_inkcap_mushroom_block": "mushroom",
+	"spelunkery:inkcap_mushroom_block": "mushroom",
 
 	"farmersdelight:cooking_pot": "metalbar",
 	"immersive_weathering:exposed_iron_bars": "metalbar",
@@ -194,5 +243,12 @@
 	"oxidized:waxed_vertical_cut_copper": "copper",
 	"oxidized:waxed_vertical_exposed_cut_copper": "copper",
 	"oxidized:waxed_vertical_weathered_cut_copper": "copper",
-	"oxidized:waxed_vertical_oxidized_cut_copper": "copper"
+	"oxidized:waxed_vertical_oxidized_cut_copper": "copper",
+
+	"galosphere:allurite_block": "chimes",
+	"galosphere:allurite_cluster": "chimes",
+	"galosphere:allurite_cluster.foliage": "chimes",
+	"galosphere:lumiere_block": "chimes",
+	"galosphere:lumiere_cluster": "chimes",
+	"galosphere:lumiere_cluster.foliage": "chimes"
 }
