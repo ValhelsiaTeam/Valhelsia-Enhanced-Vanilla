@@ -5,8 +5,36 @@
 	"enderscape:celestial_stem": "wood",
 	"enderscape:celestial_hyphae": "wood",
 
+	"wilderwild:hollowed_oak_log": "wood",
+	"wilderwild:hollowed_spruce_log": "wood",
+	"wilderwild:hollowed_birch_log": "wood",
+	"wilderwild:hollowed_jungle_log": "wood",
+	"wilderwild:hollowed_acacia_log": "wood",
+	"wilderwild:hollowed_dark_oak_log": "wood",
+	"wilderwild:hollowed_mangrove_log": "wood",
+	"wilderwild:hollowed_baobab_log": "wood",
+	"wilderwild:hollowed_cypress_log": "wood",
+	"wilderwild:hollowed_palm_log": "wood",
+
 	"enderscape:stripped_celestial_stem": "wood,stone",
     "enderscape:stripped_celestial_hyphae": "wood,stone",
+
+	"wilderwild:hollowed_crimson_stem": "wood,stone",
+	"wilderwild:hollowed_warped_stem": "wood,stone",
+
+	"wilderwild:stripped_hollowed_oak_log": "wood,stone",
+	"wilderwild:stripped_hollowed_spruce_log": "wood,stone",
+	"wilderwild:stripped_hollowed_birch_log": "wood,stone",
+	"wilderwild:stripped_hollowed_jungle_log": "wood,stone",
+	"wilderwild:stripped_hollowed_acacia_log": "wood,stone",
+	"wilderwild:stripped_hollowed_dark_oak_log": "wood,stone",
+	"wilderwild:stripped_hollowed_mangrove_log": "wood,stone",
+	"wilderwild:stripped_hollowed_baobab_log": "wood,stone",
+	"wilderwild:stripped_hollowed_cypress_log": "wood,stone",
+	"wilderwild:stripped_hollowed_palm_log": "wood,stone",
+
+	"wilderwild:stripped_hollowed_crimson_stem": "wood,stone",
+	"wilderwild:stripped_hollowed_warped_stem": "wood,stone",
 
 	"farmersdelight:cabbage_crate": "rug,wood",
 	"farmersdelight:tomato_crate": "rug,wood",
@@ -70,9 +98,6 @@
 	"farmersdelight:cabbages[age=5].foliage": "brush",
 	"farmersdelight:cabbages[age=6].foliage": "brush",
 	"farmersdelight:cabbages[age=7].foliage": "brush",
-
-	"betterend:end_lotus_leaf": "waterfine",
-	"betterend:end_lotus_leaf.carpet": "waterfine",
 
 	"immersive_weathering:ivy": "leaves",
 	"immersive_weathering:ivy.foliage": "leaves",
