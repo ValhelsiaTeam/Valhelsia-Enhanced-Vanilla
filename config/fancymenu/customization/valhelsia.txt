@@ -50,42 +50,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  orientation = mid-centered
-  x = -161
-  action = movebutton
-  y = -1
-}
-
-customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  width = 160
-  action = resizebutton
-  height = 35
-}
-
-customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  action = setbuttonlabel
-  value =      Mods
-}
-
-customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs\assets\custom-menu\textures\gui\mods-hover-button.png
-  backgroundnormal = kubejs\assets\custom-menu\textures\gui\mods-button.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  action = sethoverlabel
-  label =      Mods
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
   x = 165
@@ -116,52 +80,11 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -161
-  action = movebutton
-  y = -39
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 160
-  action = resizebutton
-  height = 35
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  action = setbuttonlabel
-  value =      Singleplayer
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs\assets\custom-menu\textures\gui\singleplayer-hover-button.png
-  backgroundnormal = kubejs\assets\custom-menu\textures\gui\singleplayer-button.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  action = sethoverlabel
-  label =      Singleplayer
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
   x = -161
   action = movebutton
-  y = 38
+  y = 37
 }
 
 customization {
@@ -197,7 +120,7 @@ customization {
   orientation = mid-centered
   x = 2
   action = movebutton
-  y = 38
+  y = 37
 }
 
 customization {
@@ -259,10 +182,86 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -161
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 160
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value =      Singleplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\custom-menu\textures\gui\singleplayer-hover-button.png
+  backgroundnormal = kubejs\assets\custom-menu\textures\gui\singleplayer-button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label =      Singleplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-centered
+  x = -161
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=376346%
+  width = 160
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=376346%
+  action = setbuttonlabel
+  value =      Mods
+}
+
+customization {
+  identifier = %id=376346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/custom-menu/textures/gui/mods-hover-button.png
+  backgroundnormal = kubejs/assets/custom-menu/textures/gui/mods-button.png
+}
+
+customization {
   orientation = top-left
   hidden = false
   x = 2
-  width = 157
+  width = 165
   action = deep_customization_element:title_screen_branding
   actionid = ce4a47af-0111-4855-85a3-58ce38ae7a4d1656492218127
   y = 325
@@ -318,69 +317,81 @@ customization {
 customization {
   orientation = mid-centered
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.bisecthosting.com/Valhelsia%btnaction_splitter_fm%
   backgroundhovered = kubejs\assets\custom-menu\textures\gui\bisecthosting-hover-button.png
   label =      Rent a Server
   loopbackgroundanimations = true
   hoverlabel =      Rent a Server
   x = 2
   width = 160
-  actionid = e1182d0c-9cca-4b58-8c64-917c5255cbf61639131781664
   action = addbutton
+  actionid = e1182d0c-9cca-4b58-8c64-917c5255cbf61639131781664
   y = -1
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\bisecthosting-button.png
-  value = https://www.bisecthosting.com/Valhelsia
   height = 35
 }
 
 customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://valhelsia.net/%btnaction_splitter_fm%
   backgroundhovered = kubejs\assets\custom-menu\textures\gui\valhelsia-hover-button.png
   label = 
   loopbackgroundanimations = true
   x = -67
   width = 32
-  actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
   action = addbutton
+  actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
   y = -45
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\valhelsia-button.png
-  value = https://valhelsia.net/
   height = 32
 }
 
 customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://discord.gg/valhelsia%btnaction_splitter_fm%
   backgroundhovered = kubejs\assets\custom-menu\textures\gui\discord-hover-button.png
   label = 
   loopbackgroundanimations = true
   x = -15
   width = 32
-  actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
   action = addbutton
+  actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
   y = -45
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\discord-button.png
-  value = https://discord.gg/valhelsia
   height = 32
 }
 
 customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://twitter.com/Valhelsia%btnaction_splitter_fm%
   backgroundhovered = kubejs\assets\custom-menu\textures\gui\twitter-hover-button.png
   label = 
   loopbackgroundanimations = true
   x = 37
   width = 32
-  actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
   action = addbutton
+  actionid = 7c68450c-412d-4e46-9da3-efb2475272d91639404252418
   y = -45
   backgroundnormal = kubejs\assets\custom-menu\textures\gui\twitter-button.png
-  value = https://twitter.com/Valhelsia
   height = 32
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui;com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/custom-menu/textures/gui/mods-hover-button.png
+  label =      Mods
+  loopbackgroundanimations = true
+  x = -161
+  width = 160
+  action = addbutton
+  actionid = 6352c3f2-1463-4673-bd90-4f6f0137391e1683035654654
+  y = -1
+  backgroundnormal = kubejs/assets/custom-menu/textures/gui/mods-button.png
+  height = 35
 }
 

@@ -6,3 +6,9 @@ net.minecraft.class_442 {
 net.minecraft.class_433 {
 }
 
+net.minecraft.class_429 {
+}
+
+com.bisecthosting.mods.bhmenu.screen.config.UserConfigScreen {
+}
+
