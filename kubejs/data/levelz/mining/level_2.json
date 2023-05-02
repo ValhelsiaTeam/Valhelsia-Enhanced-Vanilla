@@ -22,7 +22,6 @@
 		"minecraft:sandstone",
 		"minecraft:smooth_sandstone",
 		"minecraft:red_sandstone",
-		"minecraft:bone_block",
-		"minecraft:clay"
+		"minecraft:bone_block"
 	]
 }

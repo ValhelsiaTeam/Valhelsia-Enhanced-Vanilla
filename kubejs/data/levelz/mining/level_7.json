@@ -3,6 +3,9 @@
 	"level": 7,
 	"block": [
 		"minecraft:gold_ore",
+		"spelunkery:granite_gold_ore",
+		"spelunkery:andesite_gold_ore",
+		"spelunkery:diorite_gold_ore",
 		"minecraft:blue_ice",
 		"minecraft:ice",
 		"minecraft:packed_ice"

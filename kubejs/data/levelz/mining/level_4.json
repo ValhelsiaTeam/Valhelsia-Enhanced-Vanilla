@@ -3,6 +3,9 @@
     "level": 4,
     "block": [
         "minecraft:coal_ore",
+        "spelunkery:granite_coal_ore",
+        "spelunkery:andesite_coal_ore",
+        "spelunkery:diorite_coal_ore",
         "ae2:quartz_ore"
     ]
 }

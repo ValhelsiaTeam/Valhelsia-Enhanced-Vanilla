@@ -2,9 +2,5 @@
     "replace": true,
     "level": 1,
     "block": [
-        "minecraft:gravel",
-        "minecraft:sand",
-        "minecraft:red_sand",
-        "minecraft:snow_block"
     ]
 }

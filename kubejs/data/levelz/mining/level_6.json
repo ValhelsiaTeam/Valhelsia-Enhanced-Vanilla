@@ -3,6 +3,9 @@
 	"level": 6,
 	"block": [
 		"minecraft:iron_ore",
+		"spelunkery:granite_iron_ore",
+		"spelunkery:andesite_iron_ore",
+		"spelunkery:diorite_iron_ore",
 		"minecraft:dripstone_block",
 		"twigs:schist"
 	]

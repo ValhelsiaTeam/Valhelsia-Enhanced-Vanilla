@@ -3,8 +3,12 @@
     "level": 5,
     "block": [
         "minecraft:copper_ore",
+        "spelunkery:granite_copper_ore",
+        "spelunkery:andesite_copper_ore",
+        "spelunkery:diorite_copper_ore",
+        "galosphere:silver_ore",
         "create:ochrum",
-        "ce:jagged_rose_quartz",
-        "ce:rose_quartz_block"
+        "cave_enhancements:jagged_rose_quartz",
+        "cave_enhancements:rose_quartz_block"
     ]
 }

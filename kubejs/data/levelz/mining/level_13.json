@@ -3,6 +3,10 @@
     "level": 13,
     "block": [
         "create:zinc_ore",
-        "create:deepslate_zinc_ore"
+        "spelunkery:granite_zinc_ore",
+        "spelunkery:andesite_zinc_ore",
+        "spelunkery:diorite_zinc_ore",
+        "create:deepslate_zinc_ore",
+        "spelunkery:tuff_zinc_ore"
     ]
 }

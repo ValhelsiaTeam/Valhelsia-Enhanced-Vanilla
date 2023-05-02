@@ -3,6 +3,9 @@
 	"level": 8,
 	"block": [
 		"minecraft:redstone_ore",
+		"spelunkery:granite_redstone_ore",
+		"spelunkery:andesite_redstone_ore",
+		"spelunkery:diorite_redstone_ore",
 		"create:asurine"
 	]
 }

@@ -9,6 +9,13 @@
 		"minecraft:amethyst_cluster",
 		"minecraft:amethyst_block",
 		"minecraft:tuff",
-		"minecraft:calcite"
+		"spelunkery:tuff_coal_ore",
+		"spelunkery:tuff_copper_ore",
+		"spelunkery:tuff_iron_ore",
+		"spelunkery:tuff_gold_ore",
+		"spelunkery:tuff_redstone_ore",
+		"spelunkery:tuff_emerald_ore",
+		"minecraft:calcite",
+		"spelunkery:calcite_redstone_ore"
 	]
 }

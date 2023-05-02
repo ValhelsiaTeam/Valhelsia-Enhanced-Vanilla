@@ -2,7 +2,11 @@
 	"replace": true,
 	"level": 9,
 	"block": [
+		"galosphere:allurite_cluster",
+		"galosphere:allurite_block",
+		"galosphere:lumiere_cluster",
+		"galosphere:lumiere_block",
 		"twigs:rhyolite",
-		"ce:goop_block"
+		"cave_enhancements:goop_block"
 	]
 }
