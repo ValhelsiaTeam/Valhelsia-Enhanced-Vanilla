@@ -3,6 +3,7 @@
 	"level": 3,
 	"block": [
 		"minecraft:stone",
+		"immersive_weathering:mossy_stone",
         "minecraft:granite",
         "minecraft:andesite",
         "minecraft:diorite",
