@@ -3,8 +3,8 @@
 #
 # *** READ THIS FIRST ***
 #
-# By default, this mod does not apply special borders to most items.  It was designed to work well with mod packs
-# where the available selection of items can vary widely, so it is up to the user or mod pack designer to customize as needed.
+# By default, this mod does not apply special borders to most items.  It was designed to work well with mod packs where
+# the available selection of items can vary widely, so it is up to the user or mod pack designer to customize as needed.
 # There are many options available for setting up which custom borders (also called frames) apply to which items.  Follow these steps:
 #   1. Decide which items you want to have custom borders, and which borders.  Note that each custom border has a number associated with it (starting at 0).
 #   2. For each custom border you want to use, fill out the associated list in the "definitions" section.  This will be filled out with a list of "selectors",
@@ -40,15 +40,15 @@
 	#    Tooltip text - Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
 	#    NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>.  Examples: "&Damage=0", "&Tier>1", "&map!=128", "&Enchantments"
 	[client.definitions]
-		level0_entries = ["arcanus:adept_wand"]
-		level1_entries = ["betterend:aeternium_helmet", "betterend:aeternium_chestplate", "betterend:aeternium_leggings", "betterend:aeternium_boots", "betterend:aeternium_sword", "betterend:aeternium_pickaxe", "betterend:aeternium_shovel", "betterend:aeternium_axe", "betterend:aeternium_hoe", "betterend:aeternium_hammer", "betterend:elytra_armored"]
+		level0_entries = ["rottencreatures:treasure_chest", "twilightforest:gold_minotaur_axe"]
+		level1_entries = ["wizards:wand_arcane", "wizards:wand_netherite_arcane", "wizards:staff_arcane", "wizards:staff_netherite_arcane", "wizards:arcane_robe_head", "wizards:arcane_robe_chest", "wizards:arcane_robe_legs", "wizards:arcane_robe_feet", "galosphere:sterling_helmet", "galosphere:sterling_chestplate", "galosphere:sterling_leggings", "galosphere:sterling_boots", "galosphere:silver_bomb", "galosphere:sterling_horse_armor"]
 		level2_entries = ["additionaladditions:rose_gold_helmet", "additionaladditions:rose_gold_chestplate", "additionaladditions:rose_gold_leggings", "additionaladditions:rose_gold_boots", "additionaladditions:rose_gold_sword", "additionaladditions:rose_gold_pickaxe", "additionaladditions:rose_gold_shovel", "additionaladditions:rose_gold_axe", "additionaladditions:rose_gold_hoe", "farmersknives:rose_gold_knife"]
-		level3_entries = [""]
-		level4_entries = ["arcanus:master_wand", "betterend:crystalite_helmet", "betterend:crystalite_chestplate", "betterend:crystalite_leggings", "betterend:crystalite_boots", "betterend:elytra_crystalite"]
-		level5_entries = ["additionaladditions:watering_can", "artifality:floral_staff", "artifality:forest_staff", "artifality:harvest_staff"]
-		level6_entries = ["minecraft:netherite_helmet", "minecraft:netherite_chestplate", "minecraft:netherite_leggings", "minecraft:netherite_boots", "minecraft:netherite_sword", "minecraft:netherite_pickaxe", "minecraft:netherite_shovel", "minecraft:netherite_axe", "minecraft:netherite_hoe", "betterend:netherite_hammer", "harvest_scythes:netherite_scythe", "harvest_scythes:netherite_machete", "farmersdelight:netherite_knife", "adventurez:stone_golem_helmet", "adventurez:stone_golem_chestplate", "adventurez:stone_golem_leggings", "adventurez:stone_golem_boots"]
-		level7_entries = [""]
-		level8_entries = ["dragonloot:dragon_helmet", "dragonloot:dragon_chestplate", "dragonloot:dragon_leggings", "dragonloot:dragon_boots", "dragonloot:upgraded_dragon_chestplate", "dragonloot:dragon_sword", "dragonloot:dragon_bow", "dragonloot:dragon_crossbow", "dragonloot:dragon_trident", "dragonloot:dragon_pickaxe", "dragonloot:dragon_shovel", "dragonloot:dragon_axe", "dragonloot:dragon_hoe", "farmersknives:dragon_knife", "harvest_scythes:dragon_scythe", "harvest_scythes:dragon_machete"]
+		level3_entries = ["wizards:wand_fire", "wizards:wand_netherite_fire", "wizards:staff_fire", "wizards:staff_netherite_fire", "wizards:fire_robe_head", "wizards:fire_robe_chest", "wizards:fire_robe_legs", "wizards:fire_robe_feet", "twilightforest:fiery_helmet", "twilightforest:fiery_chestplate", "twilightforest:fiery_leggings", "twilightforest:fiery_boots", "twilightforest:fiery_sword", "twilightforest:fiery_pickaxe", "twilightforest:fiery_ingot"]
+		level4_entries = ["wizards:wand_frost", "wizards:wand_netherite_frost", "wizards:staff_frost", "wizards:staff_netherite_frost", "wizards:frost_robe_head", "wizards:frost_robe_chest", "wizards:frost_robe_legs", "wizards:frost_robe_feet", "twilightforest:yeti_helmet", "twilightforest:yeti_chestplate", "twilightforest:yeti_leggings", "twilightforest:yeti_boots", "twilightforest:alpha_yeti_fur", "twilightforest:ice_sword", "twilightforest:ice_bow", "twilightforest:ice_bomb"]
+		level5_entries = ["additionaladditions:watering_can", "twilightforest:steeleaf_helmet", "twilightforest:steeleaf_chestplate", "twilightforest:steeleaf_leggings", "twilightforest:steeleaf_boots", "twilightforest:steeleaf_sword", "twilightforest:steeleaf_pickaxe", "twilightforest:steeleaf_axe", "twilightforest:steeleaf_shovel", "twilightforest:steeleaf_hoe", "twilightforest:steeleaf_ingot"]
+		level6_entries = ["minecraft:netherite_helmet", "minecraft:netherite_chestplate", "minecraft:netherite_leggings", "minecraft:netherite_boots", "minecraft:netherite_sword", "minecraft:netherite_pickaxe", "minecraft:netherite_shovel", "minecraft:netherite_axe", "minecraft:netherite_hoe", "minecraft:netherite_ingot", "harvest_scythes:netherite_scythe", "harvest_scythes:netherite_machete", "farmersdelight:netherite_knife", "nethersdelight:netherite_machete", "adventurez:stone_golem_helmet", "adventurez:stone_golem_chestplate", "adventurez:stone_golem_leggings", "adventurez:stone_golem_boots", "additionaladditions:gilded_netherite_sword", "additionaladditions:gilded_netherite_pickaxe", "additionaladditions:gilded_netherite_axe", "additionaladditions:gilded_netherite_shovel", "additionaladditions:gilded_netherite_hoe", "spirit:soul_steel_sword", "spirit:soul_steel_pickaxe", "spirit:soul_steel_axe", "spirit:soul_steel_shovel", "spirit:soul_steel_hoe", "spirit:soul_steel_wand", "spirit:soul_steel_bow", "spirit:soul_steel_ingot", "spirit:soul_crystal", "spirit:soul_cage"]
+		level7_entries = ["twilightforest:knightmetal_helmet", "twilightforest:knightmetal_chestplate", "twilightforest:knightmetal_leggings", "twilightforest:knightmetal_boots", "twilightforest:knightmetal_sword", "twilightforest:knightmetal_pickaxe", "twilightforest:knightmetal_axe", "twilightforest:knightmetal_shield", "twilightforest:knightmetal_ingot"]
+		level8_entries = ["dragonloot:dragon_helmet", "dragonloot:dragon_chestplate", "dragonloot:dragon_leggings", "dragonloot:dragon_boots", "dragonloot:upgraded_dragon_chestplate", "dragonloot:dragon_sword", "dragonloot:dragon_bow", "dragonloot:dragon_crossbow", "dragonloot:dragon_trident", "dragonloot:dragon_pickaxe", "dragonloot:dragon_shovel", "dragonloot:dragon_axe", "dragonloot:dragon_hoe", "dragonloot:dragon_horse_armor", "dragonloot:dragon_anvil", "dragonloot:dragon_scale", "farmersknives:dragon_knife", "harvest_scythes:dragon_scythe", "harvest_scythes:dragon_machete", "twilightforest:ender_bow", "enderscape:mirror"]
 		level9_entries = []
 		level10_entries = []
 		level11_entries = []
@@ -59,60 +59,51 @@
 		# Enter blacklist selectors here using the same format as above. Any items that match these selectors will NOT show a border.
 		blacklist = []
 
-	# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.  Optionally, -1 can be inserted to indicate relative priority of data and api-defined borders.  If you don't know what that means, don't worry about it.
+	# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
+	# Optionally, -1 can be inserted to indicate relative priority of data and api-defined borders.  If you don't know what that means, you don't need to worry about it.
 	[client.priorities]
 		priorities = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
-	# The start and end border colors and background colors of each level.
-	# Note that they can be entered as any one of: a decimal or hex color code in the format 0xAARRGGBB or 0xRRGGBB, OR a string color name or color code.
-	# Examples: 0xFFFF00, 0xFF73D984, 4290445567, "red", "#FFCC00" are all valid.
+	# The colors used for each tooltip, in this order: top border color, bottom border color, top background color, bottom background color.
+	# None of these colors are required, though any colors not specified will be replaced with the default tooltip colors.
+	#
+	# VALID COLOR FORMATS
+	#   Hex color code - A hex color code is preceded by # or 0x and must be quoted.  Supports 3, 4, 6, or 8 digit codes in the formats RGB, ARGB, RRGGBB, AARRGGBB.
+	#     Examples: "#F4C", "0xFEE0", "#40FF2E", "#CC00E2EE"
+	#
+	#   Decimal color code - A decimal color code, which is just a hex color code converted to decimal.  May or may not be quoted.
+	#     Examples: 15614720, "4278251143"
+	#
+	#   Minecraft color name - One of the standard 16 Minecraft color names.  Must be quoted.
+	#     Examples: "red", "dark_purple", "gold"
+	#
+	#   Web color name - One of the standard 140 web/HTML color names or "transparent".  Must be quoted.
+	#     Examples: "chartreuse", "darkorange", "deeppink", "deepskyblue"
+	#
+	#   Modifiers - Colors specified in any of the above formats can be modified by using modifiers.
+	#         Modifiers are specified after any color in the format "<+, -, or =><h, s, v, r, g, b, or a><amount>".
+	#         The letters represent h - hue, s - saturation, v - value, r - red, g - green, b - blue, a - alpha.
+	#         Valid amounts are 0 to 255 for all types except hue, which accepts 0 to 359.
+	#     Examples: "red+h15", "#saddlebrown-v20+s5", "10_aqua_aqua+v15-h5", "#F4C-r15-v10=a40"
+	#
+	#   Animated color - An animated color that fades from one to another in sequence.
+	#         A string in the format "<duration in seconds>_<list of color definitions separated by underscores>".  Must be quoted.
+	#     Examples: "10_black_#7FFF00", "5.5_gold_orange_orangered", "20_red_orange_yellow_green_blue_purple"
 	[client.colors]
-		level0_start_color = 4288244002
-		level0_end_color = 4284168989
-		level0_bg_color = 4027976192
-		level1_start_color = 4285103244
-		level1_end_color = 4282010721
-		level1_bg_color = 4027976192
-		level2_start_color = 4285547837
-		level2_end_color = 4283704099
-		level2_bg_color = 4027976192
-		level3_start_color = 4287701767
-		level3_end_color = 4286677893
-		level3_bg_color = 4027976192
-		level4_start_color = 4278226892
-		level4_end_color = 4278471562
-		level4_bg_color = 4027976192
-		level5_start_color = 4284238893
-		level5_end_color = 4284238893
-		level5_bg_color = 4027976192
-		level6_start_color = 4285553287
-		level6_end_color = 4281939286
-		level6_bg_color = 4027976192
-		level7_start_color = 4286417553
-		level7_end_color = 4286417553
-		level7_bg_color = 4027976192
-		level8_start_color = 4289040822
-		level8_end_color = 4289040822
-		level8_bg_color = 4027976192
-		level9_start_color = 4294965979
-		level9_end_color = 4294959021
-		level9_bg_color = 4027976192
-		level10_start_color = 4288244002
-		level10_end_color = 4284103197
-		level10_bg_color = 4027976192
-		level11_start_color = 4288244002
-		level11_end_color = 4284103197
-		level11_bg_color = 4027976192
-		level12_start_color = 4288244002
-		level12_end_color = 4284103197
-		level12_bg_color = 4027976192
-		level13_start_color = 4288244002
-		level13_end_color = 4284103197
-		level13_bg_color = 4027976192
-		level14_start_color = 4288244002
-		level14_end_color = 4284103197
-		level14_bg_color = 4027976192
-		level15_start_color = 4288244002
-		level15_end_color = 4284103197
-		level15_bg_color = 4027976192
+		level0_colors = [-6723294, -10864099, -266991104, -401208832]
+		level1_colors = ["auto", "auto", "auto", "auto"]
+		level2_colors = ["auto", "auto", "auto", "auto"]
+		level3_colors = ["auto", "auto", "auto", "auto"]
+		level4_colors = ["auto", "auto", "auto", "auto"]
+		level5_colors = ["auto", "auto", "auto", "auto"]
+		level6_colors = ["auto", "auto", "auto", "auto"]
+		level7_colors = ["auto", "auto", "auto", "auto"]
+		level8_colors = ["auto", "auto", "auto", "auto"]
+		level9_colors = ["auto", "auto", "auto", "auto"]
+		level10_colors = ["auto", "auto", "auto", "auto"]
+		level11_colors = ["auto", "auto", "auto", "auto"]
+		level12_colors = ["auto", "auto", "auto", "auto"]
+		level13_colors = ["auto", "auto", "auto", "auto"]
+		level14_colors = ["auto", "auto", "auto", "auto"]
+		level15_colors = ["auto", "auto", "auto", "auto"]
 
