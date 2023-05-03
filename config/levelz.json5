@@ -21,7 +21,7 @@
 	"devMode": false,
 	// Attribute values - Bonus for each lvl
 	"healthBase": 6.0,
-	"healthBonus": 0.5,
+	"healthBonus": 1.0,
 	// Absorption Bonus at max lvl
 	"healthAbsorptionBonus": 4.0,
 	// Levelz Screen Multiplies it by 10
