@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "smithing",
-    "level": 5,
+    "level": 8,
     "block": "minecraft:custom_block",
-    "object": "oxidized:copper_kiln"
+    "object": "nethersdelight:blackstone_blast_furnace"
 }

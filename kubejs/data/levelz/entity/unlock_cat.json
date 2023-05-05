@@ -1,7 +1,0 @@
-{
-    "replace": true,
-    "skill": "farming",
-    "level": 5,
-    "entity": "minecraft:custom_entity",
-    "object": "minecraft:cat"
-}

@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 8,
+    "level": 7,
     "item": "minecraft:custom_item",
     "object": "additionaladditions:watering_can"
 }

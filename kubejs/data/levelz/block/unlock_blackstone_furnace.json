@@ -1,7 +1,7 @@
 {
     "replace": true,
     "skill": "farming",
-    "level": 13,
+    "level": 1,
     "block": "minecraft:custom_block",
-    "object": "farmersdelight:cooking_pot"
+    "object": "nethersdelight:blackstone_furnace"
 }
